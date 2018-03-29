@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="1055b02f90341a762b151014977233597500000016750047">
+  <window id="1055b02f90341a762b151014980414880500000016750048" title="Formularze - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="291" y="49" width="1284" height="620"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

@@ -1,0 +1,12 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1600.900" x="832" y="406" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1600.900" x="730" y="246" />
+    <location key="SettingsEditor.0.0.1600.900" x="312" y="104" />
+    <location key="FileChooserDialogImpl.0.0.1600.900" x="626" y="205" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.0.0.1600.900" x="676" y="62" />
+    <location key="#Web_Browsers.0.0.1600.900" x="561" y="390" />
+    <size key="SettingsEditor.0.0.1600.900" width="1052" height="692" />
+    <size key="FileChooserDialogImpl.0.0.1600.900" width="424" height="494" />
+  </component>
+</application>

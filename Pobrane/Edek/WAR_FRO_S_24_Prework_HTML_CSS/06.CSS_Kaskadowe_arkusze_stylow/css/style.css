@@ -1,0 +1,25 @@
+body
+{
+	background: blue;
+}
+
+#sec1
+{
+	color: green;
+}
+
+#sec2
+{
+	color: purple;
+}
+
+.txt
+{
+	color: #cc8e00;
+}
+
+.blok
+{
+	border: 1px solid white;
+	color: white;
+}

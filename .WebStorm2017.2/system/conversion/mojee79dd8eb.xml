@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/rafal/moje/.idea/modules.xml" timestamp="1509559543000" />
+    <file path="/home/rafal/moje/.idea/moje.iml" timestamp="1509559543000" />
+    <file path="/home/rafal/moje/.idea/workspace.xml" timestamp="1509972678000" />
+  </project-files>
+</conversion>
+

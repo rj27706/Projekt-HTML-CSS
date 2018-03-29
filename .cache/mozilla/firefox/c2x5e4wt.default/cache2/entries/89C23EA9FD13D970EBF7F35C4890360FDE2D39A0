@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gradient CSS Generator | CSSmatic</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    
+      <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,900,900italic|Source+Code+Pro|Courgette' rel='stylesheet' type='text/css'>
+      <link rel='stylesheet' type='text/css' href='/css/jquery.ui.css?v=58b36494'>
+      <link rel='stylesheet' type='text/css' href='/css/colorpicker/colorpicker.css?v=1fb0f6b9'>
+      <link rel='stylesheet' type='text/css' href='/css/colorpicker/layout.css?v=c4dbba15'>
+      <link rel='stylesheet' type='text/css' href='/css/all.css?v=968b0642'>
+      <link rel='stylesheet' type='text/css' href='/css/gradients.css?v=58f915c1'>
+    
+    
+  
+      <script src='/js/jquery-1.8.3.min.js?v=06e87230'></script>
+      <script src='/js/jquery-ui-1.9.1.min.js?v=02ed5fe2'></script>
+      <script src='/js/colorpicker/js/colorpicker.js?v=f6a77c16'></script>
+      <script src='/js/colorpicker/js/eye.js?v=f23790e3'></script>
+      <script src='/js/colorpicker/js/layout.js?v=cda7f9d1'></script>
+      <script src='/js/colorpicker/js/utils.js?v=ecdd32d3'></script>
+      <script src='/js/jquery.cookie.js?v=24c314da'></script>
+      <script src='/js/copyText.js?v=ecabd6b3'></script>
+      <script src='/js/jquery.main.js?v=2e64324c'></script>
+      <script src='/js/colorFunctions.js?v=5fd8b6e3'></script>
+      <script src='/js/jquery.zclip.min.js?v=ed68e770'></script>
+      <script src='//d3nslu0hdya83q.cloudfront.net/dist/1.0/raven.min.js'></script>
+      <script type="text/javascript">
+        Raven.config().install();
+      </script>
+    
+  <script src='/js/gradient.js?v=7ed96b6f'></script>
+  <script src='/js/gradientEvents.js?v=ebf09149'></script>
+
+</head>
+<body>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38602970-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <div id="wrapper" class="gradient">
+    
+      <div class="clearfix headerdetail">
+        <a class="logo" href="/"><img src="/img/cssmatic-logo.svg" height="65" onerror="this.onerror=null; this.src='/img/cssmatic-logo-detail.png'"></a>
+        <p class="textop">The ultimate <strong>CSS tools</strong> for web designers</p>
+        <p class="social-links">
+          <a href="https://www.facebook.com/share.php?u=http%3A%2F%2Fwww.cssmatic.com%2Fgradient-generator" onclick="window.open(this.href, '_blank', 'height=430,width=640'); return false;" title="Share with Facebook"><i class="flaticon fi-facebook42"></i></a>
+
+          <a href="https://www.twitter.com/share?url=http%3A%2F%2Fwww.cssmatic.com%2Fgradient-generator&amp;related=cssmatic" onclick="window.open(this.href, '_blank', 'height=430,width=640'); return false;" title="Tweet this page"><i class="flaticon fi-twitter35"></i></a>
+
+          <a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cssmatic.com%2Fgradient-generator" onclick="window.open(this.href, '_blank', 'height=430,width=640'); return false;" title="Google+ this page"><i class="flaticon fi-google105"></i></a>
+        </p>
+      </div>
+    
+
+    
+      <ul class="nav">
+        
+        
+          
+            <li class="nav-selected"><h1><a href="/gradient-generator">Gradient Generator</a></h1>
+          
+        
+          
+            <li><a href="/border-radius">Border Radius</a>
+          
+        
+          
+            <li><a href="/noise-texture">Noise Texture</a>
+          
+        
+          
+            <li><a href="/box-shadow">Box Shadow</a>
+          
+        
+      </ul>
+
+      <div class="adblock">
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-7680645031495821";
+        /* Cssmatic 728x90 */
+        google_ad_slot = "4261423780";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+        </script>
+        <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+      </div>
+    
+
+    
+<div class="gradient-block">
+    <div class="left-column">
+        <div class="holder">
+            <div class="scroll-container bottom-separator">
+                <div class="holder">
+                    <ul class="presets-list">
+                        <li><div id="load-grad-1" class="load-gradient"></div></li>
+                        <li><div id="load-grad-2" class="load-gradient"></div></li>
+                        <li><div id="load-grad-3" class="load-gradient"></div></li>
+                        <li><div id="load-grad-4" class="load-gradient"></div></li>
+                        <li><div id="load-grad-5" class="load-gradient"></div></li>
+                        <li><div id="load-grad-6" class="load-gradient"></div></li>
+                        <li><div id="load-grad-7" class="load-gradient"></div></li>
+                        <li><div id="load-grad-8" class="load-gradient"></div></li>
+                        <li><div id="load-grad-9" class="load-gradient"></div></li>
+                        <li><div id="load-grad-10" class="load-gradient"></div></li>
+                        <li><div id="load-grad-11" class="load-gradient"></div></li>
+                        <li><div id="load-grad-12" class="load-gradient"></div></li>
+                        <li><div id="load-grad-13" class="load-gradient"></div></li>
+                        <li><div id="load-grad-14" class="load-gradient"></div></li>
+                        <li><div id="load-grad-15" class="load-gradient"></div></li>
+                        <li><div id="load-grad-16" class="load-gradient"></div></li>
+                        <li><div id="load-grad-17" class="load-gradient"></div></li>
+                        <li><div id="load-grad-18" class="load-gradient"></div></li>
+                        <li><div id="load-grad-19" class="load-gradient"></div></li>
+                        <li><div id="load-grad-20" class="load-gradient"></div></li>
+                        <li><div id="load-grad-21" class="load-gradient"></div></li>
+                        <li><div id="load-grad-22" class="load-gradient"></div></li>
+                        <li><div id="load-grad-23" class="load-gradient"></div></li>
+                        <li><div id="load-grad-24" class="load-gradient"></div></li>
+                        <li><div id="load-grad-25" class="load-gradient"></div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gradient-container">
+                <div class="gradient-panel gradient-background">
+                    <div class='stop-markers-opacity' title='Click to add an opacity stop'></div>
+                    <div id="gradient-editor"></div>
+                    <div class='stop-markers-color' title='Click to add a color stop'></div>
+                </div>
+                <a class="btn-reverse" title="reverse colors" href="javascript:;">reverse colors</a>
+            </div>
+            <form action="#">
+                <div class="two-cols bottom-separator">
+                    <div class="col">
+                        <div class="holder">
+                            <div class="frame">
+                                <div class="setting-block">
+                                    <div class="row">
+                                        <label for="opacity">Opacity</label>
+                                        <div class="text-1">
+                                            <input id="opacity" type="text" value="100" />
+                                        </div>
+                                    </div>
+                                    <div id="opacity-value-slider-bar" class="slider-bar"></div>
+                                </div>
+                                <div class="setting-block">
+                                    <div class="row">
+                                        <label for="opacity-location">Location</label>
+                                        <div class="text-1">
+                                            <input id="opacity-location" type="text" value="100" />
+                                        </div>
+                                        <label class="align-right" for="opacity-location">%</label>
+                                    </div>
+                                    <div id="opacity-location-slider-bar" class="slider-bar"></div>
+                                </div>
+                                <a id="opacity-delete-button" class="btn-link-1" href="javascript:;">Delete Selected Stop</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="holder">
+                            <div class="frame">
+                                <div class="setting-block">
+                                    <div class="row color-row">
+                                        <label for="color">Color</label>
+                                        <div class="text-2">
+                                            <input pattern="#[a-zA-Z0-9]{6}" id="color-value-hex" class="color-label" type="text" value="#2e4a75" />
+                                        </div>
+                                        <a id="color-value-button" class="btn-color" href="javascript:;"><span>Color</span></a>
+                                    </div>
+                                </div>
+                                <div class="setting-block">
+                                    <div class="row">
+                                        <label for="color-location">Location</label>
+                                        <div class="text-1">
+                                            <input id="color-location" type="text" value="100" />
+                                        </div>
+                                        <label class="align-right" for="color-location">%</label>
+                                    </div>
+                                    <div id="color-location-slider-bar" class="slider-bar"></div>
+                                </div>
+                                <a id="color-delete-button" class="btn-link-1" href="javascript:;">Delete Selected Stop</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="holder">
+                        <div class="frame">
+                            <div class="col">
+                                <div class="setting-block">
+                                    <div class="row">
+                                        <label for="hue">Hue</label>
+                                        <div class="text-1">
+                                            <input id="hue" type="text" value="0" />
+                                        </div>
+                                    </div>
+                                    <div class="slider-bar hue-bar"></div>
+                                </div>
+                                <div class="setting-block">
+                                    <div class="row">
+                                        <label for="saturation">Saturation</label>
+                                        <div class="text-1">
+                                            <input id="saturation" type="text" value="0" />
+                                        </div>
+                                    </div>
+                                    <div class="slider-bar saturation-bar"></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="setting-block">
+                                    <div class="row">
+                                        <label for="lightness">Lightness</label>
+                                        <div class="text-1">
+                                            <input id="lightness" type="text" value="0" />
+                                        </div>
+                                    </div>
+                                    <div class="slider-bar lightness-bar"></div>
+                                </div>
+                                <a id="reset-button" class="btn-link-1" href="javascript:;">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="save-block">
+
+
+
+                    <input id="save-cookie-input" type="text" onclick="this.value='';" value="Save your preset" onfocus="this.select()" onblur="this.value=!this.value?'Save your preset':this.value;" />
+                    <a id="save-cookie-btn" href="javascript:;" class="btn-save">Save</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="right-column">
+        <div class="preview-block">
+            <div id="gradient-preview" class="preview-box gradient-background"></div>
+            <a class="btn-horizontal" href="javascript:;">horizontal orientation</a>
+            <a class="btn-vertical" href="javascript:;">vertical orientation</a>
+            <a class="btn-diagonal-1" href="javascript:;">diagonal orientation</a>
+            <a class="btn-diagonal-2" href="javascript:;">diagonal orientation</a>
+            <a class="btn-radial" href="javascript:;">radial orientation</a>
+        </div>
+        <div class="box">
+            <div class="holder">
+                <div class="frame">
+                    <form action="#">
+                        <div class="option-panel">
+                            <span>CSS</span>
+                            <span>SASS</span>
+                            <div id="css-sass-button" class="slider-block">
+                                <span class="dot selected"></span>
+                                <div class="slider-small">
+                                    <a class="knob left-pos" href="javascript:;">knob</a>
+                                </div>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="scroll-container">
+                                <div id="css-code-content" class="holder">
+                                </div>
+                            </div>
+
+                            <a href="javascript:;" id="copy-text-input" class="btn-link-1">Copy text</a>
+
+                        </div>
+                        <div class="bottom-panel bottom-separator">
+                            <div class="col">
+                                <label for="color-format">Color format</label>
+                                <select id="color-format">
+                                    <option value="hex">hex</option>
+                                    <option value="hsl">hsl</option>
+                                    <option value="hsla">hsla</option>
+                                    <option value="rgb">rgb</option>
+                                    <option value="rgba">rgba</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <span>Comments</span>
+                                <div id="comments-button" class="slider-block marked">
+                                    <div class="slider-small"><a class="knob left-pos" href="javascript:;">knob</a></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <span>IE9 support</span>
+                                <div id="ie9-button" class="slider-block marked">
+                                    <div class="slider-small"><a class="knob left-pos" href="javascript:;">knob</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ie-support-info" class="bottom-panel bottom-separator" style="display: none;">
+                            <p>Support for full multi-stop gradients with IE9 (using SVG).</p>
+                            <p>
+                               Add a "gradient" class to all your elements that have a gradient, <br>and add the following override to your HTML to complete the IE9 support:
+                            </p>
+                            <code>
+                                &lt;!--[if gte IE 9]<br/>
+                                &lt;style type="text/css"&gt;<br/>
+                                  .gradient {<br/>
+                                     filter: none;<br/>
+                                  }<br/>
+                                &lt;/style&gt;<br/>
+                                &lt;![endif]--&gt;<br/>
+                            </code>
+                        </div>
+                        <div class="buttons-block">
+                            <a href="javascript:;" id="import-css-button" class="btn-link-2">IMPORT FROM CSS</a>
+                        </div>
+                        <div id="import-css-panel" class="bottom-panel bottom-separator" style="display: none;">
+                            <p>Enter existing gradient CSS to import.<br>
+                                Use Mozilla, Webkit, Opera, W3C or IE format.
+                            </p>
+                            <textarea id="import-css-area"></textarea>
+                            <div class="dialog-button-panel">
+                                <a href="javascript:;" id="import-css-button-ok" class="btn-link-2">ACCEPT</a>
+                                <a href="javascript:;" id="import-css-button-cancel" class="btn-link-2">CANCEL</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="clear:both"></div>
+
+
+    
+      <div id="collaborate" class="clearfix">
+        <div class="text">
+          <p><strong>CSSmatic</strong> is a non-profit project, made by developers for developers</p>
+          <p>Are you a web developer?  Would you like to collaborate on CSSMatic?</p>
+        </div>
+        <span class="cartoon"></span>
+        <a href="/contact" class="contact">Contact us</a>
+      </div>
+    
+
+    <span class="bylogos">Designed and developed by<br /><br />
+      <a class="logofreepik bl" href="http://www.freepik.com">Freepik.com</a>
+      <a class="logothumbr bl" href="https://www.thumbr.io">Thumbr.io</a>
+    </span>
+  </div>
+  <div id="opacity-gradient" class="slider-bar large" style="display: none;"></div>
+
+  <div id="footer">
+    <span class="copyright">&copy; 2013 CSSmatic</span> |
+    <a href="/about">About</a> |
+    <a href="/contact">Contact</a>
+  </div>
+</body>
+</html>«8ÄÙ¨      ZûZü>d«ÆZ2f   +    :http://www.cssmatic.com/gradient-generator necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 19445
+ETag: "fefd2d414e841925d466503be637bdd2"
+Date: Wed, 08 Nov 2017 12:26:15 GMT
+Last-Modified: Tue, 29 Aug 2017 14:15:09 GMT
+Server: AmazonS3
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 1339c8928b14e0c47d12af2e4dc176dd.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NX919395SChK9hfuEHtrKdbniAztShFpoRqzTiO4rSXb68OeFi_eSA==
+ original-response-headers Content-Type: text/html
+Content-Length: 19445
+Connection: keep-alive
+Date: Sun, 22 Oct 2017 07:40:34 GMT
+Last-Modified: Tue, 29 Aug 2017 14:15:09 GMT
+ETag: "fefd2d414e841925d466503be637bdd2"
+Server: AmazonS3
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 1339c8928b14e0c47d12af2e4dc176dd.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: N9tWD1k9JQQeAfofU6c3qeGHdLJ8WhUZa0XH9_Z03vAQDxnTtqMQ5w==
+ uncompressed-len 0 net-response-time-onstart 292 net-response-time-onstop 298 predictor::resource-count 54 predictor::http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,900,900italic|Source+Code+Pro|Courgette 1,6,1510153374,258048 predictor::http://www.cssmatic.com/css/jquery.ui.css?v=58b36494 1,6,1510153374,258048 predictor::http://www.cssmatic.com/css/colorpicker/colorpicker.css?v=1fb0f6b9 1,6,1510153374,258048 predictor::http://www.cssmatic.com/css/colorpicker/layout.css?v=c4dbba15 1,6,1510153374,258048 predictor::http://www.cssmatic.com/css/all.css?v=968b0642 1,6,1510153374,258048 predictor::http://www.cssmatic.com/css/gradients.css?v=58f915c1 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/jquery-1.8.3.min.js?v=06e87230 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/jquery-ui-1.9.1.min.js?v=02ed5fe2 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/colorpicker/js/colorpicker.js?v=f6a77c16 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/colorpicker/js/eye.js?v=f23790e3 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/colorpicker/js/layout.js?v=cda7f9d1 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/colorpicker/js/utils.js?v=ecdd32d3 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/jquery.cookie.js?v=24c314da 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/copyText.js?v=ecabd6b3 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/jquery.main.js?v=2e64324c 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/colorFunctions.js?v=5fd8b6e3 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/jquery.zclip.min.js?v=ed68e770 1,6,1510153374,258048 predictor::http://d3nslu0hdya83q.cloudfront.net/dist/1.0/raven.min.js 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/gradient.js?v=7ed96b6f 1,6,1510153374,258048 predictor::http://www.cssmatic.com/js/gradientEvents.js?v=ebf09149 1,6,1510153374,258048 predictor::http://www.cssmatic.com/img/cssmatic-logo.svg 1,5,1510153374,192512 predictor::http://pagead2.googlesyndication.com/pagead/show_ads.js 1,6,1510153374,258048 predictor::http://www.google-analytics.com/ga.js 1,6,1510153374,258048 predictor::https://adservice.google.pl/adsid/integrator.js?domain=www.cssmatic.com 1,6,1510153374,258048 predictor::https://adservice.google.com/adsid/integrator.js?domain=www.cssmatic.com 1,6,1510153374,258048 predictor::https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-7680645031495821.js 1,6,1510153374,258048 predictor::http://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2 1,2,1510153374,135168 predictor::http://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGHZhYM0_6AejPZE-OqA592o.woff2 1,2,1510153374,135168 predictor::http://www.cssmatic.com/fonts/flaticon.woff 1,2,1510153374,135168 predictor::http://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2 1,2,1510153374,135168 predictor::http://pagead2.googlesyndication.com/pagead/js/r20171101/r20170110/show_ads_impl.js 1,6,1510153374,258048 predictor::https://pagead2.googlesyndication.com/pagead/js/r20171101/r20170110/osd.js 1,6,1510153374,258048 predictor::http://www.cssmatic.com/img/bg-left-column.gif 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/alpha.png 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/sprite.png 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/sprite-knobs.png 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/separator.gif 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/bg-scroll-container.gif 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/cb.png 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/freepik-logo.png 1,5,1510153374,192512 predictor::http://www.cssmatic.com/img/thumbr-it-logo.png 1,5,1510153374,192512 predictor::http://fonts.gstatic.com/s/courgette/v5/BHG8ZtTfO0yYnp02--QxqltXRa8TVwTICgirnJhmVJw.woff2 1,2,1510153374,135168 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_indic.gif 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_hex.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_rgb_r.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_rgb_g.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_rgb_b.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_hsb_h.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_hsb_s.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_hsb_b.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_submit.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_background.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_overlay.png 1,2,1510144224,49152 predictor::http://www.cssmatic.com/img/colorpicker/colorpicker_select.gif 1,2,1510144224,49152   Kı

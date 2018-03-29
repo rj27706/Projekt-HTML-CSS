@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="1056aa2616b205f78150964757111448300000017610045">
+  <window id="1056aa2616b205f78150964758964002200000017610048" title="Netflix - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="183" y="24" width="1284" height="816"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

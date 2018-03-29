@@ -1,0 +1,329 @@
+project.default.xml
+editor.xmloptions.xmlextensionsRootType.xmlfeature.usage.statistics.xmlstubIndex.xmlide.general.xmlimages.support.xmllaf.xml!statistics.application.usages.xmlupdates.xmldebugger.xmlstandardSchemas	resourcesXMLSchema.xsdxhtml-lat1.entxhtml-symbol.entxhtml-special.enthtml5meta-ext.rncembed-ext.rnccommon-ext.rncits20-html5.rncits20-html5-types.rnccore-scripting-ext.rnc	html5.rnc
+xhtml5.rncuntitled.imlworkspace.xmlmodules.xmluntitledxhtml-mobile.ideaxhtml11
+jspxml.xsdjspxml2.xsdjspxml2_1.xsdjspdirectives.xsdjspdirectives2_1.xsdxhtml-mobile10.dtdpatchesxhtml11.dtdxhtml-mobile12.dtd
+xhtml5.xsdxhtmlmp12-form-1.modxhtml-base-1.modxml.xsd	xhtml.dtd	xlink.dtdxhtml-mobile10-flat.dtdxhtml-edit-1.mod
+plugin.dtdxhtml-mobile12-form.modxhtml-form-1.mod
+xhtml1.dtdxhtml-mobile10-model-1.mod0004_ping.patchcatalog.xsdxhtml-link-1.modxhtml-mobile12-model-1.mod0001_html5.patchxhtml-list-1.mod0002_xhtml5.patchxhtml-meta-1.modxinclude.xsdxhtml-pres-1.modpatch_build.patchxslt-1_0.xsdxhtml-ruby-1.modxslt-2_0.xsdXMLSchema-1_10005_html5_namespace.patchxhtml-text-1.modxhtml-image-1.mod0006_xhtml5_namespace.patchxhtml-param-1.modrelaxng.rngxhtml-qname-1.modxhtml-style-1.modxhtml-table-1.mod!XMLSchema-hasFacetAndProperty.xsdxhtml-events-1.modXMLSchema.dtdxhtml-object-1.moddoc-style.xhtmlxhtml-script-1.modhtml5-schemaxhtml-struct-1.modxslt-schema.xsddatatypes.dtddocumentation.xmlxhtml-target-1.moddocumentation.xslxhtml-attribs-1.modxhtml-blkpres-1.modxhtml-charent-1.mod
+react.d.tsrdfxhtml-csismap-1.modxhtml-inlpres-1.modEcmaScript.jsrdf.rncxhtml-ssismap-1.modits2xhtml1-strict.dtdxhtml11-model-1.modECMAScript.js2xhtml1-strict.xsdxhtml-blkphras-1.modE4X.js2xhtml-inlphras-1.modmml3xhtml-inlstyle-1.modxhtml1-frameset.dtd
+DOMCore.jsDOMEvents.jsxhtml1-frameset.xsdplugin-repository.dtdDOMXPath.jsxhtml-blkstruct-1.modXMLSchema-instance.xsdDOMTraversalAndRange.jsxhtml-datatypes-1.modxhtml1-transitional.dtdE4X.jsxhtml-framework-1.modxhtml1-transitional.xsdHTML5.jsxhtml-hypertext-1.modXMLSchema-versioning.xsdWebGL.jsxhtml-inlstruct-1.modEcmaScript5.jsAJAX.jsxhtml-basic-form-1.modDHTML.jsxhtml-basic-table-1.modMakefile	patch-vnulib.es2017.object.d.tslib.dom.iterable.d.tslib.es2017.sharedmemory.d.tsmathml3.rnclib.es2016.array.include.d.tslib.d.tslib.es6.d.tsmathml3-inc.rncmathml3-common.rnclib.es2016.d.tslib.es2017.d.tssass_functions.scssmathml3-content.rncmathml3-presentation.rncmathml3-strict-content.rncaria.rncdata.rncmeta.rncrdfa.rncruby.rnc	block.rnc	embed.rnc	media.rnc
+common.rnc
+legacy.rnc
+phrase.rnc
+tables.rncrevision.rnchtml5core.rnchtml5full.rncmicrodata.rncsectional.rncweb-forms.rncstructural.rncweb-forms2.rncxhtml5core.rncapplications.rnccore-scripting.rncform-datatypes.rnchtml5full-rdfa.rncweb-components.rnchtml5exclusions.rncxhtml5full-html.rncxhtml5full-xhtml.rnchtml5full-rdfalite.rncweb-forms-scripting.rncweb-forms2-scripting.rncxhtml5full-xhtml-rdfa.rnchtml5full-no-microdata.rncxhtml5full-html-rdfalite.rncxhtml5full-xhtml-rdfalite.rncxhtml5core-plus-web-forms2.rnc xhtml5full-html-no-microdata.rnc!xhtml5full-xhtml-no-microdata.rncsvg11	svg11.rncinkscape.rncsvg-clip.rncsvg-font.rncsvg-mask.rncsvg-text.rncsvg-view.rncsvg-image.rncsvg-qname.rncsvg-shape.rncsvg-style.rncsvg11-inc.rncsvg-cursor.rncsvg-filter.rncsvg-marker.rncsvg-script.rncsvg11-tiny.rncsvg-pattern.rncsvg-profile.rncsvg11-basic.rncsvg-gradient.rncsvg-animation.rncsvg-datatypes.rncsvg-hyperlink.rncsvg-structure.rncinkscape-draft.rncsvg-basic-clip.rncsvg-basic-font.rncsvg-basic-text.rncsvg11-tiny-inc.rncsvg-conditional.rncsvg-core-attrib.rncsvg11-basic-inc.rncsvg-basic-filter.rncsvg-paint-attrib.rncsvg-xlink-attrib.rncsvg-extensibility.rncsvg-opacity-attrib.rncsvg-basic-structure.rncsvg-graphics-attrib.rncsvg-viewport-attrib.rncsvg-container-attrib.rncsvg-docevents-attrib.rncsvg-animevents-attrib.rncsvg-graphevents-attrib.rncsvg-extresources-attrib.rncsvg-basic-graphics-attrib.rncLICENSEhtml5-all.rnchtml5-its.rnchtml5chars.entxhtml5-all.rnchtml5-rdfalite.rncxhtml5-rdfalite.rnchtml5-svg-mathml.rncxhtml5-svg-mathml.rnchtml5-no-microdata.rnchtml5-rdfalite-w3c.rncxhtml5-no-microdata.rncxhtml5-rdfalite-w3c.rncsvg-xhtml5-rdf-mathml.rncxhtml1-ruby-rdf-svg-mathml.rnchtml5charref.rbcloud.propertiesupdate_html5_schema.shinspectionProfilesprofiles_settings.xml.eslintrc.jshttpcore-4.4.5.jarspy.js	parent.jsqsmoduleshelp	buster.jsautolint.jsistanbul	writer.js
+esgeneratewhich.jsrel.jsperm.jsrace.jschmod.jsumask.js	mkdirp.js	return.js
+clobber.jsperm_sync.jsumask_sync.jsreturn_sync.jspow.jsesutilscode.js
+keyword.js	compat.jsusage.jswordwrapbreak.jsidleness.txtmeat.js	center.jsREADME	camelcase	commander	gzip-sizeuuidr.js
+benchmarksapp.js
+dateformatquery.js
+streams.jsextend-node.jsbom-handling.jstables
+cp936.json
+cp949.json
+cp950.json
+eucjp.jsonshiftjis.jsongbk-added.jsonbig5-added.jsongb18030-ranges.jsonutf7.jsutf16.jsinternal.jsdbcs-data.jssbcs-data.jsdbcs-codec.jssbcs-codec.jssbcs-data-generated.jsChangelog.mdcore
+middleware	helper.jsjsfilemultipart.js	coerce.jstest-api.jstest-util.jstest-base64.jstest-array-set.jstest-base64-vlq.jstest-dog-fooding.jstest-source-node.jstest-binary-search.jstest-source-map-consumer.jstest-source-map-generator.jsassert-shim.jstest-prefix.jstest-suffix.jsmini-require.jsprefix-utils.jsmsuffix-utils.jsmsuffix-browser.jsprefix-source-map.jsmsuffix-source-map.jsmMakefile.dryice.jsserver	assert.jsfindup-syncfindup-sync.jsnestedpretty-bytes
+example.jsstrip-indent	cookie.jscakecoffee
+helpers.jsisarray	.zuul.yml	static.jsexamples.jscolors	colors.js	ReadMe.mdpairs.js
+methods.jsmathhtmlfile.jsxhr-polling.jsjsonp-polling.jssocket.io.jsparser.test.jsappveyor.ymlhelperadjacent.jsstrRepeat.jsmakeString.jstoPositive.jsescapeChars.jshtmlEntities.jsdefaultToWhiteSpace.jschop.jslpad.jspred.jsrpad.jssucc.jschars.jscount.jslines.jslrpad.jsltrim.jsprune.jsquote.jsrtrim.js	dedent.js	insert.js	splice.js
+isBlank.js
+package.js
+slugify.js
+sprintf.js
+strLeft.js
+unquote.jscamelize.jsclassify.jshumanize.jsstrRight.jssurround.jsswapCase.jstitleize.jsvsprintf.jsdasherize.jsstripTags.jstoBoolean.jsescapeHTML.jsmeteor-pre.jsnaturalCmp.jsreplaceAll.jstoSentence.jslevenshtein.jsmeteor-post.jsstrLeftBack.jsunderscored.jsdecapitalize.jsnumberFormat.jsstrRightBack.jsunescapeHTML.jsCHANGELOG.markdowncleanDiacritics.jstoSentenceSerial.jsCONTRIBUTING.markdownextenv.rhino.1.2.js	test.html
+strings.jsunderscore.jsvendor	arrays.js
+utility.jscopy.jsasync.min.jsscope.js	output.jscompress.jssourcemap.jsmozilla-ast.jstools	base64.jsarray-set.jsbase64-vlq.jssource-node.jsmapping-list.jsbinary-search.jssource-map-consumer.jssource-map-generator.jsbuild.jsMIT-LICENSE.txtlodashfpall.jsinit.jsnAry.jspath.jspipe.jsprop.js_util.jsapply.jsassoc.jsfirst.jsgetOr.js	curryN.js	dissoc.js	equals.js	mapObj.js	pathEq.js	pathOr.js	propOf.js	propOr.js	unnest.js	zipObj.js
+allPass.js
+compose.js
+convert.js
+omitAll.js
+pickAll.js
+unapply.js
+useWith.js
+whereEq.js_mapping.jscontains.jssomePass.jsassocPath.jstrimChars.jsdissocPath.jscurryRightN.js_baseConvert.jstrimCharsEnd.jstrimCharsStart.js_convertBrowser.jsat.jseq.jsfp.jsgt.jslt.jsadd.jsary.jsget.jsgte.jshas.jslte.jsmax.jsmin.jsnow.jsseq.jsset.jssum.jstap.jsxor.jszip.js_Map.js_Set.jsbind.jsceil.jscond.jsdate.jsdrop.jseach.jsfill.jsfind.jsflip.jsflow.jshead.jskeys.jslang.jslast.jsmath.jsmean.jsnext.jsnoop.jsomit.jsonce.jsover.jspick.jspull.jsrest.jssize.jssome.jstail.jstake.jsthru.jsuniq.js_Hash.js_root.jsafter.jsarray.jschunk.jsclamp.jsclone.jscurry.jsdefer.jsdelay.jsevery.jsfloor.jsforIn.jshasIn.jsisMap.jsisNaN.jsisNil.jsisSet.jskeyBy.jsmaxBy.jsmerge.jsminBy.jsmixin.jsplant.jsrange.jsrearg.jsround.jsslice.jssplit.jssumBy.jstimes.jsunary.jsunion.jsunset.jsunzip.jsvalue.jswords.jsxorBy.js	_Stack.js	_apply.js	_isKey.js	assign.js	before.js	commit.js	concat.js	create.js	deburr.js	escape.js	extend.js	forOwn.js	invert.js	invoke.js	isDate.js	isNull.js	keysIn.js	method.js	negate.js	nthArg.js	number.js	object.js	omitBy.js	padEnd.js	pickBy.js	pullAt.js	reduce.js	reject.js	remove.js	repeat.js	result.js	sample.js	sortBy.js	spread.js	string.js	toJSON.js	toPath.js	uniqBy.js	values.js
+_Symbol.js
+_baseAt.js
+_getTag.js
+_mapGet.js
+_mapHas.js
+_mapSet.js
+_parent.js
+attempt.js
+bindAll.js
+bindKey.js
+compact.js
+countBy.js
+findKey.js
+flatMap.js
+flatten.js
+forEach.js
+groupBy.js
+inRange.js
+indexOf.js
+initial.js
+isArray.js
+isEmpty.js
+isEqual.js
+isError.js
+isMatch.js
+mapKeys.js
+matches.js
+memoize.js
+orderBy.js
+partial.js
+pullAll.js
+replace.js
+reverse.js
+setWith.js
+shuffle.js
+toArray.js
+toLower.js
+toPairs.js
+toUpper.js
+trimEnd.js
+unionBy.js
+valueOf.js
+without.js
+xorWith.js
+zipWith.js_Reflect.js_WeakMap.js_baseFor.js_baseGet.js_baseHas.js_baseMap.js_baseSet.js_baseSum.js_baseXor.js_getData.js_getView.js_hasPath.js_hashGet.js_hashHas.js_hashSet.js_isIndex.js_metaMap.js_reorder.js_setData.jsassignIn.jsconforms.jsdebounce.jsendsWith.jsfindLast.jsfunction.jsidentity.jsincludes.jsinvertBy.jsisBuffer.jsisFinite.jsisLength.jsisNative.jsisNumber.jsisObject.jsisRegExp.jsisString.jsisSymbol.jsiteratee.jsmethodOf.jsoverArgs.jsoverSome.jspadStart.jsparseInt.jsproperty.jssubtract.jstemplate.jsthrottle.jstoLength.jstoNumber.jstoString.jstruncate.jsunescape.jsuniqWith.jsuniqueId.jsvaluesIn.js_MapCache.js_SetCache.js_arrayMap.js_assocGet.js_assocHas.js_assocSet.js_baseEach.js_baseFill.js_baseFind.js_baseKeys.js_basePick.js_baseSome.js_baseUniq.js_cacheHas.js_cloneMap.js_cloneSet.js_mapClear.js_reEscape.js_stackGet.js_stackHas.js_stackSet.jscamelCase.jscloneDeep.jscloneWith.jsdropRight.jsdropWhile.jseachRight.jsfindIndex.jsflowRight.jsfromPairs.jsfunctions.jsinvokeMap.jsisBoolean.jsisElement.jsisInteger.jsisWeakMap.jsisWeakSet.jskebabCase.jslowerCase.jsmapValues.jsmergeWith.jsoverEvery.jspartition.jspullAllBy.jssnakeCase.jsstartCase.jstakeRight.jstakeWhile.jstoInteger.jstoPairsIn.jstrimStart.jsunionWith.jsunzipWith.jsupperCase.jswrapperAt.jszipObject.js_arrayEach.js_arrayPush.js_arraySome.js_baseClamp.js_baseClone.js_baseDelay.js_baseEvery.js_baseForIn.js_baseHasIn.js_baseMerge.js_baseRange.js_baseSlice.js_baseTimes.js_baseUnary.js_baseUnset.js_baseWhile.js_cachePush.js_copyArray.js_createSet.js_getLength.js_getNative.js_indexKeys.js_isKeyable.js_lazyClone.js_lazyValue.js_mapDelete.js_mergeData.js_realNames.jsassignWith.jscapitalize.jscollection.jscurryRight.jsdifference.jsextendWith.jsforInRight.jsisFunction.jslowerFirst.jspropertyOf.jsrangeRight.jssampleSize.jssortedUniq.jstoIterator.jsupperFirst.js_Uint8Array.js_arrayEvery.js_baseAssign.js_baseCreate.js_baseFilter.js_baseForOwn.js_baseInvoke.js_baseKeysIn.js_baseLodash.js_basePickBy.js_basePullAt.js_baseRandom.js_baseReduce.js_baseSortBy.js_baseToPath.js_baseValues.js_copyObject.js_createFlow.js_createOver.js_equalByTag.js_getSymbols.js_hashDelete.js_indexOfNaN.js_isLaziable.js_mapToArray.js_reEvaluate.js_setToArray.js_stackClear.js_stringSize.js_toFunction.jsfindLastKey.jsflattenDeep.jsforOwnRight.jsfunctionsIn.jsisArguments.jsisArrayLike.jsisEqualWith.jsisMatchWith.jsisUndefined.jslastIndexOf.jsreduceRight.jssortedIndex.js_LazyWrapper.js_addMapEntry.js_addSetEntry.js_arrayConcat.js_arrayFilter.js_arrayReduce.js_assignValue.js_assocDelete.js_baseFlatten.js_baseInRange.js_baseIndexOf.js_baseIsEqual.js_baseIsMatch.js_baseMatches.js_baseOrderBy.js_basePullAll.js_baseSetData.js_baseToPairs.js_checkGlobal.js_cloneBuffer.js_cloneRegExp.js_cloneSymbol.js_composeArgs.js_copySymbols.js_createRange.js_createRound.js_equalArrays.js_getFuncName.js_isPrototype.js_lazyReverse.js_stackDelete.jsassignInWith.jsdefaultsDeep.jsdifferenceBy.jsforEachRight.jsintersection.jsisObjectLike.jsisTypedArray.jspartialRight.jssortedUniqBy.jswrapperChain.jswrapperValue.js_assocIndexOf.js_baseConforms.js_baseExtremum.js_baseForRight.js_baseInverter.js_baseIteratee.js_baseProperty.js_deburrLetter.js_equalObjects.js_getMatchData.js_isHostObject.js_nativeCreate.js_stringToPath.js_wrapperClone.jscloneDeepWith.jsfindLastIndex.jsisArrayBuffer.jsisPlainObject.jsisSafeInteger.jssortedIndexBy.jssortedIndexOf.jstoPlainObject.jstoSafeInteger.jswrapperLodash.jszipObjectDeep.js_LodashWrapper.js_arrayIncludes.js_baseEachRight.js_baseFindIndex.js_baseFunctions.js_baseMergeDeep.js_basePullAllBy.js_baseZipObject.js_charsEndIndex.js_createBaseFor.js_createPadding.js_createWrapper.js_mergeDefaults.js_reInterpolate.js_stringToArray.jsdifferenceWith.jsdropRightWhile.jsintersectionBy.jstakeRightWhile.jswrapperFlatMap.jswrapperReverse.js_arrayEachRight.js_baseAggregator.js_baseDifference.js_baseSortedUniq.js_copyObjectWith.js_createAssigner.js_createBaseEach.js_createInverter.js_escapeHtmlChar.js_initCloneArray.js_initCloneByTag.js_isIterateeCall.js_replaceHolders.jsmatchesProperty.jssortedLastIndex.js_arrayAggregator.js_baseForOwnRight.js_baseIsEqualDeep.js_baseSortedIndex.js_charsStartIndex.js_cloneTypedArray.js_compareMultiple.js_createCaseFirst.js_initCloneObject.js_iteratorToArray.jsintersectionWith.jstemplateSettings.js_arrayReduceRight.js_assignInDefaults.js_assignMergeValue.js_baseIntersection.js_basePropertyDeep.js_baseSortedUniqBy.js_baseWrapperValue.js_cloneArrayBuffer.js_compareAscending.js_composeArgsRight.js_createAggregator.js_createCompounder.js_escapeStringChar.js_unescapeHtmlChar.jsisArrayLikeObject.jssortedLastIndexBy.jssortedLastIndexOf.js_arrayIncludesWith.js_baseSortedIndexBy.js_createBaseWrapper.js_createCtorWrapper.js_toArrayLikeObject.js_createCurryWrapper.js_isStrictComparable.js_baseMatchesProperty.js_createHybridWrapper.js_createPartialWrapper.js_createRecurryWrapper.jsreporter.jsspec
+scripts.jsstaticimages
+session.jsexpressdebug
+caching.jsbrace-expand.js!extglob-ending-with-state-char.jsjs-yamlcwhichmkdirpesparse
+esvalidate
+reflect.js	escodegensupport	memory.jsinstrument.jswhitespace.js	logger.jsexception.jsnode-http-proxy
+iconv-lite	encodingshelp.jsreadme.markdownjasmine-nodecli.jsLicense	parser.js	socket.js
+transportswebsocket.jsflashsocket.jstransport.jsunderscore.stringunderscore.string.jsunderscore.string.min.jsspeed.jsREADME.markdownclean.jslicenseasyncasync.jsuglifyjsast.jsparse.js
+exports.jssource-map.js
+index.html
+mocha.optsmap.jspad.jsjoin.jstrim.jswrap.jsstartsWith.jsescapeRegExp.jsLICENSE.txt
+handlebarshelperssemvertasksmock.jsthemescommons-lang-2.6.jarqueue.jsws	Sender.jsReceiver.jsWebSocket.jsBufferPool.jsBufferUtil.jsErrorCodes.jsValidation.jsSender.hixie.jsReceiver.hixie.jsWebSocketServer.jsBufferUtil.fallback.jsValidation.fallback.jsoptions
+options.js	semver.jsjackson-core-2.8.1.jarjackson-databind-2.8.1.jarjackson-annotations-2.8.1.jarstatistics.actions.xmldimensions.xmlrecentProjectDirectories.xmlwindow.manager.xmlMoje.imlMojeWebStormlog.xmlextResources	format.sh
+fsnotifier
+inspect.sh
+restart.pyprintenv.pywebstorm.shfsnotifier64webstorm.svgfsnotifier-armidea.propertieswebstorm.vmoptionslibyjpagent-linux.sowebstorm64.vmoptionslibyjpagent-linux64.sojh.jarlibptylinuxx86x86_64jna.jarboot.jarjdom.jarjing.jarutil.jar	alloy.jar	icons.jar	log4j.jar	xbean.jar
+xz-1.5.jarasm-all.jarmicroba.jaropenapi.jartrove4j.jarbranding.jarforms_rt.jargson-2.5.jarisorelax.jarresolver.jarvelocity.jarwebstorm.jarxml-apis.jarautomaton.jarbatik-all.jarbootstrap.jarwinp-1.23.jarextensions.jarguava-21.0.jaroromatcher.jartrang-core.jarxercesImpl.jarxmlrpc-2.0.jarannotations.jarjaxen-1.1.3.jarjsch-0.1.54.jarjzlib-1.1.1.jarpty4j-0.7.1.jarjna-platform.jarpurejavacomm.jartrilead-ssh2.jarxml-apis-ext.jarcoverage-util.jarnanoxml-2.2.3.jarpicocontainer.jarxstream-1.4.8.jarcli-parser-1.1.jarcoverage-agent.jarhttpmime-4.5.2.jarjayatana-1.2.4.jarjgoodies-forms.jarjsr173_1.0_api.jarkotlin-reflect.jarkotlin-runtime.jarmarkdown4j-2.2.jarrhino-js-1_7R4.jarsnakeyaml-1.17.jarstreamex-0.6.2.jarxpp3-1.1.4-min.jarcommon-io-3.2.1.jarcommons-net-3.3.jarfluent-hc-4.5.2.jarserviceMessages.jarhttpclient-4.5.2.jarimgscalr-lib-4.2.jarjediterm-pty-2.5.jarproxy-vole-1.0.3.jarslf4j-api-1.7.10.jarcglib-nodep-3.2.4.jarcommon-lang-3.2.1.jarcommons-codec-1.9.jarswingx-core-1.6.2.jarbcprov-jdk15on-155.jarcommon-image-3.2.1.jarimageio-core-3.2.1.jarimageio-tiff-3.2.1.jarmiglayout-core-5.0.jarsqlite-jdbc-3.16.1.jarcloud-config-client.jarcommons-logging-1.2.jarini4j-0.5.2-patched.jarmiglayout-swing-5.0.jarjsch.agentproxy.core.jarjsch.agentproxy.jsch.jarslf4j-log4j12-1.7.10.jarsnappy-in-java-0.5.1.jarcommons-compress-1.10.jarcoverage-instrumenter.jarimageio-metadata-3.2.1.jarnetty-all-4.1.10.Final.jarrngom-20051226-patched.jarsanselan-0.98-snapshot.jarjsch.agentproxy.pageant.jarxmlgraphics-commons-1.5.jarjsch.agentproxy.sshagent.jaryjp-controller-api-redist.jarjsch.agentproxy.usocket-nc.jarjsch.agentproxy.usocket-jna.jar!markdownj-core-0.4.2-SNAPSHOT.jar"commons-httpclient-3.1-patched.jar%jsch.agentproxy.connector-factory.jarReferenceCard.pdfReferenceCardForMac.pdfjre64jjsjavaorbdrmidkeytoolpack200	tnameserv	unpack200
+policytool
+servertoolrmiregistrycmmGRAY.pfPYCC.pfsRGB.pf	CIEXYZ.pfLINEAR_RGB.pf	dnsns.jar	jfxrt.jar	sunec.jar	zipfs.jarjaccess.jarnashorn.jarcldrdata.jarsunpkcs11.jarlocaledata.jarsunjce_provider.jaramd64jli	libjli.so	libjvm.so
+Xusage.txtjvm.cfg	libawt.so	libnet.so	libnio.so	libnpt.so	libzip.so
+libjava.so
+libjawt.so
+libjdwp.so
+libjpeg.so
+libjsdt.so
+liblcms.so
+libsctp.solibglass.solibhprof.solibj2gss.solibsunec.solibj2pcsc.solibjsound.solibunpack.solibverify.solibavplugin.solibawt_xawt.solibj2pkcs11.solibjfxmedia.solibprism_sw.solibdt_socket.solibfxplugins.solibjaas_unix.solibjfxwebkit.solibprism_es2.solibdecora_sse.solibinstrument.solibjavafx_iio.solibjsoundalsa.solibmanagement.solibmlib_image.solibfontmanager.solibjavafx_font.solibawt_headless.solibprism_common.solibsplashscreen.solibjava_crw_demo.solibgstreamer-lite.solibjavafx_font_pango.solibjavafx_font_freetype.sofonts	font.conf	fonts.dirDroidSans.ttfDroidSansMono.ttfDroidSans-Bold.ttfDroidSerif-Bold.ttfDroidSerif-Italic.ttfDroidSerif-Regular.ttfDroidSansMonoDotted.ttfDroidSansMonoSlashed.ttfDroidSerif-BoldItalic.ttfjexeccursorsinvalid32x32.gifcursors.propertiesmotif_CopyDrop32x32.gifmotif_LinkDrop32x32.gifmotif_MoveDrop32x32.gifmotif_CopyNoDrop32x32.gifmotif_LinkNoDrop32x32.gifmotif_MoveNoDrop32x32.gifrt.jarjce.jarjsse.jarsecuritypolicylimited	unlimitedcacertsjava.policyjava.securityblacklisted.certstzdb.dat	classlist
+jfxswt.jar
+managementjmxremote.accesssnmp.acl.templatemanagement.propertiesjmxremote.password.templatecharsets.jarcurrency.datajvm.hprof.txtfontconfig.bfcnet.propertiessound.propertiesjavafx.propertieslogging.propertiescalendars.propertiesflavormap.propertiesmanagement-agent.jarpsfont.properties.japsfontj2d.propertiescontent-types.propertiesfontconfig.properties.src!hijrah-config-umalqura.propertiesreleaseASSEMBLY_EXCEPTIONTHIRD_PARTY_READMEgrowl.licenseant_license.txtasm_license.txtgson_license.txtjaxb_license.txtjdom_license.txtkryo-license.txtwinp_license.txtjaxen_license.txtjunit_license.txtlog4j_license.txtsqljet-license.txtsvnkit-license.txtswingx_license.txtxerces_license.txtxmlrpc_license.txtXStream_license.txteclipse_license.txtmicroba_license.txtnanoxml_license.txttrove4j_license.txtimgscalr_license.txtjayatana_license.txtsanselan_license.txtjavahelp_license.htmlsaxon-conditions.htmljavolution_license.txtoromatcher_license.txtpicoContainer_license.txtjgoodies_forms_license.txtyourkit-license-redist.txtmiglayout_swing_license.txtpluginsCSScss.jarcss-openapi.jarEJSEJS.jaraspasp.jarjspjsp-impl.jarumldiagram-api.jaruml-support.jarDartDart.jarjson.jarweberknecht-0.1.5.jarcommons-lang3-3.2.1.jarJadeJade.jarhamlhaml.jarlessless.jarsasssass.jarjrubyparser-0.5.4.jaryamlyaml.jarjira.jaraxis-1.4.jartasks-api.jartasks-core.jarwsdl4j-1.4.jaraxis-saaj-1.3.jaraxis-jaxrpc-1.4.jarjson-path-0.8.0.jarjson-smart-1.1.1.jarcommons-discovery-0.4.jarvuejs	vuejs.jarxpathxslt-rt.jar	xpath.jarDockerguava-19.0.jarlog4j-1.2.17.jarcommons-io-2.5.jarhttpclient-4.5.jarsnakeyaml-1.15.jarslf4j-api-1.7.21.jarcommons-cli-1.3.1.jarhk2-api-2.4.0-b34.jarcommons-codec-1.10.jardocker-java-3.0.10.jartomcat-juli-8.0.22.jartomcat-util-8.0.22.jarbcpkix-jdk15on-1.54.jarbcprov-jdk15on-1.54.jarhk2-utils-2.4.0-b34.jarjavassist-3.18.1-GA.jarjersey-guava-2.23.1.jarjersey-client-2.23.1.jarjersey-common-2.23.1.jarcommons-compress-1.12.jarhk2-locator-2.4.0-b34.jarjavax.ws.rs-api-2.0.1.jarjcl-over-slf4j-1.7.21.jarjavax.inject-2.4.0-b34.jarnetty-all-4.1.12.Final.jarnative-lib-loader-2.0.2.jartomcat-websocket-8.0.22.jarjackson-jaxrs-base-2.6.4.jarjavax.annotation-api-1.2.jarjunixsocket-common-2.0.4.jarjackson-annotations-2.6.0.jartomcat-servlet-api-8.0.22.jarosgi-resource-locator-1.0.1.jartomcat-websocket-api-8.0.22.jar"javax.websocket-client-api-1.1.jar"jersey-apache-connector-2.23.1.jar#junixsocket-native-common-2.0.4.jar$aopalliance-repackaged-2.4.0-b34.jar%jackson-jaxrs-json-provider-2.6.4.jar)jackson-module-jaxb-annotations-2.6.4.jar:netty-transport-native-epoll-4.1.12.Final-linux-x86_64.jar	specificsdockerSpecifics.jar
+Docker.jarDocker-compose.jarcommons-io-2.3.jarDocker-remote-run.jarDocker-agent-api-rt.jarjackson-annotations-2.6.4.jar!jackson-dataformat-yaml-2.7.3.jarMeteor
+Meteor.jarNodeJSnodeunitnodeunit-intellij-starter.jsmocha-intellijmochaTreeUtil.jsmochaIntellijTree.jsmochaIntellijUtil.jssingle-element-queue.jsmochaIntellijReporter.jsmocha-intellij-stringifier.jsnode-core-modulesnode-core-modules-loader.js
+NodeJS.jarYeoman
+Yeoman.jarrunneryeoman-simple-cli
+prompts.jsgithub
+github.jarspy-js
+spy-js.jarsocketio.jar	global.js	tracer.js
+urlUtil.jsevaluator.jsproxyUtil.jstracerNode.jssessionCore.jssessionNode.jssessionStore.jsdefaultConfig.jstracerDependencies.js
+spyNode.jsi	native.js
+inflect.jsinflections.jsarray-test.jsstring-test.js	inflectorcases.jsmethods-test.jsinflections-test.jsblsauce.jsbasic-test.jsbl.jsmsbufferutil.ccvalidation.cc.deps
+obj.target
+bufferutilbufferutil.o.d.rawgyp-mac-toolbinding.Makefilebufferutil.target.mkvalidation.target.mkbinding.gypnannan.h.dntrcinclude_dirs.jsncp.jsdefncp-test.jsr_jsasn1types.js	errors.js	reader.jststreader.test.jswriter.test.jsatob.jsLICENSE.DOCSboomboom.pngexitexit.js10-stderr.txt10-stdout.txtlog-broken.js100-stderr.txt100-stdout.txt1000-stderr.txt1000-stdout.txtcreate-files.sh10-stdout-stderr.txt100-stdout-stderr.txt1000-stdout-stderr.txtexit_test.jsgazegaze.jssub2three.jsProject (LO)add_test.jsapi_test.jswatch_test.jsrename_test.jsmatching_test.jspatterns_test.jsrelative_test.jssafewrite_test.jsgaze100s.jshawkuri.js	readme.js
+message.jshawk.pnglogo.pnghoektest1.jstest2.jstest3.js
+escaper.jshoek.pnglevncast.jsparse-string.jsmeowmimetypes
+mime.types
+node.typesmime.jsmulemy-program.jsoncepakozlibcrc32.jstrees.js
+adler32.js
+inffast.js
+zstream.jsgzheader.jsinftrees.jsmessages.jsconstants.jspako.jspako.min.jspako_deflate.jspako_inflate.jspako_deflate.min.jspako_inflate.min.jspendpifysendsend.jssntptime.js	offset.jstemptemp.jstemp-test.jsgrepcount.jspdfcreator.jsno_cleanup.jsno_cleanup_on_exit.jsno_cleanup_on_exit.spec.jsuid2browseris.jsisBufferBrowser.jsbuild-acorn.jsupdate_authors.shgenerate-identifier-regex.jswalklooselval.js
+locutil.jslocation.jstokentype.jsidentifier.jstokencontext.js.keepwalk.js.tern-projectbyteschalkcliuicliui.js.coveralls.ymlctypeman	man3ctypectio.3ctypejsstylejsl.confctf.jsctio.jsctype.js
+README.oldfreshgrowlgrowl.jsfail.js	config.js	option.js	grunt-cliinfo.js
+completionzshbashisexemode.js	access.js
+windows.jspauseredisparser
+hiredis.jsjavascript.jscommands.jsto_array.jsmem.jsbenchesstressspeed00plotsize-rate.pngpubsubcodec.js
+rpushblpopre_sub_test.jsbuffer_bench.jssub_quit_test.jshiredis_parser.jsreconnect_test.jsauth.jseval.jsmget.jssort.jsmulti.js	multi2.js	simple.js
+monitor.js
+pub_sub.jssubquery.jspsubscribe.jssubqueries.jsweb_server.jsunix_socket.jsbackpressure_drain.jsmulti_bench.jsgenerate_commands.jsdiff_multi_bench_output.js	xhr_ie.jstimers_ie.jsfake_server.jsfake_timers.jsfake_xml_http_request.jsfake_server_with_clock.jscall.jsstub.jsmatch.js
+sandbox.jsbehavior.jstest_case.jspkgsinon-ie.jssinon-1.9.1.jssinon-ie-1.9.1.jssinon-server-1.9.1.jssinon-timers-1.9.1.jssinon-timers-ie-1.9.1.jsrhinoevent_test.jsfake_server_test.jsfake_timers_test.jsfake_xml_http_request_test.jsfake_server_with_clock_test.jsspy_test.jscall_test.jsmock_test.jsstub_test.jstest_test.jsmatch_test.jsassert_test.jssandbox_test.jstest_case_test.jscollection_test.jsxhr_target.txt
+sinon.htmltimers.htmlsinon_test.jssinon-dist.htmlserver-clock.htmlGPATHGSYMSGTAGSGRTAGSutileargs.js	macros.jsread-json-fileconfig.jsonrequire-directory	directoryhelloWorld.jsfile-test.jsutile-test.jsformat-test.jsfunction-args-test.jsrandom-string-test.jsrequire-directory-test.jstest-fiber.jsfiber.jschangelog.shxtendLICENCE
+mutable.jsimmutable.jsyargsvalidation.jscompletion.sh.hbsyauzlabbrev	abbrev.jswinston-dark.jswinston-light.jsexample.htmlcookieserialize.jshooker	hooker.jsba-hooker.jsba-hooker.min.jshooker_test.jschild.jslodash.min.jslodash.compat.jslodash.compat.min.jslodash.underscore.jslodash.underscore.min.jsmaxminpinkieredentsamsam	samsam.jssamsam-test.jsamd.jsgtr.jsltr.jsno-module.jsfoot.jssemver.min.jssemver.browser.jswrappy	wrappy.jsconnectpubliciconspage.pngpage_go.pngpage_add.pngpage_key.pngpage_red.pngpage_code.pngpage_copy.pngpage_edit.pngpage_find.pngpage_gear.pngpage_link.pngpage_save.pngpage_word.pngpage_error.pngpage_excel.pngpage_green.pngpage_paste.pngpage_white.pngpage_world.pngpage_attach.pngpage_delete.pngpage_refresh.pngpage_white_c.pngpage_white_h.pngpage_white_cd.pngpage_white_go.pngpage_lightning.pngpage_white_add.pngpage_white_cup.pngpage_white_dvd.pngpage_white_get.pngpage_white_key.pngpage_white_php.pngpage_white_put.pngpage_white_tux.pngpage_white_zip.pngpage_paintbrush.pngpage_white_code.pngpage_white_copy.pngpage_white_edit.pngpage_white_find.pngpage_white_gear.pngpage_white_link.pngpage_white_ruby.pngpage_white_star.pngpage_white_text.pngpage_white_word.pngpage_white_error.pngpage_white_excel.pngpage_white_flash.pngpage_white_medal.pngpage_white_paint.pngpage_white_paste.pngpage_white_stack.pngpage_white_width.pngpage_white_world.pngpage_white_camera.pngpage_white_csharp.pngpage_white_delete.pngpage_white_office.pngpage_white_swoosh.pngpage_white_vector.pngpage_white_wrench.pngpage_white_acrobat.pngpage_white_magnify.pngpage_white_picture.pngpage_white_code_red.pngpage_white_database.pngpage_white_freehand.pngpage_white_cplusplus.pngpage_white_lightning.pngpage_white_coldfusion.pngpage_white_compressed.pngpage_white_horizontal.pngpage_white_paintbrush.pngpage_white_powerpoint.pngpage_white_text_width.pngpage_white_actionscript.pngpage_white_visualstudio.png	style.css
+error.htmlfavicon.icodirectory.htmlcache.jspatch.jsproto.js
+connect.jscsrf.jssessionlimit.jsvhost.js
+favicon.js
+timeout.jsbasicAuth.jsdirectory.jsbodyParser.jsurlencoded.jsstaticCache.jscookieParser.jserrorHandler.jsresponseTime.jscookieSession.jsmethodOverride.jsdeep-isNaN.jsneg-vs-pos-0.jsrouterroute.jsview.js
+express.jsresponse.jsmiddleware.jsapplication.jsfiguresfileset
+fileset.jsan (odd) filename.jsstat.js00-setup.jscwd-test.jszz-cleanup.jspause-resume.jsreadme-issue.jsroot-nomount.jsbash-results.jsonglobstar-match.jsnocase-nomagic.jsbash-comparison.jsnew-glob-optional-options.jsg.jsusr-local.jsfind-upis-utf8
+is-utf8.jstype	regexp.jsundefined.jsint.jsstr.jsnull.jsomap.jsfloat.js	binary.jstimestamp.jsschemafailsafe.jsdefault_full.jsdefault_safe.jstype.js	dumper.js	loader.js	schema.jsjs-yaml.min.jskind-oflongestmap-objmethodspkginfo
+pkginfo.jsdocs	docco.csspkginfo.htmlpkginfo-test.jsall-properties.jsarray-argument.jsobject-argument.jssingle-property.jsmultiple-properties.jsrequest
+cookies.jsoptional.jsdisabled.appveyor.ymlsubdirsx.json
+pathfilterdeep_refdeepalt.jsdeeper
+precedenceaaa.jsbbb.js
+subdirs.jspathfilter.jsprecedence.jssigmundbench.js
+sigmund.jswalkdirdirwzsymlinksdir1file1dir2file2nested-symlinkfound-me	ignore.js
+comparisonlsr.jsfind.py
+fstream.jsfindittest.jsfinditsynctest.jsinstall_test_deps.sh
+symlink.jsendearly.jscustom_fs.jsmax_depth.jsno_recurse.jspauseresume.jsignore-first.jsignore-during.jsnested-symlink.jsnofailemptydir.js
+walkdir.jsamdefineamdefine.jsintercept.jsarchivertarzipjsonarchiver.jsargparseformatter.jsadded_formatters.jsactiontrue.jsfalse.jsappend	append.js
+version.jssubparsers.jsargumenterror.jsgroup.jsexclusive.js	action.jsargparse.jsargument_parser.jsaction_container.jsbase64idbase64id.jscaselesserror-exformatioformatio.jsformatio-test.js
+Readme.rsthas-ansiinflightinflight.jsinheritsinherits.jsinherits_browser.jsmeta.js
+factory.jsfile-writer.jsinput-error.jsfile-matcher.jsflow-control.jsyui-load-hook.jshelp-formatter.jsinsertion-text.jstree-summarizer.jstmp.jsfslookup.jsreporthtml.jslcov.jsnone.jstext.js	clover.js	templatesfoot.txthead.txtlcovonly.jsteamcity.jscobertura.jstext-summary.jsprettify.jsprettify.csscommandrun-with-cover.jscover.js	report.jscheck-coverage.jshook.jscollector.jsinstrumenter.jsobject-utils.jsconfiguration.jsregister-plugins.jscmd.js	usage.txt
+opts_fs.jsopts_fs_sync.jscode.coffeekeyword.coffeeescodegen.browser.min.jsyui-coverage-comparison.mdkeypressnum.js
+unknown.jsall_bool.jskv_short.jsstop_early.jsoptimist_argv.js_.jsxup.js	divide.js	nonopt.jsline_count.jsdefault_hash.jsusage-options.jsboolean_double.jsboolean_single.jsdefault_singles.jsline_count_wrap.jsline_count_options.jsraw-bodyread-pkguri-pathLICENSE-WTFPLzeparsertests.jsZeParser.jsTokenizer.jsbenchmark.htmltest-parser.htmltest-tokenizer.htmlunicodecategories.js	aws-sign2	cryptilesbasic-source-map-consumer.jsindexed-source-map-consumer.js	fd-slicer	form-dataform_data.js	get-stdin	getobjectgetobject.jsnamespace_test.js	is-buffer	is-finite	lru-cachelru-cache.jss.js
+foreach.jsmemory-leak.js	node-uuidcompare_v1.jsuuid.jsbench.sh	bench.gnubenchmark.jsbenchmark-native.c	os-tmpdir	path-type	repeating	requirejs
+require.js	socket.iostoresredis.js
+manager.js
+default.js
+hybi-16.jshybi-07-12.jshttp-polling.jsdecode.bench.jsencode.bench.js	strip-bom	tinycolortinycolor.js
+process.jsparse-js.jsobject-ast.jssqueeze-more.jstmp269.jsgoto.jsgoto2.jshoist.jsliftvars.jsinstrument2.jsembed-tokens.jsuglify-hangs.jsuglify-hangs2.jsunitexpectedbeautify.jstestparser.js
+README.orgREADME.htmldocstyle.cssuglify-js.js	useragenttestfiles.js
+regexps.js	pgts.yamlfirefoxes.yamltestcases.yamlstatic.custom.yamlparser.qa.jsfeatures.test.jsuser_agent.after.yamlCREDITSfeatures
+align-text
+ansi-regex
+concat-mapdateformat.js
+weekofyeartest_weekofyear.jstest_weekofyear.shtest_formats.jstest_dayofweek.jstest_isoutcdatetime.js
+decamelize
+deep-equalis_arguments.js
+file-utilsenv.jsamdcjshandlebars.amd.jshandlebars.min.jshandlebars.amd.min.jshandlebars.runtime.amd.jshandlebars.runtime.min.jshandlebars.runtime.amd.min.jsloops.js	blocks.js	labels.js	switch.js	typeof.jsdebugger.jsissue-12.jsissue-22.jsissue-44.jsissue-59.jsdead-code.jsissue-105.jsissue-143.jssequences.jsproperties.jsdrop-unused.jsconditionals.jsrelease-notes.md
+http-proxyhttp-proxy.jsrouting-proxy.jsnode-http-proxy.js
+ws-test.jssocket.io-test.jspummeltest-http-upload-timeout.jssimpletest-http.jstest-http-proxy.jstest-http-chunked.jstest-http-set-cookies.jstest-http-status-code.jstest-http-client-abort.jstest-http-head-request.jstest-http-host-headers.jstest-http-client-abort2.jstest-http-client-upload.jstest-http-contentLength0.jstest-http-eof-on-connect.jstest-http-extra-response.jstest-http-response-close.jstest-http-upgrade-server2.jstest-http-client-upload-buf.jstest-http-multi-line-headers.js test-http-server-multiheaders.js&test-http-head-response-has-no-body.js(test-http-many-keep-alive-connections.js*test-http-head-response-has-no-body-end.js
+run-singlehttp-test.jsmacros
+agent2.cnfagent2-csr.pemagent2-key.pemagent2-cert.pemexamples-test.jsbasic-proxy.jslatent-proxy.jsforward-proxy.jsconcurrent-proxy.jsstandalone-proxy.jscustom-proxy-error.jsproxy-https-to-http.jsproxy-https-to-https.jsbalancersimple-balancer.js"simple-balancer-with-websockets.jswebsocket-proxy.jslatent-websocket-proxy.jsstandalone-websocket-proxy.jsurl-middleware.jsgzip-middleware.jsurl-middleware2.jsjsonp-middleware.jsbodyDecoder-middleware.jsmodifyResponse-middleware.jsgzip-middleware-proxytable.jswebsockets-throughput.jsconfig.sample.jsongbk-test.jsgbkFile.txtbig5-test.jsbig5File.txtmain-test.jsgreek-test.jsperformance.jsturkish-test.jscyrillic-test.jstablesinglebyte.js
+generationgenerate-big5-table.jsgenerate-singlebyte.js
+lazy-cache
+lazystreamlazystream.jsdata.md
+fs_test.jspipe_test.jsreadable_test.jswritable_test.js
+mime-types	mime.json	node.jsoncustom.json
+SOURCES.md
+multipartyfixturepreamble.jsno-filename.jsworkarounds.jsspecial-chars-in-filename.js	blank.gif	pf1y5.png	plain.txtfunkyfilename.txtbeta-sticker-1.pngmenu_separator.pngencodingblank.gif.httppf1y5.png.httpplain.txt.httpbinaryfile.tar.gz.httpbeta-sticker-1.png.httpmenu_seperator.png.httppreamble	crlf.httppreamble.httpno-filenamegeneric.httpfilename-name.httpworkaroundsmissing-hyphens1.httpmissing-hyphens2.httpspecial-chars-in-filenameinfo.mdxp-ie-7.httpxp-ie-8.httpxp-safari-5.httposx-safari-5.httpxp-chrome-12.httposx-chrome-13.httposx-firefox-3.6.httpmulti_video.upload	record.js
+standalonetest-invalid.jstest-issue-4.jstest-issue-5.jstest-issue-15.jstest-issue-19.jstest-issue-21.jstest-issue-46.jstest-connection-aborted.js!test-content-transfer-encoding.jsbench-multipart-parser.jss3.js	upload.jsazureblobstorage.js
+negotiatornegotiator.js	accept.js
+oauth-sign
+optionator
+parse-json
+unicode.js
+policyfilesslssl.crtssl.private.keyunit.test.jsbasic.fallback.js
+prelude-lsNum.jsObj.jsStr.jsFunc.jsList.js
+sprintf-jsangular-sprintf.jsdemoangular.htmlsprintf.min.jssprintf.min.mapsprintf.min.js.mapangular-sprintf.min.jsangular-sprintf.min.mapangular-sprintf.min.js.mapgruntfile.js
+strip-ansi
+tar-stream	space.tar	types.tarinvalid.tgzunicode.tarone-file.tarlong-name.tarmulti-file.tarname-is-100.tarunicode-bsd.tar
+type-checkcheck.js
+typedarrayundef_globals.js
+underscoreunderscore-min.jsunderscore-min.map
+zip-streamzip-stream.jsansi-stylesassert-plusfs.realpathold.jsgraceful-fsfs.jspolyfills.jsgraceful-fs.jslegacy-streams.jsis-arrayish.istanbul.ymlpath-existsread-pkg-upright-alignsignal-exit
+signals.jswindow-sizecenter-aligncore-util-iscrc32-streamcrc32-stream.jschecksum.jsisbinaryfilecs.jsautotest.jsjasmine-1.3.1.jsasync-callback.jsspec-collection.jsrequirejs-runner.jsrequirejs-spec-loader.jsuber-nestedUberNestedSpec.js	litcoffeeLitcoffee.spec.litcoffee	nested.jsTestSpec.jsTimerSpec.jsSampleSpecs.jshelper_spec.jsAsyncSpec.coffeereporter_spec.jssample_helper.jsCoffeeSpec.coffeeHelperSpec.coffeeGrammarHelper.coffeeasync-callback_spec.jsscriptsspecsspecs.shspec-requirejsrequirejs.sut.jsrequirejs.spec.jsspec-requirejs-coffeeRequireCsSpec.coffeeRequireJsSpec.coffeerequirecs.sut.coffeepretty-bytes.jsrange-parserspdx-correctstringstreamstringstream.jstough-cookiememstore.jspathMatch.jspubsuffix.jspermuteDomain.jstunnel-agentcake.jslexer.jsnodes.js
+command.js
+grammar.jsoptparse.jsrewriter.jscoffee-script.jsCNAMEconcat-streamwg-meetings2015-01-30.mdstream.markdownend-of-streameventemitter2eventemitter2.jsfile-sync-cmpforever-agentindent-stringlodash.assignnumber-is-nanobject-assignrepeat-stringtrim-newlinesbalanced-matchcamelcase-keysdelayed-streamdelayed_stream.jsintegrationtest-pipe-resumes.jstest-max-data-size.jstest-delayed-stream.jstest-proxy-readable.jstest-delayed-http-upload.jstest-delayed-stream-pause.jstest-handle-source-errors.js!test-delayed-stream-auto-pause.jshttp-signature	signer.js	verify.js.dir-locals.elhttp_signing.mdload-json-fileloud-rejectionapi.jspinkie-promisestream-countertest.txtstring_decodersupports-colorutil-deprecatexmlhttprequestXMLHttpRequest.jstestdata.txttest-events.jstest-headers.jstest-constants.jstest-exceptions.jstest-request-methods.jstest-request-protocols.jsdemo.jsautotest.watchrbrace-expansionbrowserify-zlib
+binding.jsignoredtest-zlib-params.jstest-zlib-dictionary.jstest-zlib-dictionary-fail.js	empty.txt
+person.jpgelipses.txttest-zlib.jstest-zlib-zero-byte.jstest-zlib-from-string.jstest-zlib-invalid-input.jstest-zlib-close-after-write.jstest-zlib-random-byte-pipes.jstest-zlib-write-after-flush.js test-zlib-convenience-methods.jsbuiltin-modulesbuiltin-modules.jsoncombined-streamcombined_stream.jshosted-git-infogit-host.jsgit-host-info.jsspdx-exceptions
+index.jsonarray-find-indexcookie-signaturefast-levenshteingrunt-legacy-logmapszebra.js
+america.js
+rainbow.jscustomtrap.jszalgo.jssystemsupports-colors.js	styles.jsextendStringPrototype.jsgeneric-logging.jssafe.jsnormal-usage.jsdatelangarray	unique.jschainwrapperPlant.jswrapperCommit.jswrapperConcat.jswrapperToString.jsnumberobjectstringtrunc.js
+padLeft.jspadRight.jstrimLeft.jstrimRight.jsutilitycallback.jsfunction
+modArgs.jsbackflow.jsrestParam.jsinternalisKey.js	baseAt.js	mapGet.js	mapHas.js	mapSet.js
+baseFor.js
+baseGet.js
+baseMap.js
+baseSum.js
+getData.js
+getView.js
+isIndex.js
+isSpace.js
+metaMap.js
+reorder.js
+setData.jsMapCache.jsSetCache.jsarrayMap.jsarraySum.jsbaseCopy.jsbaseEach.jsbaseFill.jsbaseFind.jsbaseSome.jsbaseUniq.jsreEscape.jsshimKeys.jstoObject.jsarrayCopy.jsarrayEach.jsarrayPush.jsarraySome.jsbaseClone.jsbaseDelay.jsbaseEvery.jsbaseForIn.jsbaseMerge.jsbaseSlice.jsbaseWhile.jscachePush.jsgetLength.jsgetNative.jslazyClone.jslazyValue.jsmapDelete.jsmergeData.jsrealNames.jsarrayEvery.jsbaseAssign.jsbaseCreate.jsbaseFilter.jsbaseForOwn.jsbaseLodash.jsbasePullAt.jsbaseRandom.jsbaseReduce.jsbaseSortBy.jsbaseValues.jscreateFind.jscreateFlow.jsequalByTag.jsindexOfNaN.jsinvokePath.jsisLaziable.jsreEvaluate.jstoIterable.jsLazyWrapper.jsarrayConcat.jsarrayFilter.jsarrayReduce.jsbaseFlatten.jsbaseIndexOf.jsbaseIsEqual.jsbaseIsMatch.jsbaseMatches.jsbaseSetData.jsbinaryIndex.jsbufferClone.jscomposeArgs.jscreateCache.jscreateCurry.jscreateForIn.jscreateRound.jsequalArrays.jsgetFuncName.jslazyReverse.jspickByArray.jsbaseCallback.jsbaseExtremum.jsbaseForRight.jsbaseProperty.jsbaseToString.jsbindCallback.jscacheIndexOf.jscreateForOwn.jscreatePadDir.jscreateReduce.jsdeburrLetter.jsequalObjects.jsgetMatchData.jswrapperClone.jsLodashWrapper.jsarrayExtremum.jsbaseEachRight.jsbaseFindIndex.jsbaseFunctions.jsbaseMergeDeep.jsbinaryIndexBy.jscreateBaseFor.jscreateFindKey.jscreateForEach.jscreatePadding.jscreatePartial.jscreateWrapper.jsmergeDefaults.jsreInterpolate.jsarrayEachRight.jsassignDefaults.jsbaseDifference.jsbaseIsFunction.jscharsLeftIndex.jscreateAssigner.jscreateBaseEach.jscreateDefaults.jscreateExtremum.jsescapeHtmlChar.jsinitCloneArray.jsinitCloneByTag.jsisIterateeCall.jspickByCallback.jsreplaceHolders.jsbaseForOwnRight.jsbaseIsEqualDeep.jsbaseSortByOrder.jscharsRightIndex.jscompareMultiple.jscreateFindIndex.jsinitCloneObject.jsarrayReduceRight.jsbasePropertyDeep.jsbaseWrapperValue.jscompareAscending.jscomposeArgsRight.jscreateAggregator.jscreateCompounder.jsescapeRegExpChar.jsescapeStringChar.jstrimmedLeftIndex.jsunescapeHtmlChar.jsassignOwnDefaults.jscreateBindWrapper.jscreateCtorWrapper.jscreateSortedIndex.jstrimmedRightIndex.jscreateObjectMapper.jsisStrictComparable.jsbaseMatchesProperty.jscreateHybridWrapper.jsbaseCompareAscending.jscreatePartialWrapper.js
+collectionany.jsfoldl.jsfoldr.jspluck.jswhere.js	detect.js	inject.js	select.js
+collect.js
+indexBy.jsfindWhere.jssortByAll.jssortByOrder.js
+support.jspath-is-absolutesocket.io-client
+builder.jsio.jsweb-socket-js	flash-srccomadobenetproxiesRFC2817Socket.asgsolo
+encryptionhurlantBigInteger.asIReduction.asbi_internal.asNullReduction.asBarrettReduction.asClassicReduction.asMontgomeryReduction.asderDER.asOID.asPEM.asSet.asType.as
+Integer.as
+UTCTime.asSequence.asIAsn1Type.asByteString.asPrintableString.asObjectIdentifier.asHex.as	Base64.as	Memory.asArrayUtil.ascryptorsa	RSAKey.astlsMACs.as
+TLSTest.asSSLEvent.asTLSError.asTLSEvent.asTLSConfig.asTLSEngine.asTLSSocket.asBulkCiphers.asCipherSuites.asKeyExchanges.asTLSSocketEvent.asIConnectionState.asSSLConnectionState.asTLSConnectionState.asISecurityParameters.asSSLSecurityParameters.asTLSSecurityParameters.ascertX509Certificate.asMozillaRootCertificates.asX509CertificateCollection.ashashMAC.asMD2.asHMAC.asSHA1.asIHMAC.asIHash.as	SHA224.as	SHA256.as
+SHABase.asprngARC4.asIPRNG.as	Random.as	TLSPRF.as
+MD2Test.as
+MD5Test.asARC4Test.asHMACTest.asSHA1Test.asTestCase.asAESKeyTest.asDESKeyTest.asRSAKeyTest.asSHA224Test.asSHA256Test.asTLSPRFTest.asCBCModeTest.asCFBModeTest.asCTRModeTest.asECBModeTest.asOFBModeTest.asXTeaKeyTest.asCFB8ModeTest.asITestHarness.asBigIntegerTest.asBlowFishKeyTest.asTripleDESKeyTest.as	Crypto.as	symmetricIPad.asIMode.asPKCS5.asdump.txt	AESKey.as	DESKey.as	IVMode.as	SSLPad.as	TLSPad.as	aeskey.pl
+CBCMode.as
+CFBMode.as
+CTRMode.as
+ECBMode.as
+ICipher.as
+NullPad.as
+OFBMode.as
+XTeaKey.asCFB8Mode.asBlowFishKey.asSimpleIVMode.asTripleDESKey.asIStreamCipher.asISymmetricKey.asbuild.shWebSocket.asWebSocketMain.asWebSocketEvent.asIWebSocketLogger.asWebSocketMainInsecure.assample.htmlswfobject.jsweb_socket.jsWebSocketMainInsecure.zip	events.jsxhr.jssocket.io.min.jsWebSocketMainInsecure.swfbuilder.test.jsbuilder.common.js
+io.test.jsutil.test.jsevents.test.jssocket.test.js
+componentscomponent-bindcomponent-jsoncomponent-emittertimoxley-to-arrayvisionmedia-debugcomponent-json-fallbacklearnboost-engine.io-client
+emitter.js
+polling.jspolling-xhr.jspolling-jsonp.jslearnboost-socket.io-protocolspdx-license-idsspdx-license-ids.jsongrunt-legacy-utilexec.shexec.cmdspawn.jsspawn-multibyte.jsGruntfile-execArgv.jsGruntfile-print-text.jsGruntfile-execArgv-child.jsis-builtin-modulejasmine-reportersjs.jar	jline.jar
+jasmine.jsjasmine.cssjasmine-html.jsload_reporters.jsjasmine.tap_reporter.jsjasmine.junit_reporter.jsjasmine.nunit_reporter.jsjasmine.console_reporter.jsjasmine.teamcity_reporter.jsjasmine.terminal_reporter.jsenvjs.runner.shtap_reporter.htmlenvjs.bootstrap.jsphantomjs.runner.shconsole_reporter.htmlteamcity_reporter.htmlterminal_reporter.htmlJUnitXmlReporterSpec.jsNUnitXmlReporterSpec.jsjunit_xml_reporter.htmlnunit_xml_reporter.htmlphantomjs-testrunner.js
+publish.sh
+release.shrun-qunit.jstest_underscorequnit.js	jquery.js	qunit.cssjslitmus.js
+objects.jschaining.jscollections.jstest_standalone.htmlstrings_standalone.jsGemfileRakefileGemfile.lockgrunt-contrib-copyactive-x-obfuscatorcurrently-unhandledgrunt-contrib-cleangrunt-known-optionsjson-stringify-safestringify_test.jsdeflate-crc32-streamdeflate-crc32-stream.jsescape-string-regexpgrunt-contrib-uglifyextract-props.jspropmangle.js
+props.htmldomprops.jsonquick-sort.jssource-map.min.jssource-map.debug.jssource-map.min.js.mapprocess-nextick-args
+license.mduglify-to-browserifymulti-stage-sourcemapexporigin.coffeeone_pass_result.jstwo_pass_result.jsmulti-stage-sourcemap.jsmulti-stage-sourcemap-test.js.namescopesscope_settings.xmlvcs.xmlmisc.xml	libraries&multi_stage_sourcemap_node_modules.xmlencodings.xmljsLibraryMappings.xmlmulti-stage-sourcemap.imlbower_componentspower-assert.bower.jsonspdx-expression-parseparser.generated.jsgrunt-legacy-log-utilsjasmine-growl-reporterres
+failed.png
+passed.pngmatchers.jsreporter.spec.jsnormalize-package-datafixer.js
+typos.jsonsafe_format.jsmake_warning.jswarning_messages.jsonextract_description.jstypo.jsnpm.json
+async.jsonbcrypt.jsonrequest.jsonmovefile.jsonbadscripts.jsonunderscore.jsonhttp-server.jsoncoffee-script.jsonno-description.jsonnode-module_exist.jsonread-package-json.json	scoped.js	strict.jsconsistency.jsgithub-urls.jsdependencies.jsmixedcase-names.jsvalidate-npm-package-licenseproxy-nix.shproxy-osx.shstylus
+stylus.jartslint
+tslint.jartslintLanguageServicetslint-plugin.jstslint-plugin-provider.jsgherkingherkin.jarhg4ideahg4idea.jarvagrantvagrant.jarjrubyparser-0.5.3.jarLiveEditLiveEdit.jargit4ideagit4idea.jargit4idea-rt.jarremote-servers-git.jarjs-karmajs-karma.jarjs_reporterkarma-intellijkjhtmlkjhtml-specFilter-patch.js)intellij-save-specFilter-before-kjhtml.js+intellij-restore-specFilter-after-kjhtml.jstree.jsfakePlugin.jsintellijCli.jsintellijUtil.jsintellij.conf.jsintellijPlugin.jsintellijRunner.jsintellijServer.jsintellijReporter.jskarma-intellij-debug.jskarma-browser-tracker.jsintellijCoverageReporter.js"delay-karma-start-in-debug-mode.jsphoneGapphoneGap.jarsvn4idealicensesCOPYING	libpty.so
+libjsig.solocal_policy.jarUS_export_policy.jar
+meta-indexresources.jarjackson-core-2.6.4.jarjackson-databind-2.6.4.jarReleaseconfig.gypincpwscatberatobsubtwo.jsone.js	client.js	crypto.jsnoptnopt.jsutils
+deflate.js
+inflate.js
+inspect.jsacornstate.jstokenize.jsparseutil.jsstatement.jsexpression.jsacorn.jsacorn_loose.jstask.jsgruntpub.jsevent.jssinon.jssinon	format.jsrun.shsetup.shtest-sync.jstest-async.jscompletion.jsgrunt.jsrimraf	rimraf.jschangelog.mdmark.js
+js-yaml.js	ChangeLogref.jsab.jshintignorestorecommonresolve	caller.js	core.jsonnode-modules-paths.jsdotdotabcresolverbarbazdoom.jsquux.jsbiztivgruxgarplyquuxfoofoo.jsmug.jspunycode
+cup.coffee
+mug.coffee
+other_pathother-lib.jsroot.jsincorrect_mainwithout_basedirmymodule.js	dotdot.js	node_pathxyccc
+module_dirxmodulesymodulesaaazmodulesbbbresolver.jsmock_sync.jsnode_path.jsnonstring.jsmodule_dir.jsfilter_sync.jsresolver_sync.jsfaulty_basedir.jsesprima
+esparse.jsesvalidate.js
+esprima.jsminimistdash.jslong.js	dotted.jsdefault_bool.jsparse_modified.jsbin.jsbool.jsshort.jsmain.jsesgenerate.jsescodegen.jsLICENSE.source-mapsync-package-managers.js	minimatchminimatch.js	runner.jsif.jsvar.jswith.jsconst.js	array1.js	array2.js	array3.js	array4.js	issue4.js	issue9.js	mangle.js
+issue10.js
+issue11.js
+issue13.js
+issue14.js
+issue16.js
+issue17.js
+issue20.js
+issue21.js
+issue25.js
+issue27.js
+issue28.js
+issue29.js
+issue30.js
+issue34.js
+issue48.js
+issue50.js
+issue53.js
+issue68.js
+issue69.jsifreturn.jsissue278.jsifreturn2.jsissue54.1.jsassignment.jsnull_string.jsconcatstring.jsempty-blocks.jsforstatement.jsstrict-equals.js	update.jscmp.js
+estraverseLICENSE.BSDestraverse.jsfile.jscompilerbase.js
+printer.js
+visitor.jscompiler.jsjavascript-compiler.jshandlebars.jshandlebars.runtime.js
+runtime.jscompressrunrouting-table-test.jsws.jshttp.jsproxy-table.js	websocket	benchmarkgbk.jsbig5.jshttpmediaType.js
+charset.jsencoding.jslanguage.js	server.jsrun-tests.jspack.js
+extract.jsparse-type.js	tarray.js
+headers.jsglobglob.jssync.jsbuffer-crc32crc.test.jsNestedSpec.jsrequirejs-wrapper-template.jsrequirejs-setup.jsstore.jscoffee-scriptrepl.jsCONTRIBUTING.mddoc	common.jsregister.jsexamplereadable-stream_stream_duplex.js_stream_readable.js_stream_writable.js_stream_transform.js_stream_passthrough.js	duplex.jsreadable.jswritable.jspassthrough.js
+LICENSE.mdexamplessafe-string.jsrun.jsutilMD5.astestsjson.jsnamespace.jsWebSocketMain.swfnode	worker.js
+History.mddebug.js	.jshintrc
+include.jsgulpfile.js.editorconfig	Readme.md
+browser.jsstringify.jsLICENSE-MIT	uglify.js	CHANGELOG.bincomponent.json	uglify-jsutils.jsnode.js
+source-mapdist	readme.mdCHANGELOG.mdbuildpower-assert.js
+bower.jsoncore.jschain.js	filter.js	lodash.js	random.jsconstant.jsdefaults.jstransform.jsGruntfile.jsbasic.jsfixturesnormalize.jsAUTHORS
+.npmignore.travis.ymlrtlog.js
+request.jstest.jsindex.js	README.mdpackage.jsonbinsrctestutil.jsresources_en.jarlib	.eslintrc.eslintrc.jsonnode_modules
+README.txtCHANGES.txtANTLR-LICENSEchangelog.txtSQLJET-LICENSELICENSE-JNA.txtTRILEAD-LICENSESEQUENCE-LICENSELICENSE-ANTLR.txtSQLJET-README.txtLICENSE-JAVAHL.txtLICENSE-SQLJET.txtLICENSE-TRILEAD.txtLICENSE-SEQUENCE.txt	antlr.jar
+sqljet.jar
+svnkit.jarsvn4idea.jarsvnkit-javahl.jarsequence-library.jar'jsch.agentproxy.svnkit-trilead-ssh2.jarterminalterminal.jarfishconfig.fish.zshrcjediterm-bash.intextmateCobalt.tmThemeGithub.tmThemeDarcula.tmThemeMonokai.tmThemedefault.tmThemeIR_Black.tmThemeTwilight.tmThemeBlackboard.tmThemeRailsCasts.tmThemeVibrantInk.tmThemeAll Hallow's Eve.tmThemejoni.jarjcodings.jartextmate.jar	AngularJSAngularJS.jarngLanguageServicesyntax-kind.jsangular-plugin.jsangular-session.js	RefactorXRefactorX.jar	htmltoolshtmltools.jar
+QuirksModequirksmode.jarhandlebars.jar
+remote-runremote-run.jar
+restClientrestClient.jarIntelliLangIntelliLang.jarfileWatcherfileWatcher.jareditorconfigeditorconfig.jareditorconfig-core-java.jarw3validatorsjigsaw-2.2.6.jarw3validators.jartagsoup-1.2.1.jarw3-css-validator.jarWebComponentsWebComponents.jarwebDeploymentwebDeployment.jarcommons-vfs2-2.1-SNAPSHOT.jarxslt-debugger	saxon.jar	xalan.jarsaxon9he.jarserializer.jarxslt-debugger-engine-impl.jarrmi-stubs.jarxslt-debugger.jarxslt-debugger-engine.jarcvsIntegrationcvs_util.jarjavacvs-src.jarsmartcvs-src.jarcvsIntegration.jartrilead-ssh2-build213.jarcoffeescript-corecoffeescript-core.jarCucumberJavaScriptCucumberJavaScript.jarcucumberjs_formatter_nix.jscucumberjs_formatter_windows.jsJavaScriptDebuggerChromeConnector.jarFirefoxConnector.jarJavaScriptDebugger.jarproxylog
+loggers.jslogHelper.jserrorerrorHelper.jsinternalError.jsinternalErrorCode.jslauncher.jspackager.jsappWorker.jsqq.jsExtensions.jsPerMessageDeflate.jsultronsourceMap.jsfileSystem.jsscriptImporter.jsexecutionsLimiter.js
+extensionsjb.xpiJavaScriptLanguagecommons-io-2.4.jarjs-test-common.jarJavaScriptLanguage.jarjavascript-openapi.jar	range.bnfjest-intellijjest-intellij-jasmine.jsbase-test-reporterintellij-tree.jsintellij-util.jsintellij-stringifier.jsprotractor-intellijjasmine-reporter.d.tsprotractor-intellij-cli.jsprotractor-intellij-tree.jsprotractor-intellij-util.jsprotractor-intellij-config.jsprotractor-intellij-plugin.js"protractor-intellij-stringifier.js'protractor-intellij-jasmine-reporter.jspackage-version-range-matcherbatch-matchersemver-range-matcher.jsgrunt_jsgrunt-intellij-util.jsgrunt-tasks-fetcher.jslanguageServiceeslintsynchTest.jseslint-plugin.jseslint-plugin-provider.jsmock.tssynchTest.tstypingsjs-lanuage-api.d.tsjs-language-api-extends.d.tstestDatalongLine.jsresult.json.eslintrc.bad.jsoneslint-plugin.tseslint-plugin-provider.tsjsLanguageServicesImplexternallib.dom.d.tslib.es5.d.tslib.es7.d.tslib.es2015.d.tslib.esnext.d.tslib.webworker.d.tstsserverlibrary.jslib.scripthost.d.tscancellationToken.jslib.es2015.core.d.tslib.es2016.full.d.tslib.es2017.full.d.tslib.es2017.intl.d.tslib.esnext.full.d.tslib.es2015.proxy.d.tslib.es2015.symbol.d.tslib.es2017.string.d.tslib.es2015.promise.d.tslib.es2015.reflect.d.tslib.es2015.iterable.d.tslib.es2015.generator.d.tslib.es2015.collection.d.tslib.esnext.asynciterable.d.ts lib.es2015.symbol.wellknown.d.ts
+typescriptts15impl.jsts-plugin.jsts-session.jside-watcher.jslogger-impl.jsservice-loader.jsts-session-new.jsts-session-old.jsout-path-process.jsts-default-options.jsts-project-service.jscompile-info-holder.jsts-session-provider.jsts-project-service-new.jsts-project-service-old.jsjs-language-service.jsPerforceIntegrationperforce_util.jarPerforceIntegration.jarsettings-repositoryjgit.jarsettings-repository.jartasks-time-trackingtasks-time-tracking.jarJSIntentionPowerPackJSIntentionPowerPack.jarnode-remote-interpreternode-remote-interpreter.jar	build.txtInstall-Linux-tar.txtuntitled1.iml	untitled1ÿ RafaÅ‚Default.xmlfiletypes.xmljastatistics.shortcuts.xmluntitled2.iml	untitled2Ryba.jsja.htmlstatistics.toolbar.clicks.xmluser.web.token
+.gitconfigmoje.imlmojeRafalÿ RafaÅ‚.htmlvmlinuz.oldinitrd.img.old	ryba.htmlRybski.htmlMoj pierwszy KOd.html	MOJE.html01.Struktura_dokumentu.iml01.Struktura_dokumentucssprework.imlpreworkWAR_FER_S_28_Prework-HTML	05.Tabele
+table1.png
+table2.png07.Box_modelbox_model.png13.Formularze	form1.png	form2.png03.Linki_i_ramka04.Linki_i_obrazkifrontend-backend.jpg12.Stylowanie_list	lista.jpg10.Stylowanie_tekstu	text1.jpg11.Kolor_i_tlo_w_CSSgradient.jpg02.Formatowanie_tekstu
+sample.jpg08.Elementy_obok_siebieelements.png09.Kolory_i_jednostki_w_CSS06.CSS_Kaskadowe_arkusze_stylowcascading.pngimgJa.css	index.css
+.gitignoremisc.md	extend.mdcss.mdhtml.mdfaq.mdjs.mdTOC.mdusage.mdjquery-3.2.1.min.jsmodernizr-3.5.0.min.js
+plugins.jsbrowserconfig.xmlicon.pngmain.css.gitattributesnormalize.css
+humans.txt	.htaccess404.htmlsite.webmanifest
+robots.txttile.pngtile-wide.pnguntitled3.iml	untitled3untitled4.iml	untitled4nie wiem.htmlgrafiti.jpg111.jpg222.jpgTR_DETAILS_20171108125309.pdf333.jpg	script.js	5_Tablice4_Kontrola_przeplywu_programu3_OperatoryWAR_FER_S_28_Prework-JS2_Zmienne_i_typy_danych1_Pierwszy_skryptusage.statistics.xml                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

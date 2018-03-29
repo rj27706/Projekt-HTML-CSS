@@ -1,0 +1,140 @@
+body {padding-top: 14px;}
+#header{width:966px;margin:0 auto;position:relative;overflow:hidden;font-family:Trebuchet MS,Helvetica,Garuda,FreeSans}
+#header ul#helpMenu{font-size:10px;height:15px;list-style-type:none;position:absolute;right:0;text-transform:uppercase;top:2px}
+#header ul#helpMenu li{display:block;float:left;padding-left:20px}
+#header ul#helpMenu li a{font-size:10px;color:#666}
+#header ul#helpMenu li.active a{color:#999}
+#header ul#helpMenu li.active{background:none;width:auto;height:auto}
+#header #logoPekao24{width:200px;height:60px;}
+#header #logoCDM24{width:200px; height: 85px;}
+#header #logoPekao24Makler{width:200px;height:60px;}
+#header #logoBankPekao24{width:296px;height:55px;right:0;top:12px;position:absolute}
+#header #logoBankCDM24{width:219px;height:36px;right:0;top:32px;position:absolute;}
+#header #logoPekao24 span, #header #logoPekao24Makler span, #header #logoBankPekao24 span, #header #logoBankCDM24 span,#header #logoCDM24 span{display:none}
+#header h1 img{display:block;}
+#header ul.menu{margin:53px 0 0 0;width:100%;background:#f1f1f1 url(../_img/_layout/bg_top_menu.gif) no-repeat 0 0;height:40px;list-style-type:none;text-transform:uppercase;display:block;position:relative;overflow:hidden;zoom:1}
+#header ul.menu li{display:inline;float:left;line-height:17px;margin:1px 0 1px 0;border-left:1px solid #fff;border-right:1px solid #e1e1e1;white-space:nowrap}
+#header ul.menu li a{font-size:14px;font-weight:bold;padding:11px 20px 10px 20px;display:block;color:#464646;white-space:nowrap}
+#header ul.menu li a:hover{color:#D71920}
+#header ul.menu li.active a{color:#D71920}
+#header ul.menu li.active{background:url(../_img_red/_layout/bg_top_menu_li_active.gif) repeat-x 0 0}
+#header ul.menu li.first{margin:0;border-left:0;border-right:1px solid #e1e1e1}
+#header ul.menu li.firstPekao{margin:0px;border-left:0;border-right:1px solid #D71920;height:40px;}
+#header ul.menu li.firstPekao:hover{border-right:1px solid #D71920;}
+#header ul.menu li.activeFirst{margin:0;border-right:1px solid #e1e1e1;}
+#header ul.menu li.first a{width:40px;height:40px;padding:0 !important;display:block;background:url(../_img_red/_layout/bg_top_menu_li_first.gif) no-repeat 0 0}
+#header ul.menu li.firstPekao a{width:41px;height:40px;padding:0 !important;display:block;background:url(../_img_red/_layout/bg_top_menu_li_first_pekao24.gif) no-repeat 0 0;}
+#header ul.menu li.activeFirst a{height:40px;width:41px;}
+#header ul.menu li a span{display:none}
+#header ul.menu li.first a:hover{background-position:0 -40px}
+#header ul.menu li.firstPekao a:hover{background-position:0 -40px;}
+#header ul.menu li.active a{background-position:0px -80px}
+#header ul.menu li.active a:hover{background-position:0 -80x !important}
+#header ul.menu li.activeFirst a:hover {background-position: 0 -80px !important;}
+#header ul.menu li.last a.active{background-position:100% 0;color:#D71920}
+#header ul.menu li.last{border-right:0;background:url(../_img/_layout/bg_top_menu_li_last.gif) no-repeat 100% 0;width:169px;position:absolute;top:0;right:0}
+#header ul.menu li.whiteFrame{display:none}
+#header ul.menu.makler li.last{width:165px;position:absolute;top:0;right:0}
+#header ul.menu li.whiteFrame a{padding:7px 13px 6px 13px !important;;background:#fff}
+#header ul.menu li.whiteFrame a.active{background:none;color:#D71920}
+#header ul.menu li a.small{font-size:14px;font-weight:bold;padding:11px 32px 10px 32px;display:block;white-space:nowrap}
+#header ul.makler li a{padding:11px 24px}
+#header .btnHuge.inHeader{position:absolute;top:28px;left:247px}
+#header .btnHuge.inHeader a{width:468px}
+#header .btnHuge.inHeader a span{width:382px}
+
+#header .hr{position:absolute;width:966px;top:83px; left:0;background:none;border-bottom:2px solid #D71920;}
+#header .tabs{margin:0;position:absolute;width:966px;top:74px; left:0;background:none;border-bottom:2px solid #D71920;}
+#header .tabs li{float:right;border-left:1px solid #bebebe;border-right:1px solid #bebebe;border-top:1px solid #bebebe;border-bottom:1px solid #f1f1f1;background:#f1f1f1 url(../_img_red/_layout/tabsLi.gif) repeat-x 0 0; }
+#header .tabs li.selected{border:1px solid #D71920;
+    background: #e2011b; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e83348) to(#e2011b)); /*old webkit*/
+    background: -webkit-linear-gradient(#e83348, #e2011b); /*new webkit*/
+    background: -moz-linear-gradient(#e83348, #e2011b); /*gecko*/
+    background: -ms-linear-gradient(#e83348, #e2011b); /*IE10*/
+    background: -o-linear-gradient(#e83348, #e2011b); /*opera 11.10+*/
+    background: linear-gradient(#e83348, #e2011b); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#e83348, #e2011b); /*PIE*/
+}
+#header .tabs li.selected a{color:#fff;}
+
+#header ul.menuIcon{display:block;position:absolute;right:8px;top:17px;width:auto;height:24px;list-style-type:none}
+#header ul.menuIcon li{float:left;display:inline;position:relative;padding-right:20px}
+#header ul.menuIcon li.egovernment a{background:url(../_img_red/_layout/icon_egovernment.gif) no-repeat 0 0px;height:16px;}
+#header ul.menuIcon li.mail a{background:url(../_img_red/_layout/icon_mail.gif) no-repeat 0 0px;height:13px;}
+#header ul.menuIcon li.settings a{background:url(../_img_red/_layout/icon_settings.gif) no-repeat 0 0;height:18px;}
+#header ul.menuIcon li.shortcuts a{background:url(../_img_red/_layout/icon_shortcuts.gif) no-repeat 0 0;height:15px;}
+#header ul.menuIcon li.egovernment a:hover{background-position:0 -16px}
+#header ul.menuIcon li.mail a:hover{background-position:0 -13px}
+#header ul.menuIcon li.settings a:hover{background-position:0 -18px}
+#header ul.menuIcon li.shortcuts a:hover{background-position:0 -15px}
+#header ul.menuIcon li.selected.egovernment a{background-position:0 -16px}
+#header ul.menuIcon li.selected.mail a{background-position:0 -13px}
+#header ul.menuIcon li.selected.settings a{background-position:0 -18px}
+#header ul.menuIcon li.selected.shortcuts a{background-position:0 -15px}
+#header ul.menuIcon li a{color:#369;float:left;width:auto;height:11px;padding:0 0 0px 25px;margin:0;text-transform:uppercase;background:none;font-size:11px}
+#header ul.menuIcon li a:hover{color:#333}
+#header ul.menuIcon li.langIcon .lang{height:16px;float:left;}
+#header ul.menuIcon li.langIcon .langEn{background:transparent url(../_img_red/_layout/icon_flagEn.gif) no-repeat 0 0px; }
+#header ul.menuIcon li.langIcon .langPl{background:transparent url(../_img_red/_layout/icon_flagPl.gif) no-repeat 0 0px; }
+#header ul.menuIcon li.langIcon{padding:0 0 0 12px;margin-left:12px;border-left:1px solid #cccccc}
+#header ul.menuIcon li.shortcuts{padding:0;}
+#header #shortcuts{right:36px}
+#header #shortcuts .more a {white-space: nowrap;}
+#header #settings{right:165px} 
+#header #mail{right:279px}
+#header #mail ul.shortcut{padding:18px}
+#header .quickMenu{position:absolute;right:0;float:left;top:37px;display:none;z-index:1001;}
+#header .quickMenu .relative{clear:both;position:relative;border:1px solid #e1e1e1;background:#ededed;float:left;padding:4px 4px 2px 4px}
+#header .quickMenu .relative em{position:absolute;width:2px;height:2px;padding:0;font-size:0}
+#header .quickMenu .relative em.top_l{top:-1px;left:-1px;background:url(../_img/_layout/bg_quick_top_l.gif) no-repeat 0 0}
+#header .quickMenu .relative em.top_r{top:-1px;right:-1px !important;right:-2px;background:url(../_img/_layout/bg_quick_top_r.gif) no-repeat 0 0}
+#header .quickMenu .relative em.bottom_l{bottom:-1px !important;bottom:-2px;left:-1px;background:url(../_img/_layout/bg_quick_bottom_l.gif) no-repeat 0 0}
+#header .quickMenu .relative em.bottom_r{bottom:-1px !important;bottom:-2px;right:-1px !important;right:-2px;background:url(../_img/_layout/bg_quick_bottom_r.gif) no-repeat 0 0}
+#header .quickMenu .relative .shadow{overflow:hidden;position:relative;zoom:1;float:left;display:inline;margin:0;padding-bottom:3px;background:url(../_img/_layout/bg_quick_shadow_bottom.gif) repeat-x 0 100%}
+#header .quickMenu .relative .shadow em{position:absolute;width:3px;height:3px;padding:0;font-size:0;line-height:3px !important}
+#header .quickMenu .relative .shadow em.top_l{top:-1px;left:1px;background:url(../_img/_layout/bg_quick_shadow_top_l.gif) no-repeat 0 0}
+#header .quickMenu .relative .shadow em.top_r{top:0px;right:-2px !important;right:-3px;width:6px;height:4px;background:url(../_img/_layout/bg_quick_shadow_top_r.gif) no-repeat 0 0}
+#header .quickMenu .relative .shadow em.bottom_l{bottom:0px !important;bottom:-1px;left:0px;width:4px;height:7px;line-height:7px !important;background:url(../_img/_layout/bg_quick_shadow_bottom_l.gif) no-repeat 0 0}
+#header .quickMenu .relative .shadow em.bottom_r{bottom:0px !important;bottom:-1px;right:-2px !important;right:-3px;width:6px;height:7px;line-height:7px !important;background:url(../_img/_layout/bg_quick_shadow_bottom_r.gif) no-repeat 0 0}
+#header .quickMenu ul.shortcut{background:#fff;border:1px solid #e9e9e9;float:left;padding:18px;overflow:hidden;zoom:1;min-width:260px;white-space:nowrap}
+#header .quickMenu ul.shortcut li{float:left;margin-right:25px;display:inline}
+#header .quickMenu ul.shortcut.list li{float:none;display:block}
+#header .quickMenu ul.shortcut li.more{border-left:1px solid #dadada;padding-left:25px;margin:0;float:left;font-weight:normal}
+#header .quickMenu ul.shortcut li a{text-transform:uppercase;padding:0}
+#header .quickMenu ul.shortcut li ul li{float:left;margin:0}
+#header .quickMenu ul.shortcut li ul li a{height:auto}
+#header .quickMenu ul.more{padding:4px 6px 6px 13px;clear:both;float:left;overflow:hidden;zoom:1;width:290px}
+#header .quickMenu ul.more li{display:inline;margin-right:15px;zoom:1}
+#header .quickMenu ul.more li a{padding-left:10px;background:url(../_img/_layout/arrow_red.gif) no-repeat 0 4px;zoom:1}
+
+#header .red{color:#ff0000 !important;}
+#UK.bank ul.menu li a{padding:11px 16px}
+#UK.bank ul.menu li.last{width:178px}
+.linux.gecko #header ul.menu li a{font-size:13px}
+#UK.brok ul.menu li a{padding:11px 32px}
+#UK.brok ul.menu li.last{width:167px}
+#UK.bank ul.menu li a.small{padding: 11px 25px;}
+.brok #header #logoBankPekao24{top:12px;}
+08Niÿ      'Zð"Zð">eWºZ!ý   A    :https://www.pekao24.pl/MCP/data/_css_red/header.css?201610261600 necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Thu, 06 Jul 2017 16:04:11 GMT
+Accept-Ranges: bytes
+ETag: "804f688171f6d21:0"
+Server: Microsoft-IIS/8.5
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' seal.verisign.com https://chat.pekao.com.pl; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; img-src 'self' seal.websecurity.norton.com https://chat.pekao.com.pl; style-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; font-src 'self' https://chat.pekao.com.pl; frame-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl;
+Date: Wed, 08 Nov 2017 11:16:14 GMT
+Content-Length: 10238
+ original-response-headers Content-Type: text/css
+Last-Modified: Thu, 06 Jul 2017 16:04:11 GMT
+Accept-Ranges: bytes
+ETag: "804f688171f6d21:0"
+Server: Microsoft-IIS/8.5
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' seal.verisign.com https://chat.pekao.com.pl; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; img-src 'self' seal.websecurity.norton.com https://chat.pekao.com.pl; style-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; font-src 'self' https://chat.pekao.com.pl; frame-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl;
+Date: Wed, 08 Nov 2017 11:16:14 GMT
+Content-Length: 10238
+ uncompressed-len 0 net-response-time-onstart 366 net-response-time-onstop 367   'þ

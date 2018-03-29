@@ -1,0 +1,23 @@
+/*table
+{
+	border-collapse: separate;
+}*/
+
+table
+{
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+
+.tbl1
+{
+	background-color: #000f83;
+	color: white;
+	font-weight: 700;
+}

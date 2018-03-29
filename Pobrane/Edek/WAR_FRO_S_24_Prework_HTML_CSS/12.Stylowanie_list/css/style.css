@@ -1,0 +1,14 @@
+#fclub
+{
+	list-Style-type: square;
+}
+
+#listmenu li
+{
+	display: inline-block;
+	list-Style-type: none;
+	text-transform: uppercase;
+	color: #116493;
+	margin: 20px;
+
+}

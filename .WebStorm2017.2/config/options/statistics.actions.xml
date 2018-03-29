@@ -1,0 +1,46 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="1" />
+      <entry action="$Cut" count="1" />
+      <entry action="$Delete" count="3" />
+      <entry action="$Undo" count="107" />
+      <entry action="ActivateProjectToolWindow" count="1" />
+      <entry action="CollapseRegion" count="1" />
+      <entry action="CopyPaths" count="2" />
+      <entry action="EditorBackSpace" count="4430" />
+      <entry action="EditorChooseLookupItem" count="580" />
+      <entry action="EditorCopy" count="154" />
+      <entry action="EditorDelete" count="279" />
+      <entry action="EditorDeleteToWordStart" count="1" />
+      <entry action="EditorDown" count="777" />
+      <entry action="EditorEnter" count="950" />
+      <entry action="EditorLeft" count="381" />
+      <entry action="EditorLineEnd" count="3" />
+      <entry action="EditorPaste" count="360" />
+      <entry action="EditorRight" count="1129" />
+      <entry action="EditorStartNewLine" count="1" />
+      <entry action="EditorTab" count="39" />
+      <entry action="EditorUp" count="83" />
+      <entry action="EditorUpWithSelection" count="2" />
+      <entry action="ExpandLiveTemplateByTab" count="2" />
+      <entry action="Find" count="2" />
+      <entry action="GotoBookmark5" count="1" />
+      <entry action="GotoDeclaration" count="4" />
+      <entry action="HideAllWindows" count="5" />
+      <entry action="NewFile" count="3" />
+      <entry action="NewHtmlFile" count="8" />
+      <entry action="NewJavaScriptFile" count="1" />
+      <entry action="NewStylesheetFile" count="2" />
+      <entry action="NewWebStormDirectoryProject" count="12" />
+      <entry action="NextTemplateVariable" count="1" />
+      <entry action="OpenFile" count="37" />
+      <entry action="PasteMultiple" count="3" />
+      <entry action="RenameElement" count="1" />
+      <entry action="SavaAs" count="5" />
+      <entry action="SaveAll" count="47" />
+      <entry action="ShowSettings" count="2" />
+      <entry action="ToggleLineBreakpoint" count="2" />
+    </counts>
+  </component>
+</application>

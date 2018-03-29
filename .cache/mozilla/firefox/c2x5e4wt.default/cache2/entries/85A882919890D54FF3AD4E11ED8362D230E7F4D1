@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pekao24 - Bankowość elektroniczna</title>
+<meta name="description"
+	content="Bankowość elektroniczna, bankowość internetowa, Pekao24, system dedykowany dla klientów indywidualnych, dostęp przez Internet, telefon stacjonarny oraz komórkowy." />
+
+<meta name="language" content="pl" />
+<meta name="revisit-after" content="2 days" />
+<meta name="robots" content="noodp,noarchive" />
+<meta name="url" content="http://www.pekao24.pl" />
+<meta name="apple-itunes-app" content="app-id=1064440041" />
+<link rel="icon" href="/favicon.ico?1497616708655" type="image/x-icon" />
+
+<style type="text/css">
+@import url('/MCP/client/logon/_css_red/style.css');
+</style>
+<!--[if lte IE 7]><style type="text/css">@import url('/MCP/client/logon/_css_red/ie.css');</style><![endif]-->
+<style type="text/css">
+@import url('/MCP/client/logon/_css/thickbox.css');
+</style>
+
+<!--[if IE 8]><style type="text/css">@import url('/MCP/client/logon/_css_red/ie8.css');</style><![endif]-->
+<style type="text/css">
+@import url('/MCP/client/logon/_css/firefox.css');
+</style>
+
+<script src="/MCP/client/logon/_js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/thickbox.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/LogonSlider.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/HelpAccordion.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/errtip.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/thick1x.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var BackText = "Cofnij";
+	var ConfirmText = "Zatwierdź";
+</script>
+
+<script src="/MCP/client/logon/_js/NumericKeyboard.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/LoginScripts.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/LoginScriptsStep1.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/CookiesInfo.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/_js/redirections.js" type="text/javascript"></script>
+	<script src="/MCP/client/logon/_js/appPopupDesktop.js?1507902437884" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		InitLogonSlider("naviSlide", "tabSlider", 8000);
+		errtip.initLogon(".questionMark");
+		setRedirectId();
+	});
+	var msgValidStringError = "Proszę podać numer klienta!";
+	var msgLengthError = "Długość numeru klienta jest nieprawidłowa!";
+	var msgIsNanError = "W tym polu można wpisywać tylko liczby!";
+	var preview = "";
+	var language = "PL";
+	var source = "bank";
+</script>
+
+<script src="/MCP/client/logon/cms/DisplayNews.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/cms/DisplayPictures.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/cms/DisplaySafety.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/cms/DisplayBanner.js" type="text/javascript"></script>
+<script src="/MCP/client/logon/cms/DisplayInaccessibility.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="cookiesInfoWrapper">
+		<div id="cookiesInfo">
+			<div id="textContainer">
+				<p>
+					W ramach naszej witryny stosujemy pliki cookies. Korzystanie z witryny bez zmiany ustawień przeglądarki oznacza, że akceptują Państwo
+					otrzymywanie cookies. W dowolnej chwili możecie Państwo dokonać zmiany ustawień dotyczących plików cookies. Więcej informacji o <a
+						class="privacy ext" title="Polityka Prywatności" href="http://www.pekao.com.pl/polityka_prywatnosci">polityce prywatności.</a>
+				</p>
+			</div>
+			<div id="closeContainer">
+				<a class="btnBlue btnBlueClose" href="#" onclick="javascript:cookiesInfoOff('PEKAO24_COOKIES_INFO', 1, 360)"> <span>Zamknij</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<h1 id="logoPekao24">
+			<span>Pekao24</span><a href="ClientLogon.html" title="Pekao24 - strona główna" accesskey="1"><img
+				src="/MCP/client/logon/_img_red/_layout/logo_pekao24.gif?1496921611621" alt="Pekao24" /></a>
+		</h1>
+		<ul class="tabs">
+			<li class="selected"><a href="https://www.pekao24.pl/" title="Logowanie serwisu Pekao24">Pekao24</a></li>
+			<li><a href="https://www.prepaid.pekao24.pl/" title="Logowanie dla Kart prepaid">Serwis kart prepaid</a></li>
+			<li><a href="xelion.html" title="Logowanie dla Serwisu Xelion">XelionInternet</a></li>
+		</ul>
+		<a class="lang langEn" href="ClientLogonUK.html" title="English version" accesskey="e">English version</a>
+
+		<p class="btnHugeBanner inHeader" id="banner"></p>
+
+	</div>
+
+	<div id="content" class="logIn logInMargin">
+		
+		<div id="left">
+
+			<h3>Pierwsze kroki</h3>
+
+			<ul class="firstStepMenu">
+
+				<li class="icon_contact"><a href="https://www.pekao.com.pl/indywidualni/bankowosc_elektroniczna/Pekao24/PekaoInternet/?s,main,language=PL#tab4,paragraf1" title="Logowanie krok po kroku" accesskey="l" class="ext">Logowanie krok po kroku</a></li>
+
+				<li class="icon_info"><a href="https://www.pekao.com.pl/indywidualni/bankowosc_elektroniczna/Pekao24/PekaoInternet/?s,main,language=PL#tab1" title="Informacje ogólne" accesskey="i" class="ext">Informacje ogólne</a></li>
+
+				<li class="icon_client"><a href="https://www.pekao.com.pl/indywidualni/kontaosobiste/wniosek" title="Załóż konto" accesskey="z" class="ext">Załóż konto</a></li>
+
+			</ul>
+
+			<div id="news"></div>
+
+		</div>
+
+		<div id="middle">
+
+			<div class="frame blueInfo accountNo numKeyPnl">
+				<form id="frmClientLogon" name="frmClientLogon" method="post" action="/MCP/PINVerification.htm">
+					<!--onsubmit="return frmClientLogon_onsubmit()"-->
+
+					<fieldset class="fieldsetBlue">
+
+						<div class="h2">
+
+							<h2 class="logowanie">
+								<span>Logowanie</span>
+							</h2>
+
+							<span class="logonPgLink"><a href="/MCP/client/logon/helpPL.html?height=400&amp;width=540&amp;modal=true" title="Pomoc" class="thickbox" accesskey="6">Pomoc</a></span>
+							<div class="cl">&#160;</div>
+						</div>
+
+
+
+						<label for="parUsername" class="roundCorners"> <span class="clientNo">Numer klienta </span> <span class="questionMark"> 
+							<a href="javascript:void(0)">[?]</a> 
+							<em class="tooltipContent" style="left: -55px;">
+								Unikalny numer przypisany do każdego klienta, używany do identyfikacji we wszystkich serwisach Pekao24 (dotyczy również serwisów usług maklerskich). Numer znajdziesz na umowie swojego rachunku.<br/><br/> 
+								Jeśli nie masz numeru klienta, zadzwoń<br/>do konsultanta pod numer 801 365 365<br/>(+48 42 683 82 32) lub udaj się do dowolnego oddziału Banku Pekao S.A.<br/><br/>
+								Jeżeli korzystasz z usług maklerskich zadzwoń do konsultanta infolinii Domu Maklerskiego pod numer 800 105 800<br/>lub +48 22 591 22 00 (w dni robocze<br/>w godzinach 8:00-20:00).
+							</em>
+						</span> <br class="cl" /> <span id="beforeParUsername"> <span class="round first">&#160;</span> <input type="text" value="" id="parUsername"
+								name="parUsername" onkeyup="return checkIfEnter(event)" maxlength="10" tabindex="1" class="numKeyInput autocompleteOff" /> <span
+								class="round last">&#160;</span>
+						</span> 
+							<input type="hidden" name="parSyncToken" /> 
+							<input type="hidden" name="parXelion" value="N" />
+							<input type="hidden" name="parBrowserName" value="" /> 
+							<input type="hidden" name="parLanguage" value="PL" /> 
+							<input type="hidden" name="parIncomingMsgId" /> 
+							<span class="btn_submit white"> 
+							<em class="left">&#160;</em> 
+								<input type="button" id="butLogin" name="butLogin" value="Dalej" title="Dalej" tabindex="3" onkeypress="checkIfEnter(event);return false;"
+									onclick="javascript:submitForm(event);return false;" /> 
+							<em class="right">&#160;</em>
+						</span>
+
+						</label> <a href="#" class="keyboard numKey" title="Klawiatura" accesskey="k" tabindex="2"><span>Klawiatura</span></a>
+
+						<p class="more">
+							<a href="/MCP/Share/DOWNLOAD/Wykaz_funkcji_serwisow_Pekao24.pdf" title="Wykaz funkcji serwisów" class="ext">Wykaz funkcji serwisów</a>
+						</p>
+
+						<p class="more bottomLeftLink">
+							<a href="https://www.pekao.com.pl/indywidualni/bankowosc_elektroniczna/Pekao24/PekaoInternet/?s,main,language=PL#tab4,paragraf3" title="Problemy z logowaniem?" class="ext" >Problemy z logowaniem?</a>
+						</p>
+
+						<p class="more bottomCenterLink">
+							<a href="http://demo.pekao24.pl" title="Uruchom wersję demo" class="ext">Wersja demo</a>
+						</p>
+					</fieldset>
+				</form>
+				<div class="cl">&#160;</div>
+			</div>
+
+			<a href="http://www.impekao24.pl/#url=aplikacjanatablety" class="ext btnHugeMobileAd" title="POBIERZ APLIKACJĘ PEKAO24 NA TABLETY"><span>Pobierz aplikację Pekao24 na tablety</span></a>
+
+			<div id="inaccessibility"></div>
+
+			<div class="frame boxInfo static">
+				<em class="top_l">&#160;</em><em class="top_r">&#160;</em>
+
+				<div id="safety"></div>
+
+				<em class="bottom_l">&#160;</em><em class="bottom_r">&#160;</em>
+				<div class="cl">&#160;</div>
+			</div>
+
+			<!--
+            <p><strong>UWAGA!</strong></p>
+            <a style="color:red" href="http://www.pekao.com.pl/indywidualni/bankowosc_elektroniczna/Bezpieczenstwo/?s,main,language=PL#tab4,paragraf8" title="" class="ext"><p><strong>Przypominamy, że podczas kontaktów telefonicznych Bank nigdy nie prosi o podanie<br/> numeru PIN i hasła do Pekao24</strong></p></a>
+            <a href="http://www.pekao.com.pl/indywidualni/bankowosc_elektroniczna/Bezpieczenstwo/?s,main,language=PL#tab4,paragraf8" class="more ext" title="Więcej">Więcej</a>
+            -->
+		</div>
+
+		<div id="right"></div>
+
+		<div class="cl">&#160;</div>
+	</div>
+
+	<div id="footer" class="noborder">
+		<ul class="tabs">
+			<li class="selected"><a href="#kontakt_Pekao24" title="Kontakt do Pekao24" id="contactPekao24" accesskey="9">Kontakt do Pekao24</a></li>
+			<li><a href="#kontakt_Pekao24_Makler" title="Kontakt do Pekao24Makler" id="contactMakler" accesskey="9">Kontakt do Pekao24Makler</a></li>
+		</ul>
+
+		<div id="kontakt_Pekao24">
+			<div class="box boxVerisign noMarginLeft" style="width: 115px;">
+				<a class="ext" href="http://www.pekao.com.pl"><img src="/MCP/client/logon/_img_red/_layout/aurochs.gif?1496921611621" alt="" /></a>
+			</div>
+			<div class="box small_margin noMarginLeft long180">
+				<p class="title pekao24Mobile">
+					<strong>TelePekao/ Infolinia</strong>
+				</p>
+				<p>
+					801 365 365<br />+48 42 683 82 32<br /><span style="font-size: 8px">(opłata wg cennika operatora)</span>
+				</p>
+			</div>
+			<div class="box small_margin long170">
+				<p class="title pekaoSms" title="TelePekao">
+					<strong>Bankowość mobilna</strong>
+				</p>
+				<p>
+					<a href="http://www.impekao24.pl/#url=aplikacjanatablety" class="more ext floatLeft">aplikacja na tablet</a> <span class="cl">&#160;</span>
+				</p>
+				<p>
+					<a href="http://www.impekao24.pl/#url=aplikacjanakomorki" class="more ext floatLeft">aplikacja na telefon</a> <span class="cl">&#160;</span>
+				</p>
+				<p>
+					<a href="http://m.pekao24.pl" class="more ext floatLeft">m.pekao24.pl</a> <span class="cl">&#160;</span>
+				</p>
+			</div>
+			<div class="box small_margin long180" style="padding-left:40px">
+				<p class="title pekaoSms marginBottom10">
+					<strong>PekaoSMS</strong> 3803
+				</p>
+				<p class="title email">
+					<strong>E-mail</strong> <a href="pekao24" rel="pekao.com.pl" accesskey="9" class="encode">pekao24</a>
+				</p>
+			</div>
+			<div class="box small_verisign">
+				<script type="text/javascript"
+					src="https://seal.verisign.com/getseal?host_name=www.pekao24.pl&amp;size=S&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script>
+			</div>
+		</div>
+
+		<div id="kontakt_Pekao24_Makler" style="display: none;">
+			<div class="box boxVerisign noMarginLeft" style="width: 85px;">
+				<a class="ext" href="http://www.dm.pekao.com.pl"><img src="/MCP/client/logon/_img_red/_layout/aurochs.gif?1496921611621" alt="" /></a>
+			</div>
+			<div class="box boxVerisign noMarginLeft" style="width: 215px;">
+				<p class="title pekao24Mobile" style="height:25px">
+					<strong>Pekao24Makler<br/>Serwis telefoniczny</strong>
+				</p>
+				<p>800 105 800 <span style="font-size: 8px">(połączenie bezpłatne)</span></p>
+				<p>+48 22 591 22 00 <span style="font-size: 8px">(opłata wg cennika operatora)</span></p>
+			</div>
+            <div class="box small_margin boxVerisign" style="width:155px;">
+                <p class="title pekaoSms" style="height:25px">
+					<strong>Pekao24Makler<br/>Usługi mobilne</strong>
+				</p>
+                <p><a href="http://impekao24.pl" class="more ext floatLeft">aplikacja mobilna</a><br/></p>
+				<!--<p><a href="http://m.pekao24.pl" class="more ext floatLeft">m.pekao24.pl</a></p>-->
+            </div>
+			<div class="box small_margin" style="width: 219px;">
+				<p class="title pekao24Mobile" style="height:25px">
+					<strong>Pekao24Makler<br/>Infolinia techniczna</strong>
+				</p>
+				<p>801 301 601<span style="font-size: 8px">(opłata jak za połączenie lokalne)</span></p>
+				<p>+48 22 591 26 01<span style="font-size: 8px">(opłata wg cennika operatora)</span></p>
+			</div>
+			<div class="box small_margin boxVerisign noMarginLeft">
+				<p class="title email" style="height:25px">
+					<strong>E-mail</strong>
+				</p>
+				<p><a href="pekao24makler" rel="pekao.com.pl" accesskey="9" class="encode">pekao24makler</a></p>
+			</div>
+			<div class="box small_verisign">
+				<script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.pekao24.pl&amp;size=S&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script>
+			</div>
+		</div>
+
+		<div class="footer_down">
+			<address>
+				<a href="http://www.pekao.com.pl/polityka_prywatnosci" title="Polityka Prywatności" class="privacy ext">Polityka Prywatności</a> | Copyright ©
+				2002-2017 <a href="http://www.pekao.com.pl/" title="Bank Pekao S.A." accesskey="1" class="ext">Bank Pekao S.A.</a>
+			</address>
+			<ul>
+				<li><a href="http://www.dm.pekao.com.pl/" title="DM Pekao" class="ext">DM Pekao</a></li>
+				<li><a href="http://www.cdmpekao.com.pl/" title="CDM Pekao S.A." class="ext">CDM Pekao S.A.</a></li>
+				<li><a href="http://www.pioneer.com.pl/" title="Pioneer Pekao TFI S.A." class="ext">Pioneer Pekao TFI S.A.</a></li>
+				<li><a href="http://www.pekaopte.pl/" title="Pekao Pioneer PTE S.A." class="ext">Pekao Pioneer PTE S.A.</a></li>
+				<li><a href="http://www.pekaoleasing.com.pl/" title="Pekao Leasing Sp. z o.o." class="ext">Pekao Leasing Sp. z o.o.</a></li>
+			</ul>
+		</div>
+		<div>
+			<p style="color: #BCBCBC;margin-bottom:10px;font-size:10px">Bank Polska Kasa Opieki Spółka Akcyjna z siedzibą w Warszawie, ul. Grzybowska 53/57, 00-950 Warszawa, 
+				wpisany do rejestru przedsiębiorców w Sądzie Rejonowym dla m.st. Warszawy w Warszawie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego, KRS: 0000014843, 
+				NIP: 526-00-06-841, REGON: 000010205, wysokość kapitału zakładowego i kapitału wpłaconego: 262 470 034 zł.
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
+
+�`{��      Z�Z�>d\�Z��       :https://www.pekao24.pl/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Tue, 17 Oct 2017 11:55:53 GMT
+Accept-Ranges: bytes
+ETag: "802aee23e47d31:0"
+Server: Microsoft-IIS/8.5
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' seal.verisign.com https://chat.pekao.com.pl; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; img-src 'self' seal.websecurity.norton.com https://chat.pekao.com.pl; style-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; font-src 'self' https://chat.pekao.com.pl; frame-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl;
+Date: Wed, 08 Nov 2017 11:15:58 GMT
+Content-Length: 15661
+ original-response-headers Content-Type: text/html
+Last-Modified: Tue, 17 Oct 2017 11:55:53 GMT
+Accept-Ranges: bytes
+ETag: "802aee23e47d31:0"
+Server: Microsoft-IIS/8.5
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' seal.verisign.com https://chat.pekao.com.pl; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; img-src 'self' seal.websecurity.norton.com https://chat.pekao.com.pl; style-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl; font-src 'self' https://chat.pekao.com.pl; frame-src 'self' 'unsafe-inline' 'unsafe-eval' https://chat.pekao.com.pl;
+Date: Wed, 08 Nov 2017 11:15:58 GMT
+Content-Length: 15661
+ uncompressed-len 0 net-response-time-onstart 522 net-response-time-onstop 524 predictor::resource-count 67 predictor::https://www.pekao24.pl/MCP/client/logon/_js/jquery-1.3.2.min.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/thickbox.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/LogonSlider.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/HelpAccordion.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/errtip.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/thick1x.min.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/NumericKeyboard.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/LoginScripts.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/LoginScriptsStep1.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/CookiesInfo.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/redirections.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_js/appPopupDesktop.js?1507902437884 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/cms/DisplayNews.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/cms/DisplayPictures.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/cms/DisplaySafety.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/cms/DisplayBanner.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/cms/DisplayInaccessibility.js 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/logo_pekao24.gif?1496921611621 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/aurochs.gif?1496921611621 1,1,1510139759,8192 predictor::https://seal.verisign.com/getseal?host_name=www.pekao24.pl&size=S&use_flash=NO&use_transparent=NO&lang=en 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css_red/style.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css/thickbox.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css/firefox.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css_red/global.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css_red/header.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css_red/content.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css_red/footer.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css/ui_jquery.css 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/data/_css_red/offerboxes.css 1,2,1510141630,12288 predictor::https://seal.websecurity.norton.com/getseal?at=0&sealid=2&dn=www.pekao24.pl&lang=en&tpt=opaque 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/tabsLi.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/icon_flagEn.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_hugeButtonMobileAd_left.png 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/icon_contact_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/icon_info_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/icon_client_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_gradient_blue.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/icon_arrow_white.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_first_input.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_last_input.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_btn_submit_white_left.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_btn_submit_white.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_btn_submit_white_right.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/icon_keyboard.png 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_hugeButtonMobileAd_right.png 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_info_grey_topLeft_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_info_grey_topRight_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_info_grey_bottomLeft_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/bg_info_grey_bottomRight_new.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/tabBottom.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/icon_phone.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/icon_mobile_phone.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/arrow_red.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/icon_email.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/MCP/data/_img_red/_layout/loadingAnimation.gif 1,1,1510139759,8192 predictor::https://www.pekao24.pl/_usercontent/_img/banners/01112017_Pekao_PEX_chmurki_221_340_btt.jpg 1,2,1510141630,12288 predictor::https://www.pekao24.pl/_usercontent/_img/banners/26102017_Pekao_KH_selfie_221_340_btt.jpg 1,2,1510141630,12288 predictor::https://www.pekao24.pl/_usercontent/_img/banners/20171026_LOTOS_221x340.jpg 1,2,1510141630,12288 predictor::https://www.pekao24.pl/_usercontent/_img/banners/20171102_PeoPay_Biomeria_221x340.png 1,2,1510141630,12288 predictor::https://www.pekao24.pl/_usercontent/_img/banners/20170928_221x340_PZU_Ogolne.jpg 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img_red/_layout/icon_navi.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/bg_mask_top.png 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/bg_mask_bottom.png 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_img/_layout/bg_info.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/client/logon/_css_red/_img/_layout/bg_info.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/data/_img_red/_layout/bg_close.gif 1,2,1510141630,12288 predictor::https://www.pekao24.pl/MCP/data/_img_red/_layout/btn_dark_blueLeftPart.gif 1,1,1510139759,8192   =-

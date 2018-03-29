@@ -1,0 +1,4 @@
+
+(unity-settings-daemon:1587): power-plugin-WARNING **: failed to turn the kbd backlight off: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Brak interfejsu „org.freedesktop.UPower.KbdBacklight” w obiekcie w ścieżce /org/freedesktop/UPower/KbdBacklight
+
+(unity-settings-daemon:1587): power-plugin-WARNING **: failed to turn the kbd backlight off: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Brak interfejsu „org.freedesktop.UPower.KbdBacklight” w obiekcie w ścieżce /org/freedesktop/UPower/KbdBacklight

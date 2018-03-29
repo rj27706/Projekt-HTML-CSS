@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Generator Lorem Ipsum Pan Tadeusz</title>
+		<meta name="author" content="TAAT Technologie Cyfrowe" />
+		<meta name="description" content="Generator Lorem Ipsum z polskimi znakami. Generuje tymczasowy tekst na potrzeby projektowe na podstawie tekstu Lorem Ipsum i Pana Tadeusza." />
+		<meta name="keywords" content="Lorem Ipsum Pan Tadeusz Generator" />
+
+        <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+		<link rel="stylesheet" type="text/css" media="screen,projection,handheld" href="lorem.css" />
+        <link rel="stylesheet" type="text/css" media="screen,projection,handheld" href="formStyle.css" />
+        
+<!--[if IE]>
+<style type="text/css">
+/*<![CDATA[*/
+body {
+    scrollbar-3dlight-color:#3F3F3F;
+    scrollbar-arrow-color:#DABE04;
+    scrollbar-base-color:#3F3F3F;
+    scrollbar-darkshadow-color:#383838;
+    scrollbar-face-color:#535353;
+    scrollbar-highlight-color:#535353;
+    scrollbar-shadow-color:#3F3F3F;
+    scrollbar-track-color:#3F3F3F;
+/*]]>*/
+</style>
+<![endif]-->
+        
+        
+        <script type="text/javascript" src="codebox.js"></script>
+        <script type="text/javascript" src="formStyle.js"></script>
+                <script type="text/javascript">
+        /*<![CDATA[*/
+			function Initialise()
+		{
+			if(checkImages()){expandcodebox();preloadImages();InitialiseCheckboxes();InitialiseRadioboxes();
+            }
+		}
+		
+        window.onload = Initialise;
+        /*]]>*/
+        </script>
+	</head>
+	
+	<body>
+    <div id="margin">&nbsp;</div>
+		<div id="content">
+        <div id="left">
+        <div><img id="formStyleTestImage" src="formStyle.gif" alt="" /></div>
+        <h1><a href="http://lipsum.pl/"><img id="h1" style="border: none;" src="gfx/lorem_ipsum.png" alt="Lorem Ipsum" /></a></h1>
+            <div id="pantadeusz">
+            	<img id="h2" src="gfx/panta.png" alt="PanTa" /><img id="h3" src="gfx/deusz.png" alt="deusz" />
+            </div>
+            
+            <div id="cytat1">
+                <img id="h4" src="gfx/generator.png" alt="generator" />
+            	<img id="h5" src="gfx/niechaj.png" alt="A niechaj narodowie wżdy postronni znają iż" />
+                <img id="h6" src="gfx/polacy.png" alt="Polacy nie gęsi, swój język mają." />
+            </div>
+            
+        
+      
+        
+       <div id="gen">        
+<textarea class="codebox" id="codebox" rows="10" cols="50" lang="latin">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus blandit eu, tempor diam pede cursus vitae, ultricies eu, faucibus quis, porttitor eros cursus lectus, pellentesque eget, bibendum a, gravida ullamcorper quam. Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus. Sed vel lectus. Ut sagittis, ipsum dolor quam.</textarea>
+
+        </div>
+        <a href="index.php?tekst=1&amp;typ=1&amp;dlugosc=1&amp;slow=180&amp;ile=3&amp;id=8938466&amp;lorem=1">bezpośredni link do tego tekstu</a>
+       <label for="codebox" style="position: absolute; left: -9000px;">Wygenerowany tekst</label>
+       
+       <div>
+       	<a href="http://taat.pl/narzedzia/text4web/">text4web — poprawki typograficzne</a>
+       </div>
+       
+
+        </div>
+        
+        
+        <div id="right">
+        
+        <ul id="topmenu">
+        	<li><a href="co_to_jest_lorem_ipsum.html">Co to jest?</a></li>
+            <li><a href="lorem_ipsum_generator.html">Jak używać?</a></li>
+        </ul>
+        
+        <form id="form1" action="index.php" method="post">
+        	<fieldset>
+        		<legend style="margin">OPCJE GENERATORA</legend>
+                <div style="padding-left: 0.75em;">
+                <div>
+                <label id="label1" for="tekst">tekst</label>
+                <select name="tekst" id="tekst" class="in">
+                	<option value ="1">Lorem Ipsum</option>
+                    <option value ="2">Pan Tadeusz</option>
+                    <option value ="4">Nowomowa</option>
+                    <option value ="3">Kant: Rozprawa...</option>
+                    <option value ="5">Братья Карамазовы</option>
+                </select>
+                </div>
+                
+                <div style="float: left; clear: right;">
+                	<label id="label2" for="ile">ilość</label> 
+                    <input class="in" type="text" name="ile" id="ile" value="1" onchange="updateTyp();"/>
+                </div>
+               
+                <fieldset id="ftyp">
+                
+                <legend>TYP</legend>
+                	 
+                	<div >
+                		<span class="rbStyled"><input type="radio" name="typ" id="para" value="1" checked="checked"  /></span>
+                    <label id="para_label" for="para" onclick="tRbLabel('rbImg0','','typ','StyledRadiobox0');updateTyp();return false;">akapity</label>
+                	</div>
+                	
+                     
+                    <div>
+                    	<span class="rbStyled"><input type="radio" name="typ" id="list" value="2"  /></span>
+                    <label for="list" id="list_label" onclick="tRbLabel('rbImg1','','typ','StyledRadiobox1');updateTyp();return false;">listy</label>
+                    </div>
+                    
+                    </fieldset>
+                    
+                <fieldset id="fdlugosc">
+                	<legend style="text-indent: 0;">DŁUGOŚĆ</legend>
+                	<div>
+                		 
+                        <span class="rbStyled"><input type="radio" name="dlugosc" id="stala" checked="checked" value="1" /></span>
+                        <label for="stala" id="label_stala" onclick="tRbLabel('rbImg2','','dlugosc','StyledRadiobox2');return false;" >stała</label>
+                        
+                        <div id="st">
+                        	<label for="slow" id="label_od">dokładnie</label> 
+                        <input class="in" type="text" name="slow" id="slow" value="180" /> <label id="slst" for="slow">słów</label>
+                        </div>
+                        
+                        
+                	</div>
+                
+                    
+                    
+                    <div>
+                        <span class="rbStyled"><input type="radio" name="dlugosc" id="zmienna" value="2" /></span>
+                    	<label for="zmienna" onclick="tRbLabel('rbImg3','','dlugosc','StyledRadiobox3');return false;" id="label_zmienna">zmienna</label> 
+                        
+                        <div id="zm" >
+                        	<label for="od">od</label> 
+                            <input class="in" type="text" name="od" id="od" value="100" />
+                            
+                            <label for="do">do</label> 
+                            <input class="in" type="text" name="do" id="do" value="150" /> <label id="slzm" for="do">słów</label>
+                        </div>
+                    </div>
+                    
+                	
+                </fieldset>
+                
+                
+                <fieldset>
+                	<legend>INNE</legend>
+                	<div>
+                		<span class="cbStyled"><input type="checkbox" name="lorem" id="lorem" checked="" /></span><label for="lorem" onclick="tCbLabel('cbImg0','','StyledCheckbox0');return false;">zacznij od początku tekstu</label>
+                	</div>
+                	                
+                <div>
+                	<span class="cbStyled"><input type="checkbox" name="html" id="html" /></span>
+                    <label for="html" onclick="tCbLabel('cbImg1','','StyledCheckbox1');return false;"><abbr title="Hypertext Markup Language">HTML</abbr></label>
+                </div>
+                <div>
+                    <span class="cbStyled"><input type="checkbox" name="w" id="w" onclick="checkHTML();" /></span>
+                    <label for="w" onclick="tCbLabel('cbImg2','','StyledCheckbox2');return false;">przenoś spójniki (<code>&amp;nbsp;</code>)</label>
+                </div>
+                
+                
+                </fieldset>
+                         
+                <div>
+                	&nbsp;<input type="submit" name="submit" id="submit" value="&nbsp;" />
+                </div>
+              </div>
+        	</fieldset>
+        </form>
+        
+       </div> 
+		</div>
+	</body>
+</html>��.&]�      Z��Z��>dP(ZZ       :http://lipsum.pl/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 08 Nov 2017 10:13:47 GMT
+Server: Apache
+Last-Modified: Tue, 22 May 2007 08:06:07 GMT
+ETag: "a6e4e66-2534-4310a858eb9c0"
+Accept-Ranges: bytes
+Content-Length: 9524
+Content-Type: text/html
+ original-response-headers Date: Wed, 08 Nov 2017 10:13:47 GMT
+Server: Apache
+Last-Modified: Tue, 22 May 2007 08:06:07 GMT
+ETag: "a6e4e66-2534-4310a858eb9c0"
+Accept-Ranges: bytes
+Content-Length: 9524
+Keep-Alive: timeout=2
+Connection: Keep-Alive
+Content-Type: text/html
+ uncompressed-len 0 predictor::resource-count 17 predictor::http://lipsum.pl/print.css 1,2,1510136059,12288 predictor::http://lipsum.pl/lorem.css 1,2,1510136059,12288 predictor::http://lipsum.pl/formStyle.css 1,2,1510136059,12288 predictor::http://lipsum.pl/codebox.js 1,2,1510136059,12288 predictor::http://lipsum.pl/formStyle.js 1,2,1510136059,12288 predictor::http://lipsum.pl/formStyle.gif 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/lorem_ipsum.png 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/panta.png 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/deusz.png 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/generator.png 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/niechaj.png 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/polacy.png 1,1,1510136027,8192 net-response-time-onstart 116 net-response-time-onstop 140 predictor::http://lipsum.pl/gfx/generuj.png 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/checkbox_off.gif 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/checkbox_on.gif 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/radio_off.gif 1,1,1510136027,8192 predictor::http://lipsum.pl/gfx/radio_on.gif 1,1,1510136027,8192   %4

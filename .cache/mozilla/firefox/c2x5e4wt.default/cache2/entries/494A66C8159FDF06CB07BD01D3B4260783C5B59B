@@ -1,0 +1,1753 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="no-js" data-ffo-opensans="false" data-ffo-zillaslab="false">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  
+    
+  
+
+  
+  <title>list-style-type - CSS | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+    <link rel="home" href="/en-US/">
+    <link rel="copyright" href="#copyright">
+  
+
+  
+    
+    
+
+    
+          <link href="https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.27a756886c80.css" rel="stylesheet" type="text/css" />
+      
+
+    
+  
+
+    
+        <link href="https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.1a5ac0b9e47d.css" rel="stylesheet" type="text/css" />
+    
+
+
+    
+
+  <link href="https://cdn.mdn.mozilla.net/static/build/styles/locale-en-US.7e45c23d7d30.css" rel="stylesheet" type="text/css" />
+    <!-- common social tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta property="og:site_name" content="Mozilla Developer Network">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta name="twitter:site" content="@MozDevNet">
+    <meta name="twitter:creator" content="@MozDevNet">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/en-US/search/xml" title="Mozilla Developer Network">
+  
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.mdn.mozilla.net/static/img/favicon144.e7e21ca263ca.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.mdn.mozilla.net/static/img/favicon114.d526f38b09c5.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.mdn.mozilla.net/static/img/favicon72.cc65d1d762a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.mdn.mozilla.net/static/img/favicon57.de33179910ae.png">
+  <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://cdn.mdn.mozilla.net/static/img/favicon32-local.329e8131018f.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js" charset="utf-8"></script>
+
+  
+  <link rel="dns-prefetch" href="https://interactive-examples.mdn.mozilla.net" pr="0.75" />
+  <link rel="preconnect" href="https://interactive-examples.mdn.mozilla.net" pr="0.75" />
+
+  
+
+  <link rel="alternate" type="application/json" href="/en-US/docs/Web/CSS/list-style-type$json">
+  <link rel="canonical" href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type" >
+
+  
+    
+      <link rel="alternate" hreflang="de" href="/de/docs/Web/CSS/list-style-type" title="list-style-type">
+    
+      <link rel="alternate" hreflang="es" href="/es/docs/Web/CSS/list-style-type" title="list-style-type">
+    
+      <link rel="alternate" hreflang="fr" href="/fr/docs/Web/CSS/list-style-type" title="list-style-type">
+    
+      <link rel="alternate" hreflang="ja" href="/ja/docs/Web/CSS/list-style-type" title="list-style-type">
+    
+      <link rel="alternate" hreflang="pl" href="/pl/docs/Web/CSS/list-style-type" title="list-style-type">
+    
+      <link rel="alternate" hreflang="zh-CN" href="/zh-CN/docs/Web/CSS/list-style-type" title="list-style-type">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="list-style-type">
+  <meta property="og:url" content="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">
+  <meta name="twitter:url" content="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">
+  <meta name="twitter:title" content="list-style-type">
+  
+  <meta property="og:description" content="The list-style-type CSS property specifies the appearance of a list item element.">
+  <meta name="description" content="The list-style-type CSS property specifies the appearance of a list item element.">
+  <meta name="twitter:description" content="The list-style-type CSS property specifies the appearance of a list item element.">
+  
+
+
+  
+
+<script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36116321-5', 'mozilla.org');
+    ga('set', 'anonymizeIp', true);
+
+    
+        // dimension1 == 'Signed-In"
+        ga('set', 'dimension1', 'Yes');
+
+        // dimension2 == "Beta Tester"
+        
+    
+
+    // dimension9 == "Section editing"
+    
+        // dimension12 == 'Page Revision'
+        ga('set', 'dimension12', '1321999');
+        // dimension17 == 'English Slug'
+        ga('set', 'dimension17', 'Web/CSS/list-style-type');
+
+    (function() {
+        // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+        var win = window;
+        var removeUtms = function(){
+            var location = win.location;
+            if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                win.history.replaceState({}, '', location.pathname);
+            }
+        };
+
+        ga('send', 'pageview', {'hitCallback': removeUtms});
+    })();
+</script>
+
+</head>
+<body data-slug="Web/CSS/list-style-type" contextmenu="edit-history-menu" data-search-url="" class="document  " data-login-service="github">
+
+  <script type="text/javascript">
+    // make sure global mdn object exists
+    var mdn = window.mdn || {};
+
+    (function(win) {
+        'use strict';
+
+        (function(){
+  var FLAGS = {
+    'compat_api': false,'compat_data': false,'kumaediting': true,'line_length': false,'page_move': false,'redesign_beta': false,'redesign_live': false,'registration_disabled': false,'sample_frame': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true,'newsletter': true,'newsletter_article': true,'foundation_callout': false,'helpful-survey-2': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // Site configuration
+        win.mdn.ckeditor = {};
+        win.mdn.features = {};
+        win.mdn.staticPath = 'https://cdn.mdn.mozilla.net/static/';
+        win.mdn.optimizely = win['optimizely'] || [];
+        win.mdn.wiki = {
+            autosuggestTitleUrl: '/en-US/docs/get-documents'
+        };
+        win.mdn.assets = {
+            css: {
+                'editor-content': ['https://cdn.mdn.mozilla.net/static/build/styles/editor-content.e8a6a8ba6d8e.css','https://cdn.mdn.mozilla.net/static/build/styles/editor-locale-en-US.7e45c23d7d30.css',
+                ],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/styles/wiki-compat-tables.12eaf4a7ab3e.css',]
+            },
+            js: {
+                'syntax-prism': ['https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js',],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/js/wiki-compat-tables.5ed42ff288ec.js',]
+            }
+        };
+
+        win.mdn.notifications = [];
+
+        
+
+        // interactive editor config
+        win.mdn.interactiveEditor = {
+            siteUrl: "https://developer.mozilla.org",
+            editorUrl: "https://interactive-examples.mdn.mozilla.net"
+        };
+
+    })(this);
+</script>
+    
+  <ul id="nav-access">
+    <li><a href="#document-main" id="skip-main">Skip to main content</a></li>
+    <li><a id="skip-language" href="#language">Select language</a></li>
+    <li><a href="#q" id="skip-search">Skip to search</a></li>
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+    <a href="/en-US/" class="logo">MDN Web Docs</a>
+
+    <div id="nav-sec">
+      <ul>
+      
+        <li class="nav-tools"><a href="/en-US/docs/MDN/Doc_status">Tools<i aria-hidden="true" class="icon-caret-down"></i></a>
+          <div class="submenu submenu-cols-2 js-submenu" id="nav-tools-submenu">
+            <div class="submenu-column">
+              <div class="title">Contribute to MDN</div>
+              <ul>
+                <li><a href="/en-US/docs/MDN/Getting_started">Get started</a></li>
+                <li><a href="/en-US/docs/MDN/Doc_status">Review or localize docs</a></li>
+              </ul>
+            </div><div class="submenu-column last">
+              <div class="title">Site Tools</div>
+              <ul>
+                <li><a href="/en-US/dashboards/revisions">Revision dashboard</a></li>
+                <li><a href="/en-US/docs/MDN/Doc_status">Documentation status</a></li>
+              </ul>
+            </div>
+          </div>
+      </li><li class="nav-login"><div class="login">
+    
+        <a class="user-url" href="/en-US/profiles/rj27706"><img src="https://secure.gravatar.com/avatar/9d5c117965e272ad16dc8f5b088e6d5b?s=50&amp;r=pg&amp;d=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Favatar.png" alt="rj27706" width="50" height="50" class="login-photo avatar" /><span class="login-name">rj27706</span> <i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-user-submenu">
+            <div class="submenu-column">
+                <ul>
+                    <li><a href="/en-US/profiles/rj27706">View profile</a></li>
+                    <li><a href="/en-US/profiles/rj27706/edit">Edit profile</a></li>
+                    <li><form class="login-form" action="/en-US/users/signout" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <input name="next" type="hidden" value="/en-US/docs/Web/CSS/list-style-type">
+                        <button class="logout button link" type="submit">Sign out</button>
+                    </form></li>
+                </ul>
+            </div>
+        </div>
+    
+</div></li>
+      </ul>
+    </div>
+
+    <nav id="main-nav" class="nav-main" role="navigation"><ul><li class="nav-main-item"><a href="/en-US/docs/Web">Technologies<i aria-hidden="true" class="icon-caret-down"></i></a>
+      <div class="submenu js-submenu" id="nav-tech-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/en-US/docs/Web/HTML">HTML</a></li>
+            <li><a href="/en-US/docs/Web/CSS">CSS</a></li>
+            <li><a href="/en-US/docs/Web/JavaScript">JavaScript</a></li>
+            <li><a href="/en-US/docs/Web/Guide/Graphics">Graphics</a></li>
+            <li><a href="/en-US/docs/Web/HTTP">HTTP</a></li>
+            <li><a href="/en-US/docs/Web/API">APIs / DOM</a></li>
+            <li><a href="/en-US/docs/Mozilla/Add-ons/WebExtensions">Browser Extensions</a></li>
+            <li><a href="/en-US/docs/Web/MathML">MathML</a></li>
+          </ul>
+        </div></div><li class="nav-main-item"><a href="/en-US/docs/Learn">References & Guides<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-learn-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/en-US/docs/Learn">Learn web development</a></li>
+            <li><a href="/en-US/docs/Web/Tutorials">Tutorials</a></li>
+            <li><a href="/en-US/docs/Web/Reference">References</a></li>
+            <li><a href="/en-US/docs/Web/Guide">Developer Guides</a></li>
+            <li><a href="/en-US/docs/Web/Accessibility">Accessibility</a></li>
+            <li><a href="/en-US/docs/Games">Game development</a></li>
+            <li><a href="/en-US/docs/Web">...more docs</a></li>
+          </ul>
+        </div>
+      </div>
+      </li><li class="nav-main-item"><a href="/en-US/docs/MDN/Feedback">Feedback<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="https://support.mozilla.org/">Get Firefox help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://stackoverflow.com/">Get web development help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="/en-US/docs/MDN/Community">Join the MDN community</a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">Report a content problem<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.mdn">Report a bug<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="nav-main-search"><form action="/en-US/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">Search</label>
+          <input type="search" id="main-q" name="q" placeholder="Search" data-value="" value="" />
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>
+          <button type="submit" class="offscreen">Search</button>
+        </div>
+      </form></li>
+    </ul></nav>
+  </div></header> 
+
+  <!-- Content will go here -->
+  <main id="content">
+      
+  <!-- heading -->
+  <div id="wiki-document-head" class="document-head">
+    <div class="center">
+      
+        <!-- crumbs -->
+        
+  <nav class="crumbs" role="navigation"><ol xmlns:v="http://rdf.data-vocabulary.org/#" aria-label="breadcrumbs">
+    <li typeof="v:Breadcrumb"><a href="/en-US" rel="v:url" property="v:title">MDN</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/en-US/docs/Web" rel="v:url" property="v:title">Web technology for developers</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/en-US/docs/Web/CSS" rel="v:url" property="v:title">CSS</a></li>
+    
+    <li class="crumb" typeof="v:Breadcrumb" property="v:title">list-style-type</li>
+  </ol></nav>
+      
+
+      <!-- action buttons -->
+      <div class="document-actions">
+        
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons">
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Languages</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                
+                
+                  <li><bdi><a rel="internal" href="/de/docs/Web/CSS/list-style-type" title="German">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/es/docs/Web/CSS/list-style-type" title="Spanish">Español (es)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/fr/docs/Web/CSS/list-style-type" title="French">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ja/docs/Web/CSS/list-style-type" title="Japanese">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/pl/docs/Web/CSS/list-style-type" title="Polish">Polski (pl)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/zh-CN/docs/Web/CSS/list-style-type" title="Chinese (Simplified)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+              
+
+              
+                <li><a href="/en-US/docs/Web/CSS/list-style-type$locales" rel="nofollow, noindex" id="translations-add">Add a translation</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+      
+      <li class="page-buttons-edit"><a href="/en-US/docs/Web/CSS/list-style-type$edit" class="button neutral" data-optimizely-hook="button-edit-doc" id="edit-button" rel="nofollow, noindex">Edit<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+        <li><button id="watch-menu" class="only-icon" aria-haspopup="true" aria-owns="watch-menu-submenu" aria-expanded="false"><span>Watch</span><i aria-hidden="true" class="icon-eye"></i></button>
+        <div class="submenu js-submenu" id="watch-menu-submenu">
+            <div class="submenu-column">
+                <div class="title">Watch</div>
+                <ul>
+                  <li class="page-watch">
+                    
+                    
+                    
+                    
+                    <form action="/en-US/docs/Web/CSS/list-style-type$subscribe" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="Updating subscription status" data-subscribe-text="Subscribe to this article" data-unsubscribe-text="Unsubscribe from this article" data-subscribe-message="You are now subscribed to list-style-type." data-unsubscribe-message="You have been unsubscribed from list-style-type.">
+                        Subscribe to this article
+                        </a>
+                    </form>
+                  </li>
+
+                  
+                  <li class="page-watch">
+                    
+                    
+                    <form action="/en-US/docs/Web/CSS/list-style-type$subscribe_to_tree" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="" data-subscribe-text="Subscribe to this article and all its sub-articles" data-unsubscribe-text="Unsubscribe from this article and all its sub-articles" data-subscribe-message="You are now subscribed to this article and all its sub-articles." data-unsubscribe-message="You have been unsubscribed from this article and all its sub-articles.">
+                        Subscribe to this article and all its sub-articles
+                        </a>
+                    </form>
+                  </li>
+
+                  
+
+                  </ul>
+
+                  
+                  
+            </div>
+        </div>
+        </li>
+        
+
+        <li class="page-buttons-advanced"><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Advanced</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Advanced</div>
+            <ul>
+                <li><a href="/en-US/docs/Web/CSS/list-style-type$history" rel="nofollow, noindex">History</a></li>
+                
+                  <li><a href="/en-US/docs/new?parent=4959" rel="nofollow, noindex">New sub-article</a></li>
+                  <li><a href="/en-US/docs/new?clone=4959&amp;parent=1312" rel="nofollow, noindex">Clone this article</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="#" onclick="return window.print();">Print this article</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+      </div>
+
+      <div class="document-title">
+        
+
+        <h1>list-style-type</h1>
+      </div>
+    </div>
+  </div>
+
+      <div class="center clear">
+      
+
+    <div class="wiki-main-content" id="document-main"><div class="center">
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-right-present wiki-left-present">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            
+              <!-- TOC, approvals, etc -->
+              <div class="column-strip wiki-column" id="wiki-right">
+              
+              <!-- table of contents -->
+              <div id="toc" class="toc toggleable">
+                <a href="#toc" class="title toggler" data-open-icon="icon-caret-right" data-closed-icon="icon-caret-down">In This Article<i></i></a>
+                <ol class="toggle-container">
+                  <li><a rel="internal" href="#Syntax">Syntax</a><ol><li><a rel="internal" href="#Values">Values</a><li><a rel="internal" href="#Non-standard_extensions">Non-standard extensions</a><li><a rel="internal" href="#Formal_syntax">Formal syntax</a></ol></li><li><a rel="internal" href="#Examples">Examples</a><ol><li><a rel="internal" href="#CSS">CSS</a><li><a rel="internal" href="#HTML">HTML</a><li><a rel="internal" href="#Result">Result</a></ol></li><li><a rel="internal" href="#Notes">Notes</a><li><a rel="internal" href="#Specifications">Specifications</a><li><a rel="internal" href="#Browser_compatibility">Browser compatibility</a><li><a rel="internal" href="#See_also">See also</a>
+                </ol>
+              </div>
+              
+              </div>
+            
+
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-half wiki-column text-content">
+
+              
+
+              
+                
+              
+              
+
+              
+
+              
+                
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    
+                    <div><section class="Quick_links" id="Quick_Links"><!-- --></section></div>
+
+<p>The<strong> <code>list-style-type</code></strong> <a href="/en-US/docs/Web/CSS">CSS</a> property specifies the appearance of a list item element.</p>
+
+<pre class="brush:css no-line-numbers">/* Partial list of types */
+list-style-type: disc;
+list-style-type: circle;
+list-style-type: square;
+list-style-type: decimal;
+list-style-type: georgian;
+list-style-type: cjk-ideographic;
+list-style-type: kannada;
+
+/* &lt;string&gt; value */
+list-style-type: '-';
+
+/* Identifier matching an @counter-style rule */
+list-style-type: custom-counter-style;
+
+/* Keyword value */
+list-style-type: none;
+
+/* Global values */
+list-style-type: inherit;
+list-style-type: initial;
+list-style-type: unset;
+</pre>
+
+<div class="hidden" id="list-style-type">
+<pre class="brush: html">&lt;div class="grid"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="cell"&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Banana&lt;/li&gt;
+        &lt;li&gt;Apple&lt;/li&gt;
+        &lt;li&gt;Peach&lt;/li&gt;
+        &lt;li&gt;Platypus&lt;/li&gt;
+        &lt;li&gt;Orange&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="note"&gt;
+      &lt;p&gt;
+        list-style-type:
+        &lt;select&gt;
+          &lt;option&gt;none&lt;/option&gt;
+          &lt;option&gt;inherit&lt;/option&gt;
+          &lt;optgroup label="Custom types"&gt;
+            &lt;option&gt;"Fruit or… "&lt;/option&gt;
+            &lt;option&gt;symbols(symbolic '○' '●')&lt;/option&gt;
+            &lt;option&gt;custom-emoji&lt;/option&gt;
+          &lt;/optgroup&gt;
+          &lt;optgroup label="Symbolic types"&gt;
+            &lt;option&gt;disc&lt;/option&gt;
+            &lt;option&gt;circle&lt;/option&gt;
+            &lt;option&gt;square&lt;/option&gt;
+            &lt;option&gt;disclosure-open&lt;/option&gt;
+            &lt;option&gt;disclosure-closed&lt;/option&gt;
+          &lt;/optgroup&gt;
+          &lt;optgroup label="Alphabetic types"&gt;
+            &lt;option&gt;lower-alpha&lt;/option&gt;
+            &lt;option&gt;lower-latin&lt;/option&gt;
+            &lt;option&gt;upper-alpha&lt;/option&gt;
+            &lt;option&gt;upper-latin&lt;/option&gt;
+            &lt;option&gt;cjk-earthly-branch&lt;/option&gt;
+            &lt;option&gt;cjk-heavenly-stem&lt;/option&gt;
+            &lt;option&gt;lower-greek&lt;/option&gt;
+            &lt;option&gt;hiragana&lt;/option&gt;
+            &lt;option&gt;hiragana-iroha&lt;/option&gt;
+            &lt;option&gt;katakana&lt;/option&gt;
+            &lt;option&gt;katakana-iroha&lt;/option&gt;
+          &lt;/optgroup&gt;
+          &lt;optgroup label="Numeric types"&gt;
+            &lt;option&gt;decimal&lt;/option&gt;
+            &lt;option&gt;decimal-leading-zero&lt;/option&gt;
+            &lt;option&gt;arabic-indic&lt;/option&gt;
+            &lt;option&gt;armenian&lt;/option&gt;
+            &lt;option&gt;upper-armenian&lt;/option&gt;
+            &lt;option&gt;lower-armenian&lt;/option&gt;
+            &lt;option&gt;bengali&lt;/option&gt;
+            &lt;option&gt;cambodian&lt;/option&gt;
+            &lt;option&gt;khmer&lt;/option&gt;
+            &lt;option&gt;cjk-decimal&lt;/option&gt;
+            &lt;option&gt;devanagari&lt;/option&gt;
+            &lt;option&gt;georgian&lt;/option&gt;
+            &lt;option&gt;gujarati&lt;/option&gt;
+            &lt;option&gt;gurmukhi&lt;/option&gt;
+            &lt;option&gt;hebrew&lt;/option&gt;
+            &lt;option&gt;kannada&lt;/option&gt;
+            &lt;option&gt;lao&lt;/option&gt;
+            &lt;option&gt;malayalam&lt;/option&gt;
+            &lt;option&gt;mongolian&lt;/option&gt;
+            &lt;option&gt;myanmar&lt;/option&gt;
+            &lt;option&gt;oriya&lt;/option&gt;
+            &lt;option&gt;persian&lt;/option&gt;
+            &lt;option&gt;lower-roman&lt;/option&gt;
+            &lt;option&gt;upper-roman&lt;/option&gt;
+            &lt;option&gt;tamil&lt;/option&gt;
+            &lt;option&gt;telugu&lt;/option&gt;
+            &lt;option&gt;thai&lt;/option&gt;
+            &lt;option&gt;tibetan&lt;/option&gt;
+          &lt;/optgroup&gt;
+        &lt;/select&gt;
+      &lt;/p&gt;
+      "custom-emoji" Assume the following rule:
+      &lt;pre&gt;@counter-style custom-emoji {
+  system: cyclic;
+  symbols: &amp;#x1F600; &amp;#x1F60D; &amp;#x1F61D; &amp;#x1F631;
+  suffix: " ";
+}&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+
+<pre class="brush: css">html,body {
+  height: 100%;
+  box-sizing: border-box;
+  background: #EEE;
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font: 1em monospace;
+}
+
+.row {
+  display: flex;
+  flex: 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cell {
+  margin: .5em;
+  padding: .5em;
+  background-color: #FFF;
+  overflow: hidden;
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+}
+
+.note {
+  background: #fff3d4;
+  padding: 1em;
+  margin: .5em;
+  font: .8em sans-serif;
+  text-align: left;
+  flex: 1;
+  white-space: nowrap;
+}
+
+.note p { margin-top: 0; }
+.note pre { margin-bottom: 0; }
+
+@counter-style custom-emoji {
+  system: cyclic;
+  symbols: "\1F600" "\1F60D" "\1F61D" "\1F631";
+  suffix: " ";
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  font-family: sans-serif;
+  line-height: 1.5;
+}</pre>
+
+<pre class="brush: js">function updateList () {
+  var UL  = document.querySelector('ul');
+  var val = document.querySelector('select').value;
+
+  console.log(UL)
+  console.log(val)
+
+  UL.style.listStyleType = val;
+}
+
+window.addEventListener('load', function () {
+  var select = document.querySelector('select');
+  var n = select.options.length
+  select.selectedIndex = Math.floor(Math.random() * n);
+
+  updateList()
+})
+
+window.addEventListener('input', updateList)</pre>
+</div>
+
+<p><iframe src="https://mdn.mozillademos.org/en-US/docs/Web/CSS/list-style-type$samples/list-style-type?revision=1321999" height="320" width="100%" id="frame_list-style-type" class="live-sample-frame example-outcome-frame" frameborder="0"></iframe></p>
+
+<p></p><table class="properties"><tbody><tr><th scope="row"><a href="/en-US/docs/Web/CSS/initial_value">Initial value</a></th><td><code>disc</code></td></tr><tr><th scope="row">Applies to</th><td>list items</td></tr><tr><th scope="row"><a href="/en-US/docs/Web/CSS/inheritance">Inherited</a></th><td>yes</td></tr><tr><th scope="row">Media</th><td>visual</td></tr><tr><th scope="row"><a href="/en-US/docs/Web/CSS/computed_value">Computed value</a></th><td>as specified</td></tr><tr><th scope="row">Animation type</th><td>discrete</td></tr><tr><th scope="row">Canonical order</th><td>the unique non-ambiguous order defined by the formal grammar</td></tr></tbody></table><p></p>
+
+<p>The <a title="color" href="/en-US/docs/CSS/color_value">color</a> of the marker will be the same as the computed color of the element it applies to.</p>
+
+<div class="note">
+<p><strong>Note:</strong> Only a few elements (<a title="The HTML &lt;li> element is used to represent an item in a list. It must be contained in a parent element: an ordered list (&lt;ol>), an unordered list (&lt;ul>), or a menu (&lt;menu>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter." href="/en-US/docs/Web/HTML/Element/li"><code>&lt;li&gt;</code></a> and <a title="The HTML &lt;summary> element is used as a summary, caption, or legend for the content of a &lt;details> element." href="/en-US/docs/Web/HTML/Element/summary"><code>&lt;summary&gt;</code></a>) have a default value of <code>display: list-item</code>. However, the <code>list-style-type</code> property may be applied to any element whose <a title="The display CSS property specifies the type of rendering box used for an element. In HTML, default display property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet. The default value in XML is inline." href="/en-US/docs/Web/CSS/display"><code>display</code></a> value is set to <code>list-item</code>. Moreover, because this property is inherited, it can be set on a parent element (commonly <a title="The HTML &lt;ol> element represents an ordered list of items, typically rendered as a numbered list." href="/en-US/docs/Web/HTML/Element/ol"><code>&lt;ol&gt;</code></a> or <a title="The HTML &lt;ul> element represents an unordered list of items, typically rendered as a bulleted list." href="/en-US/docs/Web/HTML/Element/ul"><code>&lt;ul&gt;</code></a>) to make it apply to all list items.</p>
+</div>
+
+<h2 id="Syntax">Syntax</h2>
+
+<p>The list-style-type property may be defined as any one of:</p>
+
+<ul>
+ <li>a <code><a href="#&lt;custom-ident>">&lt;custom-ident&gt;</a></code> value</li>
+ <li>a <code><a href="#symbols()">symbols()</a></code> value</li>
+ <li>a <code><a href="#&lt;string>">&lt;string&gt;</a></code> value</li>
+ <li>the keyword <code><a href="#none">none</a></code>.</li>
+</ul>
+
+<h3 id="Values">Values</h3>
+
+<dl>
+ <dt><a id="&lt;custom-ident>" name="&lt;custom-ident>"></a><a title="The documentation about this has not yet been written; please consider contributing!" href="/en-US/docs/Web/CSS/custom-ident"><code>&lt;custom-ident&gt;</code></a></dt>
+ <dd>A identifier matching the value of a <a title="The @counter-style CSS at-rule lets you define counter styles that are not part of the predefined set of styles. An @counter-style rule defines how to convert a counter value into a string representation." href="/en-US/docs/Web/CSS/@counter-style"><code>@counter-style</code></a> or one of the predefined styles:</dd>
+</dl>
+
+<dl>
+ <dt><a id="symbols()" name="symbols()"></a><a title="The documentation about this has not yet been written; please consider contributing!" href="/en-US/docs/Web/CSS/symbols()"><code>symbols()</code></a></dt>
+ <dd>Defines an anonymous style of the list.</dd>
+ <dt><a id="&lt;string>" name="&lt;string>"></a><a title="The &lt;string> CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes." href="/en-US/docs/Web/CSS/string"><code>&lt;string&gt;</code></a></dt>
+ <dd>The specified string will be used as the item's marker.</dd>
+ <dt><a id="none" name="none"><code>none</code></a></dt>
+ <dd>No item marker is shown.</dd>
+</dl>
+
+<dl style="background: rgb(238, 238, 238); padding: 0.5em 0px 0.5em 0.5em; border: 1px solid powderblue; font-size: 90%; -moz-column-width: 20em; -webkit-columns: 20em; -moz-column-rule: 1px solid powderblue; -webkit-column-rule: 1px solid powderblue;">
+ <dt><code>disc</code></dt>
+ <dd>
+ <ul style="list-style-type: disc;">
+  <li>A filled circle (default value)</li>
+ </ul>
+ </dd>
+ <dt><code>circle</code></dt>
+ <dd>
+ <ul style="list-style-type: circle;">
+  <li>A hollow circle</li>
+ </ul>
+ </dd>
+ <dt><code>square</code></dt>
+ <dd>
+ <ul style="list-style-type: square;">
+  <li>A filled square</li>
+ </ul>
+ </dd>
+ <dt><code>decimal</code></dt>
+ <dd>
+ <ul style="list-style-type: decimal;">
+  <li>Decimal numbers</li>
+  <li>Beginning with 1</li>
+ </ul>
+ </dd>
+ <dt><code>cjk-decimal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul>
+  <li>Han decimal numbers</li>
+  <li>E.g. 一, 二, 三, ..., 九八, 九九, 一〇〇</li>
+ </ul>
+ </dd>
+ <dt><code>decimal-leading-zero</code></dt>
+ <dd>
+ <ul style="list-style-type: decimal-leading-zero;">
+  <li>Decimal numbers</li>
+  <li>Padded by initial zeros</li>
+  <li>E.g. 01, 02, 03, … 98, 99</li>
+ </ul>
+ </dd>
+ <dt><code>lower-roman</code></dt>
+ <dd>
+ <ul style="list-style-type: lower-roman;">
+  <li>Lowercase roman numerals</li>
+  <li>E.g. i, ii, iii, iv, v…</li>
+ </ul>
+ </dd>
+ <dt><code>upper-roman</code></dt>
+ <dd>
+ <ul style="list-style-type: upper-roman;">
+  <li>Uppercase roman numerals</li>
+  <li>E.g. I, II, III, IV, V…</li>
+ </ul>
+ </dd>
+ <dt><code>lower-greek</code></dt>
+ <dd>
+ <ul style="list-style-type: lower-greek;">
+  <li>Lowercase classical Greek</li>
+  <li>alpha, beta, gamma…</li>
+  <li>E.g. α, β, γ…</li>
+ </ul>
+ </dd>
+ <dt><code>lower-alpha</code></dt>
+ <dt><code>lower-latin</code></dt>
+ <dd>
+ <ul style="list-style-type: lower-alpha;">
+  <li>Lowercase ASCII letters</li>
+  <li>E.g. a, b, c, … z</li>
+  <li><code>lower-latin</code> is unsupported in IE7 and earlier</li>
+  <li>See <a href="#Browser_compatibility">Browser compatibility</a> section.</li>
+ </ul>
+ </dd>
+ <dt><code>upper-alpha</code></dt>
+ <dt><code>upper-latin</code></dt>
+ <dd>
+ <ul style="list-style-type: upper-alpha;">
+  <li>Uppercase ASCII letters</li>
+  <li>E.g. A, B, C, … Z</li>
+  <li><code>upper-latin</code> is unsupported in IE7 and earlier</li>
+ </ul>
+ </dd>
+ <dt><code>arabic-indic</code></dt>
+ <dt><code>-moz-arabic-indic</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-arabic-indic; list-style-type: arabic-indic;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>armenian</code></dt>
+ <dd>
+ <ul style="list-style-type: armenian;">
+  <li>Traditional Armenian numbering</li>
+  <li>(ayb/ayp, ben/pen, gim/keem…</li>
+ </ul>
+ </dd>
+ <dt><code>bengali</code></dt>
+ <dt><code>-moz-bengali</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-bengali; list-style-type: bengali;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>cambodian</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span>*</dt>
+ <dd>
+ <ul style="list-style-type: cambodian;">
+  <li>Example</li>
+  <li>Is a synonym for <code>khmer</code></li>
+ </ul>
+ </dd>
+ <dt><code>cjk-earthly-branch</code></dt>
+ <dt><code>-moz-cjk-earthly-branch</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-cjk-earthly-branch; list-style-type: cjk-earthly-branch;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>cjk-heavenly-stem</code></dt>
+ <dt><code>-moz-cjk-heavenly-stem</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-cjk-heavenly-stem; list-style-type: cjk-heavenly-stem;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>cjk-ideographic</code><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: cjk-ideographic;">
+  <li>Identical to <code>trad-chinese-informal</code></li>
+  <li>E.g. 一萬一千一百一十一</li>
+ </ul>
+ </dd>
+ <dt><code>devanagari</code></dt>
+ <dt><code>-moz-devanagari</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-devanagari; list-style-type: devanagari;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>ethiopic-numeric</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: ethiopic-numeric;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>georgian</code></dt>
+ <dd>
+ <ul style="list-style-type: georgian;">
+  <li>Traditional Georgian numbering</li>
+  <li>E.g. an, ban, gan, … he, tan, in…</li>
+ </ul>
+ </dd>
+ <dt><code>gujarati</code></dt>
+ <dt><code>-moz-gujarati</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-gujarati; list-style-type: gujarati;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>gurmukhi</code></dt>
+ <dt><code>-moz-gurmukhi</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-gurmukhi; list-style-type: gurmukhi;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>hebrew</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: hebrew;">
+  <li>Traditional Hebrew numbering</li>
+ </ul>
+ </dd>
+ <dt><code>hiragana</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: hiragana;">
+  <li>a, i, u, e, o, ka, ki, …</li>
+  <li>(Japanese)</li>
+ </ul>
+ </dd>
+ <dt><code>hiragana-iroha</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: hiragana-iroha;">
+  <li>i, ro, ha, ni, ho, he, to, …</li>
+  <li><a title="Iroha" class="external" href="https://en.wikipedia.org/wiki/Iroha">Iroha</a> is the old japanese ordering of syllabs.</li>
+ </ul>
+ </dd>
+ <dt><code>japanese-formal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: japanese-formal;">
+  <li>Japanese formal numbering to be used in legal or financial document.</li>
+  <li>E.g., 壱萬壱阡壱百壱拾壱</li>
+  <li>The kanjis are designed so that they can't be modified to look like another correct one</li>
+ </ul>
+ </dd>
+ <dt><code>japanese-informal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: japanese-informal;">
+  <li>Japanese informal numbering</li>
+ </ul>
+ </dd>
+ <dt><code>kannada</code></dt>
+ <dt><code>-moz-kannada</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-kannada; list-style-type: kannada;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt style="list-style-type: katakana;"><code>katakana</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: katakana;">
+  <li>A, I, U, E, O, KA, KI, …</li>
+  <li>(Japanese)</li>
+ </ul>
+ </dd>
+ <dt><code>katakana-iroha</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: katakana-iroha;">
+  <li>I, RO, HA, NI, HO, HE, TO, …</li>
+  <li><a title="Iroha" class="external" href="https://en.wikipedia.org/wiki/Iroha">Iroha</a> is the old japanese ordering of syllabs.</li>
+ </ul>
+ </dd>
+ <dt><code>khmer</code></dt>
+ <dt><code>-moz-khmer</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-khmer; list-style-type: khmer;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>korean-hangul-formal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: korean-hangul-formal;">
+  <li>Korean hangul numbering.</li>
+  <li>E.g., 일만 일천일백일십일</li>
+ </ul>
+ </dd>
+ <dt><code>korean-hanja-formal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: korean-hanja-formal;">
+  <li>Formal Korean Han numbering.</li>
+  <li>E.g. 壹萬 壹仟壹百壹拾壹</li>
+ </ul>
+ </dd>
+ <dt><code>korean-hanja-informal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: korean-hanja-informal;">
+  <li>Korean hanja numbering.</li>
+  <li>E.g., 萬 一千百十一</li>
+ </ul>
+ </dd>
+ <dt><code>lao</code></dt>
+ <dt><code>-moz-lao</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-lao; list-style-type: lao;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>lower-armenian</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span>*</dt>
+ <dd>
+ <ul style="list-style-type: lower-armenian;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>malayalam</code></dt>
+ <dt><code>-moz-malayalam</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-malayalam; list-style-type: malayalam;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>mongolian</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: mongolian;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>myanmar</code></dt>
+ <dt><code>-moz-myanmar</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-myanmar; list-style-type: myanmar;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>oriya</code></dt>
+ <dt><code>-moz-oriya</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-oriya; list-style-type: oriya;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>persian</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dt><code>-moz-persian</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-persian; list-style-type: persian;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>simp-chinese-formal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: simp-chinese-formal;">
+  <li>Simplified Chinese formal numbering.</li>
+  <li>E.g. 壹万壹仟壹佰壹拾壹</li>
+ </ul>
+ </dd>
+ <dt><code>simp-chinese-informal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: simp-chinese-informal;">
+  <li>Simplified Chinese informal numbering.</li>
+  <li>E.g. 一万一千一百一十一</li>
+ </ul>
+ </dd>
+ <dt><code>tamil</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dt><code>-moz-tamil</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-tamil; list-style-type: tamil;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>telugu</code></dt>
+ <dt><code>-moz-telugu</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-telugu; list-style-type: telugu;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>thai</code></dt>
+ <dt><code>-moz-thai</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-thai; list-style-type: thai;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>tibetan</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span>*</dt>
+ <dd>
+ <ul style="list-style-type: tibetan;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>trad-chinese-formal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: trad-chinese-formal;">
+  <li>Traditional Chinese formal numbering.</li>
+  <li>E.g. 壹萬壹仟壹佰壹拾壹</li>
+ </ul>
+ </dd>
+ <dt><code>trad-chinese-informal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: trad-chinese-informal;">
+  <li>Traditional Chinese informal numbering.</li>
+  <li>E.g. 一萬一千一百一十一</li>
+ </ul>
+ </dd>
+ <dt><code>upper-armenian</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span>*</dt>
+ <dd>
+ <ul style="list-style-type: upper-armenian;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>disclosure-open</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: disclosure-open;">
+  <li>Symbol indicating that a disclosure widget such as <a title="The HTML &lt;details> element is used as a disclosure widget from which the user can retrieve additional information." href="/en-US/docs/Web/HTML/Element/details"><code>&lt;details&gt;</code></a> is opened.</li>
+ </ul>
+ </dd>
+ <dt><code>disclosure-closed</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></dt>
+ <dd>
+ <ul style="list-style-type: disclosure-closed;">
+  <li>Symbol indicating that a disclosure widget, like <a title="The HTML &lt;details> element is used as a disclosure widget from which the user can retrieve additional information." href="/en-US/docs/Web/HTML/Element/details"><code>&lt;details&gt;</code></a> is closed.</li>
+ </ul>
+ </dd>
+</dl>
+
+<h3 id="Non-standard_extensions">Non-standard extensions</h3>
+
+<p>A few more predefined types are provided by Mozilla (Firefox), Blink (Chrome and Opera) and WebKit (Safari) to support list types in other languages. See the compatibility table to check which browsers supports which extension.</p>
+
+<dl style="background: rgb(238, 238, 238); padding: 0.5em 0px 0.5em 0.5em; border: 1px solid powderblue; font-size: 90%; -moz-column-width: 16em; -webkit-columns: 16em; -moz-column-rule: 1px solid powderblue; -webkit-column-rule: 1px solid powderblue;">
+ <dt><code>-moz-ethiopic-halehame</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-ethiopic-halehame;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>-moz-ethiopic-halehame-am</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-ethiopic-halehame-am;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>ethiopic-halehame-ti-er</code></dt>
+ <dt><code>-moz-ethiopic-halehame-ti-er</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-ethiopic-halehame-ti-er;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>ethiopic-halehame-ti-et</code></dt>
+ <dt><code>-moz-ethiopic-halehame-ti-et</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-ethiopic-halehame-ti-et;">
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>hangul</code></dt>
+ <dt><code>-moz-hangul</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-hangul;">
+  <li>Example</li>
+  <li>Example</li>
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>hangul-consonant</code></dt>
+ <dt><code>-moz-hangul-consonant</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-hangul-consonant;">
+  <li>Example</li>
+  <li>Example</li>
+  <li>Example</li>
+ </ul>
+ </dd>
+ <dt><code>urdu</code></dt>
+ <dt><code>-moz-urdu</code></dt>
+ <dd>
+ <ul style="list-style-type: -moz-urdu;">
+  <li>Example</li>
+ </ul>
+ </dd>
+</dl>
+
+<h3 id="Formal_syntax">Formal syntax</h3>
+
+<pre class="syntaxbox"><a href="#counter-style">&lt;counter-style&gt;</a> <a title="Single bar: exactly one of the entities must be present" href="/en-US/docs/CSS/Value_definition_syntax#Single_bar">|</a> <a title="The &lt;string> CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes." href="/en-US/docs/Web/CSS/string">&lt;string&gt;</a> <a title="Single bar: exactly one of the entities must be present" href="/en-US/docs/CSS/Value_definition_syntax#Single_bar">|</a> none<p style="font-family: Open Sans,Arial,sans-serif; margin: 10px 0 0 0;">where <br><code style='font-family: Consolas,Monaco,"Andale Mono",monospace;'><span id="counter-style">&lt;counter-style&gt;</span> = <a href="#counter-style-name">&lt;counter-style-name&gt;</a> <a title="Single bar: exactly one of the entities must be present" href="/en-US/docs/CSS/Value_definition_syntax#Single_bar">|</a> symbols()</code></p><p style="font-family: Open Sans,Arial,sans-serif; margin: 10px 0 0 0;">where <br><code style='font-family: Consolas,Monaco,"Andale Mono",monospace;'><span id="counter-style-name">&lt;counter-style-name&gt;</span> = <a title="The &lt;custom-ident> CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity." href="/en-US/docs/Web/CSS/custom-ident">&lt;custom-ident&gt;</a></code></p></pre>
+
+<h2 id="Examples">Examples</h2>
+
+<h3 id="CSS">CSS</h3>
+
+<pre class="brush: css">ol.normal {
+  list-style-type: upper-alpha;
+}
+
+/* or use the shortcut "list-style": */
+ol.shortcut {
+  list-style: upper-alpha;
+}
+</pre>
+
+<h3 id="HTML">HTML</h3>
+
+<pre class="brush: html">&lt;ol class="normal"&gt;List 1
+  &lt;li&gt;Hello&lt;/li&gt;
+  &lt;li&gt;World&lt;/li&gt;
+  &lt;li&gt;What's up?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ol class="shortcut"&gt;List 2
+  &lt;li&gt;Looks&lt;/li&gt;
+  &lt;li&gt;Like&lt;/li&gt;
+  &lt;li&gt;The&lt;/li&gt;
+  &lt;li&gt;Same&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+
+<h3 id="Result">Result</h3>
+
+<p><iframe src="https://mdn.mozillademos.org/en-US/docs/Web/CSS/list-style-type$samples/Examples?revision=1321999" height="300" width="200" id="frame_Examples" class="live-sample-frame sample-code-frame" frameborder="0"></iframe></p>
+
+<h2 id="Notes">Notes</h2>
+
+<ul>
+ <li>Some types require a suitable font installed to display as expected.</li>
+ <li>The <code>cjk-ideographic</code> is identical to <code>trad-chinese-informal</code>; it exists for legacy reasons.</li>
+</ul>
+
+<h2 id="Specifications">Specifications</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Specification</th>
+   <th scope="col">Status</th>
+   <th scope="col">Comment</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a hreflang="en" class="external" lang="en" href="https://drafts.csswg.org/css-counter-styles-3/#extending-css2">CSS Counter Styles Level 3<br><small lang="en-US">The definition of 'list-style-type' in that specification.</small></a></td>
+   <td><span class="spec-CR">Candidate Recommendation</span></td>
+   <td>Redefines CSS2.1 counters.<br>
+    Extends the syntax to support <code>@counter-style</code> rules.<br>
+    Defines using <code>@counter-style</code> the usual style types: <code>hebrew</code>, <code>cjk-ideographic</code>, <code>hiragana</code>, <code>hiragana-iroha</code>, <code>katakana</code>, <code>katakana-iroha</code>, <code>japanese-formal</code>, <code>japanese-informal</code>, <code>simp-chinese-formal</code>, <code>trad-chinese-formal</code>, <code>simp-chinese-formal</code>, <code>trad-chinese-formal</code>,<code>korean-hangul-formal</code>, <code>korean-hanja-informal</code>, <code>korean-hanja-formal</code>, <code>cjk-decimal</code>, <code>ethiopic-numeric</code>, <code>disclosure-open</code> and <code>disclosure-closed</code>.<br>
+    Extends <code>&lt;counter-style&gt;</code> with the <code>symbols()</code> functional notation.</td>
+  </tr>
+  <tr>
+   <td><a hreflang="en" class="external" lang="en" href="https://drafts.csswg.org/css-lists-3/#propdef-list-style-type">CSS Lists and Counters Module Level 3<br><small lang="en-US">The definition of 'list-style-type' in that specification.</small></a></td>
+   <td><span class="spec-WD">Working Draft</span></td>
+   <td>Modify syntax to support for identifiers used in <code>@counter-style</code> rules to keywords.<br>
+    Support for a simple <code>&lt;string&gt;</code>.</td>
+  </tr>
+  <tr>
+   <td><a hreflang="en" class="external" lang="en" href="http://www.w3.org/TR/CSS2/generate.html#propdef-list-style-type">CSS Level 2 (Revision 1)<br><small lang="en-US">The definition of 'list-style-type' in that specification.</small></a></td>
+   <td><span class="spec-REC">Recommendation</span></td>
+   <td>Initial definition</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Browser_compatibility">Browser compatibility</h2>
+
+<div><div class="htab">
+    <a id="AutoCompatibilityTable" name="AutoCompatibilityTable"></a>
+    <ul>
+        <li class="selected"><a>Desktop</a></li>
+        <li><a>Mobile</a></li>
+    </ul>
+</div></div>
+
+<div id="compat-desktop">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>Feature</th>
+   <th>Chrome</th>
+   <th>Edge</th>
+   <th>Firefox (Gecko)</th>
+   <th>Internet Explorer</th>
+   <th>Opera</th>
+   <th>Safari (WebKit)</th>
+  </tr>
+  <tr>
+   <td>Basic support including :<br>
+    <code>none</code>, <code>disc</code>, <code>circle</code>, <code>square</code>, <code>decimal</code>, <code>lower-alpha</code>, <code>upper-alpha</code>, <code>lower-roman</code>, <code>upper-roman </code></td>
+   <td>1.0</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td>1.0 (1.0)</td>
+   <td>4.0</td>
+   <td>3.5</td>
+   <td>1.0 (85)</td>
+  </tr>
+  <tr>
+   <td><code>lower-latin</code>, <code>upper-latin</code>, <code>lower-greek</code>, <code>armenian</code>, <code>georgian</code></td>
+   <td>1.0</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td>1.0 (1.0)</td>
+   <td>8.0</td>
+   <td>6.0</td>
+   <td>1.0 (85)</td>
+  </tr>
+  <tr>
+   <td><code>decimal-leading-zero</code></td>
+   <td>1.0</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td>1.0 (1.0)</td>
+   <td>8.0</td>
+   <td>8.0</td>
+   <td>1.0 (85)</td>
+  </tr>
+  <tr>
+   <td><code>hebrew</code>, <code>cjk-ideographic</code>, <code>hiragana</code>, <code>hiragana-iroha</code>, <code>katakana</code>, <code>katakana-iroha</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></td>
+   <td>1.0</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>1.0 (1.0)</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>7.0 (but displays decimal numbers only)<br>
+    15.0</td>
+   <td>1.0-1.2 (85-125)</td>
+  </tr>
+  <tr>
+   <td><code>japanese-formal</code>, <code>japanese-informal</code>, <code>simp-chinese-formal</code>, <code>trad-chinese-formal</code>, <code>simp-chinese-informal</code>, <code>trad-chinese-informal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>1.0 (1.7 or earlier) <span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-moz' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-moz</a></span><br>
+    <a title="Released on 2014-03-18." href="/en-US/Firefox/Releases/28">28.0</a> (28.0)</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+  </tr>
+  <tr>
+   <td><code>korean-hangul-formal</code>, <code>korean-hanja-informal</code>, <code>korean-hanja-formal</code>, <code>cjk-decimal</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><a title="Released on 2014-03-18." href="/en-US/Firefox/Releases/28">28.0</a> (28.0)</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+  </tr>
+  <tr>
+   <td><code>ethiopic-numeric</code>, <code>persian</code>, <code>arabic-indic</code>, <code>devanagari</code>, <code>bengali</code>, <code>gurmukhi</code>, <code>gujarati</code>, <code>oriya</code>, <code>tamil</code>, <code>telugu</code>, <code>kannada</code>, <code>malayalam</code>, <code>thai</code>, <code>lao</code>, <code>myanmar</code>, <code>khmer</code>, <code>cjk-heavenly-stem</code>, <code>cjk-earthly-branch</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>1.0 (1.7 or earlier) <span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-moz' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-moz</a></span><br>
+    <a title="Released on 2014-10-14." href="/en-US/Firefox/Releases/33">33.0</a> (33.0) [1]</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>
+    <p><span style="color: #f00;">No support</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td><code>disclosure-open</code>, <code>disclosure-closed</code>, <code>mongolian</code> <span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><a title="Released on 2014-10-14." href="/en-US/Firefox/Releases/33">33.0</a> (33.0)</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+  </tr>
+  <tr>
+   <td><code>&lt;string&gt;</code></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><a title="Released on 2015-06-30." href="/en-US/Firefox/Releases/39">39.0</a> (39.0)</td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<div id="compat-mobile">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>Feature</th>
+   <th>Android</th>
+   <th>Edge</th>
+   <th>Firefox Mobile (Gecko)</th>
+   <th>IE Phone</th>
+   <th>Opera Mobile</th>
+   <th>Safari Mobile</th>
+  </tr>
+  <tr>
+   <td>Basic support</td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<p>[1] Before Firefox 38, Gecko added a dot as suffix of the number for <code>ethiopic-numeric</code> (፫. instead of ፫). The later spec defined the absence of a suffix and Gecko was then adapted.</p>
+
+<h2 id="See_also">See also</h2>
+
+<ul>
+ <li><a title="The list-style CSS property is a shorthand for setting the individual values that define how a list is displayed: list-style-type, list-style-image, and list-style-position." href="/en-US/docs/Web/CSS/list-style"><code>list-style</code></a>, <a title="The list-style-image property specifies an image to be used as the list item marker. It is often more convenient to use the shorthand list-style." href="/en-US/docs/Web/CSS/list-style-image"><code>list-style-image</code></a>, <a title="The list-style-position property specifies the position of the marker box in the principal block box." href="/en-US/docs/Web/CSS/list-style-position"><code>list-style-position</code></a></li>
+</ul>
+                  
+                
+
+              
+                <aside class="helpful-survey hidden" id="helpful-survey">
+                  <p>Was this article helpful?</p>
+
+                  <div class="helpful-survey-content">
+                    <div class="helpful-survey-buttons">
+                      <button type="button" class="helpful-survey-vote helpful-survey-yes">
+                        <span class="offscreen">Yes</span>
+                        <i class="icon-thumbs-o-up" aria-hidden="true"></i>
+                      </button>
+                      <button type="button" class="helpful-survey-vote helpful-survey-no">
+                        <span class="offscreen">No</span>
+                        <i class="icon-thumbs-o-down" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <div class="helpful-survey-thankyou">Thank you!</div>
+                  </div>
+                </aside>
+              
+              </article>
+
+              <!-- contributors -->
+              <div class="wiki-block contributors">
+                <h2 class="offscreen">Document Tags and Contributors</h2>
+                
+                
+  <div class="tag-attach-list contributors-sub">
+    <i aria-hidden="true" class="icon-tags icon-fw"></i>
+    <strong>Tags:</strong>&nbsp;
+    <ul class="tags tags-small">
+      
+        <li><a href="/en-US/docs/tag/CSS" rel="nofollow, noindex">CSS</a></li>
+      
+        <li><a href="/en-US/docs/tag/CSS%20Lists" rel="nofollow, noindex">CSS Lists</a></li>
+      
+        <li><a href="/en-US/docs/tag/CSS%20Property" rel="nofollow, noindex">CSS Property</a></li>
+      
+        <li><a href="/en-US/docs/tag/NeedsMobileBrowserCompatibility" rel="nofollow, noindex">NeedsMobileBrowserCompatibility</a></li>
+      
+        <li><a href="/en-US/docs/tag/Reference" rel="nofollow, noindex">Reference</a></li>
+      
+    </ul>
+  </div>
+
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Contributors to this page:</strong> 
+        <a href="/en-US/profiles/mfluehr">mfluehr</a>, 
+    
+        <a href="/en-US/profiles/Jeremie">Jeremie</a>, 
+    
+        <a href="/en-US/profiles/wbamberg">wbamberg</a>, 
+    
+        <a href="/en-US/profiles/Sebastianz">Sebastianz</a>, 
+    
+        <a href="/en-US/profiles/arronei">arronei</a>, 
+    
+        <a href="/en-US/profiles/erikadoyle">erikadoyle</a>, 
+    
+        <a href="/en-US/profiles/Guillaume-Heras">Guillaume-Heras</a>, 
+    
+        <a href="/en-US/profiles/teoli">teoli</a>, 
+    
+        <a href="/en-US/profiles/jcsearson">jcsearson</a>, 
+    
+        <a href="/en-US/profiles/SphinxKnight">SphinxKnight</a>, 
+    
+        <a href="/en-US/profiles/fscholz">fscholz</a>, 
+    
+        <a href="/en-US/profiles/anqi">anqi</a>, 
+    
+        <a href="/en-US/profiles/jwhitlock">jwhitlock</a>, 
+    
+        <a href="/en-US/profiles/douglas-j-bothwell">douglas-j-bothwell</a>, 
+    
+        <a href="/en-US/profiles/cburschka">cburschka</a>, 
+    
+        <a href="/en-US/profiles/jsx">jsx</a>, 
+    
+        <a href="/en-US/profiles/upsuper">upsuper</a>, 
+    
+        <a href="/en-US/profiles/jcaron">jcaron</a>, 
+    
+        <a href="/en-US/profiles/n1nja">n1nja</a>, 
+    
+        <a href="/en-US/profiles/Jargnik">Jargnik</a>, 
+    
+        <a href="/en-US/profiles/yisi">yisi</a>, 
+    
+        <a href="/en-US/profiles/kscarfone">kscarfone</a>, 
+    
+        <a href="/en-US/profiles/Sheppy">Sheppy</a>, 
+    
+        <a href="/en-US/profiles/ethertank">ethertank</a>, 
+    
+        <a href="/en-US/profiles/hydrurga">hydrurga</a>, 
+    
+        <a href="/en-US/profiles/grendel">grendel</a>, 
+    
+        <a href="/en-US/profiles/skybound">skybound</a>, 
+    
+        <a href="/en-US/profiles/Alex%20Lakatos">Alex Lakatos</a>, 
+    
+        <a href="/en-US/profiles/J%C3%BCrgen%20Jeka">Jürgen Jeka</a>, 
+    
+        <a href="/en-US/profiles/Wjjohnst">Wjjohnst</a>, 
+    
+        <a href="/en-US/profiles/Nathymig">Nathymig</a>, 
+    
+        <a href="/en-US/profiles/BijuGC">BijuGC</a>, 
+    
+        <a href="/en-US/profiles/DBaron">DBaron</a>, 
+    
+        <a href="/en-US/profiles/Mgjbot">Mgjbot</a>, 
+    
+        <a href="/en-US/profiles/Ptak82">Ptak82</a>, 
+    
+        <a href="/en-US/profiles/alecananian">alecananian</a>
+    
+                  </div>
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Last updated by:</strong>
+                    <a href="/en-US/profiles/mfluehr">mfluehr</a>,
+                    <time datetime="2017-10-26T11:17:06.116972-07:00">Oct 26, 2017, 11:17:06 AM</time>
+                  </div>
+                
+              </div>
+            </div>
+
+            
+              <!-- quick links and zone subnav strip -->
+              <div id="wiki-left" class="column-strip wiki-column">
+
+                
+
+                
+                  <!-- quick links -->
+                  
+  <div class="quick-links" id="quick-links">
+    <div class="quick-links-head">Related Topics</div>
+    <ol><li><strong><a href="/en-US/docs/Web/CSS">CSS</a></strong></li><li><strong><a href="/en-US/docs/Web/CSS/Reference">CSS Reference</a></strong></li><li><strong><a href="/en-US/docs/Web/CSS/CSS_Lists_and_Counters">CSS Lists and Counters</a></strong></li><li data-default-state="open"><a href="#"><strong>Guides</strong></a><ol><li><a href="/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation" title="One of the most common style changes made to lists is a change in the indentation distance—that is, how far the list items are pushed over to the right.">Consistent list indentation</a></li><li><a href="/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters" title="CSS counters let you adjust the appearance of content based on its location in a document. For example, you can use counters to automatically number the headings in a webpage. Counters are, in essence, variables maintained by CSS whose values may be incremented by CSS rules to track how many times they're used.">Using CSS counters</a></li></ol></li><li data-default-state="open"><a href="#"><strong>Properties</strong></a><ol><li><a href="/en-US/docs/Web/CSS/custom-ident" title="The &lt;custom-ident> CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity."><code>&lt;custom-ident&gt;</code></a></li><li><a href="/en-US/docs/Web/CSS/counter-increment" title="The counter-increment CSS property increases or decreases the value of a CSS counter by a given value. The counter's value can be reset to an arbitrary number using the counter-reset CSS property."><code>counter-increment</code></a></li><li><a href="/en-US/docs/Web/CSS/counter-reset" title="The counter-reset CSS property resets a CSS counter to a given value. The counter's value can be increased or decreased using the counter-increment CSS property."><code>counter-reset</code></a></li><li><a href="/en-US/docs/Web/CSS/list-style" title="The list-style CSS property is a shorthand for setting the individual values that define how a list is displayed: list-style-type, list-style-image, and list-style-position."><code>list-style</code></a></li><li><a href="/en-US/docs/Web/CSS/list-style-image" title="The list-style-image property specifies an image to be used as the list item marker. It is often more convenient to use the shorthand list-style."><code>list-style-image</code></a></li><li><a href="/en-US/docs/Web/CSS/list-style-position" title="The list-style-position property specifies the position of the marker box in the principal block box."><code>list-style-position</code></a></li><li><em><code>list-style-type</code></em></li></ol></li></ol>
+  </div>
+                
+
+                <!-- approvals -->
+                
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+    
+      <div class="newsletter-box">
+      <div class="newsletter">
+    <form id="newsletterForm" class="newsletter-form nodisable" name="newsletter-form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <div class="newsletter-head">
+            <h2 class="newsletter-teaser">Learn the best of web development</h2>
+            <p class="newsletter-description">Get the latest and greatest from MDN delivered straight to your inbox.</p>
+            
+        </div>
+
+        <div class="newsletter-fields">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletterNewslettersInput" name="newsletters" value="app-dev" />
+            <div id="newsletterErrors" class="newsletter-errors"></div>
+
+            <div id="newsletterEmail" class="form-group newsletter-group-email">
+                <label for="newsletterEmailInput" class="form-label offscreen">E-mail</label>
+                <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required placeholder="you@example.com" size="30">
+            </div>
+
+            <div id="newsletterPrivacy" class="form-group form-group-agree newsletter-group-privacy hidden">
+                <input type="checkbox" id="newsletterPrivacyInput" name="privacy" required>
+                <label for="newsletterPrivacyInput">
+                I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.
+                </label>
+            </div>
+            <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">Sign up now</button>
+            </div>
+        </div>
+    </form>
+    <div id="newsletterThanks" class="newsletter-thanks hidden">
+        <h2>Thanks! Please check your inbox to confirm your subscription.</h2>
+        <p>If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us.
+        </p>
+    </div>
+    <button id="newsletterHide" type="button" class="only-icon newsletter-hide hidden"><span>Hide Newsletter Sign-up</span><i aria-hidden="true" class="icon-times"></i></button>
+</div>
+      </div>
+    
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/en-US/docs/Web/CSS/list-style-type$edit" label="Edit page"></menuitem>
+    <menuitem data-action="/en-US/docs/Web/CSS/list-style-type$history" label="View page history"></menuitem>
+  </menu>
+
+      </div>
+  </main>
+  <!-- Footer -->
+    <footer id="nav-footer" class="nav-footer">
+      <div class="center">
+          <a href="/en-US/" class="nav-footer-logo">MDN Web Docs</a>
+          <div class="footer-group footer-group-mdn">
+            <h2 class="footer-title">MDN</h2>
+            <ul class="footer-list">
+              <li><a href="/en-US/docs/Web">Web Technologies</a></li>
+              <li><a href="/en-US/docs/Learn">Learn Web Development</a></li>
+              <li><a href="/docs/MDN/About">About MDN</a></li>
+              <li><a href="/en-US/docs/MDN/Feedback">Feedback</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozdevnet" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://github.com/mdn/" class="only-icon"><i aria-hidden="true" class="icon-github"></i> <span>GitHub</span></a></li>
+            </ul>
+          </div>
+
+          <a href="https://mozilla.org" class="nav-footer-mozilla">Mozilla</a>
+          <div class="footer-group footer-group-mozilla">
+            <h2 class="footer-title">Mozilla</h2>
+            <ul class="footer-list">
+              <li><a href="https://www.mozilla.org/about/">About</a></li>
+              <li><a href="https://www.mozilla.org/contact/">Contact Us</a></li>
+              <li><a href="https://donate.mozilla.org/?utm_source=developer.mozilla.org&utm_medium=referral&utm_content=footer">Donate</a></li>
+              <li><a href="https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral">Firefox</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://www.facebook.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-facebook"></i> <span>Facebook</span></a></li>
+              <li class="footer-social"><a href="https://www.instagram.com/mozillagram/" class="only-icon"><i aria-hidden="true" class="icon-instagram"></i> <span>Instagram</span></a></li>
+            </ul>
+          </div>
+
+          
+  
+    <form class="languages go" method="get" action="/en-US/docs/Web">
+      <label for="language">Other languages:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="English (US)" value="/en-US/docs/Web/CSS/list-style-type" selected>
+          English (US) (en-US)
+        </option>
+        
+          <option title="German" value="/de/docs/Web/CSS/list-style-type">
+            Deutsch (de)
+          </option>
+          <option title="Spanish" value="/es/docs/Web/CSS/list-style-type">
+            Español (es)
+          </option>
+          <option title="French" value="/fr/docs/Web/CSS/list-style-type">
+            Français (fr)
+          </option>
+          <option title="Japanese" value="/ja/docs/Web/CSS/list-style-type">
+            日本語 (ja)
+          </option>
+          <option title="Polish" value="/pl/docs/Web/CSS/list-style-type">
+            Polski (pl)
+          </option>
+          <option title="Chinese (Simplified)" value="/zh-CN/docs/Web/CSS/list-style-type">
+            中文 (简体) (zh-CN)
+          </option>
+      </select>
+      <noscript><button type="submit">Go</button></noscript>
+    </form>
+  
+
+
+          
+            <ul class="footer-tos">
+              <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Terms</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/">Privacy</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            </ul>
+
+            <div class="contentinfo">
+              <p>&copy; 2005-2017 Mozilla and individual contributors.</p> <p>Content is available under <a href="/en-US/docs/MDN/About#Copyrights_and_licenses">these licenses</a>.</p>
+            </div>
+          
+      </div>
+    </footer> 
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/jsi18n/en-us/javascript.b28203373cc1.js"></script>
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/main.400fbae34d85.js" charset="utf-8"></script>
+    <script>
+      if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+    </script>
+    
+
+  
+
+    
+        <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.479f62dbbd0b.js" charset="utf-8"></script>
+    
+
+
+
+  
+
+  
+
+  
+
+  
+    <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js" charset="utf-8"></script>
+  
+
+
+</body>
+</html>T�N��      Z%YZ%u>dV�Z�S   A    :https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAASoMIIEpDCCA4ygAwIBAgIQBHbuoBf/X5nS+LsjpsMNKjANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0xNzEwMjUwMDAwMDBaFw0xODExMjUxMjAwMDBaMCAxHjAcBgNVBAMTFWRldmVsb3Blci5tb3ppbGxhLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKGrWYW9DzmDdBT9gk7sE3JEkKppIldG3PSXvUZRl574Ls+lXXmuDj7hzQrW8c0PWLY6OuVMTqyjwaUY62fJnam4oFkXAFOr9GCCnh9BvKNFj7Be7TtTwV0D8gGcg592SoTeaLLnRwqBVd8ipu2/gRKzsOmW/JaRBb6bdqqgE9g8Fki/caz6AMf3hZaXtZH1YpJ9q43+ZdZWrR1mZZLTjO/T49PIpxBFw+PqnmFeCiUaxFF3zgU/ubQesYfh7sty10kMxRqFwGss4uDXtxU3qsF6PJ2Q5y49zGQzL/EByl0xo3kF9ikfsxId4bApB5pIOneC9UQY7ekhEQNS3+I+J3cCAwEAAaOCAbIwggGuMB8GA1UdIwQYMBaAFFmkZgZSoHuVkjyjlAcnlnRb+T3QMB0GA1UdDgQWBBSlBOzloko02nKAINF3Jv6nNugfSDBmBgNVHREEXzBdghVkZXZlbG9wZXIubW96aWxsYS5vcmeCFG1kbi5tb3ppbGxhZGVtb3Mub3JnghptZG4tZGVtb3Mtb3JpZ2luLm1vei53b3Jrc4IScHJvZC5tZG4ubW96LndvcmtzMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3Auc2NhMWIuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipodHRwOi8vY3J0LnNjYTFiLmFtYXpvbnRydXN0LmNvbS9zY2ExYi5jcnQwDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQsFAAOCAQEALwdvzwp8J7LqiBqxBor2Dy/qF8ThSR9OxuAq/MO7df/9Q2JLzHMalFYCgQkAApgkt3bFaX+D1xrs+CMo17vkmENUjwbtVL+nLnkG27FSCqA5q4Qmm6k3AXAQJHgGEvdJ4nzbBPaRsbZ0wb423/oMf+nmSU6hXuvW9VakK9ttT3fbKdkEGgiiAels1NG8LtlgZH6ljFghISfCG8LZxDbc87UHxWttprOME9pX9qBRw0DKWOuu8+4hjwBpPGurKBF1NOXaOKOJtRyGctaXoCjZs7UHQ1nBK2aCaPw9HKBNgzDPgZl1OWZJP14sZQH1jcbeuclCm7kY2SFhVfrDBJUPa8AvAQMAAAAAAQEAAAAA request-method GET request-Cookie WgC7xl2Na6EvoPfPZt0CTOoZi+A= response-head HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2017 23:34:36 GMT
+ETag: "fd80360ebc16c79ea21ac11c34d0c0a4c77f0e3f"
+Last-Modified: Thu, 26 Oct 2017 11:17:12 GMT
+Server: meinheld/0.6.1
+strict-transport-security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 1321999
+x-xss-protection: 1; mode=block
+ original-response-headers Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2017 23:34:36 GMT
+ETag: "fd80360ebc16c79ea21ac11c34d0c0a4c77f0e3f"
+Last-Modified: Thu, 26 Oct 2017 11:17:12 GMT
+Server: meinheld/0.6.1
+Set-Cookie: csrftoken=FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB; expires=Tue, 06-Nov-2018 23:34:36 GMT; Max-Age=31449600; Path=/; secure
+Set-Cookie: dwf_section_edit=False; expires=Thu, 07-Dec-2017 23:34:36 GMT; Max-Age=2592000; Path=/; secure
+Set-Cookie: dwf_sg_task_completion=False; expires=Thu, 07-Dec-2017 23:34:36 GMT; Max-Age=2592000; Path=/; secure
+strict-transport-security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 1321999
+x-xss-protection: 1; mode=block
+transfer-encoding: chunked
+Connection: keep-alive
+ uncompressed-len 0 predictor::resource-count 23 predictor::https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.27a756886c80.css 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.1a5ac0b9e47d.css 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/styles/locale-en-US.7e45c23d7d30.css 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js 1,2,1510155609,4096 predictor::https://www.google-analytics.com/analytics.js 1,2,1510155609,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j65&aip=1&a=1526986911&t=pageview&_s=1&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flist-style-type&ul=pl&de=UTF-8&dt=list-style-type%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1525x803&je=0&_u=QACAAAABI~&jid=1969786976&gjid=1264772423&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&_r=1&cd1=Yes&cd12=1321999&cd17=Web%2FCSS%2Flist-style-type&z=1123345680 1,1,1510097675,4096 net-response-time-onstart 1021 net-response-time-onstop 1239 predictor::https://cdn.mdn.mozilla.net/static/jsi18n/en-us/javascript.b28203373cc1.js 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/main.400fbae34d85.js 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.479f62dbbd0b.js 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js 1,2,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js 1,2,1510155609,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j65&aip=1&a=1526986911&t=event&_s=2&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flist-style-type&ul=pl&de=UTF-8&dt=list-style-type%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1525x803&je=0&ec=MozMenu&ea=nav-contact-submenu&el=&ev=0&_u=SACAAAABI~&jid=&gjid=&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&cd1=Yes&cd12=1321999&cd17=Web%2FCSS%2Flist-style-type&z=1392107985 1,1,1510097675,4096 predictor::https://secure.gravatar.com/avatar/9d5c117965e272ad16dc8f5b088e6d5b?s=50&r=pg&d=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Favatar.png 1,1,1510155609,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j65&aip=1&a=92263839&t=pageview&_s=1&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flist-style-type&ul=pl&de=UTF-8&dt=list-style-type%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1535x803&je=0&_u=QACAAAABI~&jid=1139470901&gjid=1883298127&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&_r=1&cd1=Yes&cd12=1321999&cd17=Web%2FCSS%2Flist-style-type&z=1502751570 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Regular-webfont.3f642fa3ea74.woff2 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Semibold-webfont.b25e8a5a61a4.woff2 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Italic-webfont.47c24d65c5a6.woff2 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Regular.f9de6143fdfa.woff2 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Bold.8d7f01331d2b.woff2 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Italic.d86eb12e9866.woff2 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/img/web-docs-sprite.22a6a085cf14.svg 1,1,1510155609,4096 predictor::https://cdn.mdn.mozilla.net/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff?v=4.1.0 1,1,1510155609,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j65&aip=1&a=92263839&t=event&_s=2&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flist-style-type&ul=pl&de=UTF-8&dt=list-style-type%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1535x803&je=0&ec=MozMenu&ea=nav-learn-submenu&el=&ev=0&_u=SACAAAABI~&jid=&gjid=&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&cd1=Yes&cd12=1321999&cd17=Web%2FCSS%2Flist-style-type&z=1044309434 1,1,1510155609,4096  2d

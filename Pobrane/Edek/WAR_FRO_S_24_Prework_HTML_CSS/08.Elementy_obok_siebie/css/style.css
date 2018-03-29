@@ -1,0 +1,48 @@
+#con1
+{
+	background: black;
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+
+#con2
+{
+	background: red;
+	width: 400px;
+	height: 300px;
+	float: right;
+}
+
+.erase
+{
+	clear: both;
+}
+
+#con3
+{
+	background: yellow;
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	
+}
+
+#con4
+{
+	background: green;
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+
+.par
+{
+	border: 1px dashed #8c8c8c;
+	color: #8c8c8c;
+	padding: 5px 15px 5px 0px;
+	line-height: 150%;
+	font-size: x-large;
+	font-weight: 500;
+	
+}

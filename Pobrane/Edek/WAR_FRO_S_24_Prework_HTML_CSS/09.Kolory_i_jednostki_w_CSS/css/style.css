@@ -1,0 +1,60 @@
+.kolor1
+{
+	color: grey;
+}
+
+.kolor2
+{
+	color: green;
+}
+
+#s1
+{
+	color: pink;
+}
+
+#s2
+{
+	color: yellow;
+}
+
+#s3
+{
+	color: blue;
+}
+
+.cont1
+{
+	background-color: #CCFFC1;
+	background-color: rgba(201, 161, 161, .25);
+}
+
+.cont2
+{
+	background-color: #C9A1A1;
+	background-color: rgba(0, 15, 179, .25);
+}
+
+.cont3
+{
+	background-color: hsla(116, 89%, 40%, 0.63);
+}
+
+.cont4
+{
+	background-color: #ccffc1;
+	width: 200px;
+	font-size: 16px;
+}
+
+#p1
+{
+	width: 50%;
+}
+
+#p2
+{
+	width: 20%;
+	font-size: 2em;
+}
+

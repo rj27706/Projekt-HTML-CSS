@@ -1,0 +1,16 @@
+<application>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="AbstractNewProjectStep.Empty Project" count="7" />
+      <entry feature="AbstractNewProjectStep.HTML5 Boilerplate" count="3" />
+      <entry feature="CreateFile.CreateFileAction" count="3" />
+      <entry feature="OpenInBrowser.Firefox" count="192" />
+      <entry feature="OpenInBrowser.Opera" count="1" />
+      <entry feature="configure.code.style.on.selected.fragment" count="1" />
+      <entry feature="ide.help.reference.dialogs.register.association" count="1" />
+      <entry feature="ide.settings.System_Settings" count="1" />
+      <entry feature="ideaapp.started" count="17" />
+      <entry feature="welcome.screen.null" count="3" />
+    </counts>
+  </component>
+</application>

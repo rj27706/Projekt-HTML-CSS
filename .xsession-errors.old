@@ -1,0 +1,22 @@
+openConnection: connect: Nie ma takiego pliku ani katalogu
+cannot connect to brltty at :0
+upstart: Proces unity7 main został zakończony, ponowne uruchamianie
+upstart: Proces bamfdaemon main (1653) został zakończony ze stanem 1
+upstart: Proces unity-panel-service main (1678) został zakończony ze stanem 1
+upstart: Proces indicator-keyboard main (1740) został zakończony ze stanem 1
+upstart: Proces indicator-printers main (1744) został zakończony ze stanem 1
+upstart: Proces hud main (1663) został zabity sygnałem HUP
+upstart: Proces unity-settings-daemon main (1665) został zakończony ze stanem 1
+upstart: Proces gnome-session (Unity) main (1675) został zabity sygnałem HUP
+upstart: Proces indicator-bluetooth main (1733) został zabity sygnałem TERM
+upstart: Proces indicator-power main (1734) został zabity sygnałem TERM
+upstart: Proces indicator-datetime main (1735) został zabity sygnałem TERM
+upstart: Proces indicator-sound main (1743) został zabity sygnałem HUP
+upstart: Proces indicator-session main (1745) został zabity sygnałem TERM
+upstart: Proces indicator-application main (1791) został zabity sygnałem TERM
+upstart: Proces unity7 main (9634) został zakończony ze stanem 1
+upstart: Proces indicator-application pre-stop (9661) został zabity sygnałem TERM
+upstart: Proces gnome-session (Unity) pre-stop (9666) został zabity sygnałem TERM
+upstart: Proces gpg-agent post-stop (9684) został zabity sygnałem HUP
+upstart: Disconnected from notified D-Bus bus
+upstart: Proces at-spi2-registryd main (1674) został zabity sygnałem HUP

@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+html,body{ width : 100%; height : 100%; overflow : hidden ; margin : 0 ; padding : 0 ; background-color : transparent ; }
+div{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  font-family: Roboto,Arial,Helvetica,sans-serif; 
+  font-weight : 300;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  font-size : 12px ;  
+  color : #EEEEEE ;
+  margin : 0px ;
+  padding : 0px ; 
+  background-color: transparent;
+  width : 100% ;
+  box-sizing : border-box ;
+  border : none ;
+}
+div svg{ pointer-events : none ; }
+svg{ stroke : white ; fill : white ; }
+
+.allContainer{
+  position:absolute;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  max-height:100%;
+  max-width :100%;
+  background: transparent ;
+}
+.allContainer.imaMode > .title{ top : 0px; }
+.allContainer.imaMode > .icont{ display : block ; }
+.allContainer.imaMode > .logo,
+.allContainer.imaMode > .Controls > #seekbar,
+.allContainer.imaMode > .Controls > #controlsbar > #playtime,
+.allContainer.imaMode > .Controls > #controlsbar > .sdhd,
+.allContainer.imaMode > .Controls > #seekbar { display : none ; }
+.allContainer.mouseOver > .Controls{ bottom : 0px ; }
+.allContainer.mouseOver > .title{ top : 0px ; }
+.allContainer.mouseOver > .logo{ bottom : 11% ; }
+
+.playerContainer{
+  height: 100% ;
+  width : 100%;
+  max-height:100%;
+  max-width:100%;
+  overflow:hidden;
+  top:0px;
+  left:0px;
+  position:absolute;
+}
+.playerContainer > video{
+  width:100%;
+  height:100%;
+  max-height:100%;
+  max-width : 100%;
+  margin:0 auto;
+  background:none;
+  overflow:hidden;
+  top:0px;
+  left:0px;
+  position:absolute;
+}
+
+.icont{
+  width:100%;
+  height:100%;
+  max-height:100%;
+  max-width : 100% ;
+  overflow:hidden;
+  top:0px;
+  left:0px;
+  position:absolute;
+  display : none ;
+}
+
+.playclick{
+  width:100%;
+  height:80%;
+  max-height:100%;
+  max-width :100%;
+  background: transparent ;
+  position : absolute ;
+  top : 10%;
+  left : 0px;
+  cursor : pointer ;
+  display : none ;
+  z-index : 1 ;
+  display : none ;
+}
+.playclickinner{
+  position : absolute ;
+  left : 50% ;
+  top : 50% ;
+  width : 10% ;
+  height : auto ; 
+  margin : -5% ;
+  opacity : 0.6 ;
+  transition: opacity 0.5s;
+}
+
+.playclickinner:hover{ opacity : 1 ; }
+.playclick.playclickplay,
+.playclick.playclickmute,
+.playclick.playclickwait { display : block ; }
+.playclickinner > img { pointer-events : none ; } 
+.playclick > .playclickinner > .playclickplay,
+.playclick > .playclickinner > .playclickmute,
+.playclick > .playclickinner > .playclickwait { display : none ; }
+.playclick.playclickplay > .playclickinner > .playclickplay{ display : block ; }
+.playclick.playclickmute > .playclickinner > .playclickmute{ display : block ; }
+.playclick.playclickwait > .playclickinner > .playclickwait{ display : block ; }
+
+.Controls{
+  position : absolute ;
+  width : 100%;
+  transition: bottom 0.5s;
+  z-index:2;
+  min-height : 16px; 
+  display : flex ;
+  flex-flow : column nowrap ;
+  bottom : -10% ;
+  height : 10% ; 
+  background-color: #000 ;
+  background : linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1));
+}
+.seekbar{
+  width: 100%; 
+  position: relative; 
+  cursor: pointer; 
+  flex : 1 1 10% ;
+  background-color: none;
+  height : 10%;
+  overflow : visible ;
+}
+#totalbar{
+  width: 100%; 
+  height: 100%; 
+  bottom : 0 ;
+  position: absolute; 
+  background: rgb(89,89,89);
+  transition: height .2s cubic-bezier(0.0,0.0,0.2,1);
+  pointer-events : none ;
+}
+#bufferedbar{
+  width: 0%; 
+  height: 100%; 
+  bottom : 0 ;
+  position: absolute; 
+  background: rgb(213, 213, 213);
+  transition: height .2s cubic-bezier(0.0,0.0,0.2,1);
+  pointer-events : none ;
+}
+#playedbar{
+  height: 100%; 
+  width: 0%;
+  bottom : 0 ;
+  position: absolute;  
+  background: rgb(25, 160, 16);
+  transition: height .2s cubic-bezier(0.0,0.0,0.2,1);
+  pointer-events : none ;
+}
+.seek-handle{
+  display : none ;
+  height: 300% ; 
+  width: auto ;
+  bottom : -100% ; 
+  position: absolute;  
+}
+.seekbar:hover > #bufferedbar{ height : 100% ; }
+.seekbar:hover > #playedbar{ height : 100% ; }
+.seekbar:hover > #totalbar{ height : 100% ; }
+.seekbar:hover > .seek-handle{ display : block ; }
+
+.controlsbar{
+  top : 0px; 
+  height : 70%;
+  width : 100%;
+  display : flex ;  
+  flex : 1 1 auto ;
+  position : relative ;
+  align-items : center ;
+}
+.controlsbar > div{
+  flex-grow : 0 ;
+  flex-shrink : 0 ;
+  flex-basis : auto ;
+  text-align : center ;
+  height : 100% ;
+  width : auto ; 
+  padding : 1vh 1vw ;
+  display : flex ;
+  vertical-align : middle ;
+}
+.controlsbar > div > svg{
+  display : block ;
+  width : auto ;
+  height : 100% ;  
+  background : transparent ;
+  padding : 0 ;
+  margin : 0 ;
+}
+.playbutton,.volm,.fullscreenc{
+  cursor : pointer ;
+  max-width : 10vmin ;
+  min-width : 5vw ;
+}
+.playbutton.play > .pause{ display : none ; } 
+.playbutton.pause > .play{ display : none ; } 
+div.volm{ margin-right : 0.5vw ; }
+div.playtime{
+  color:white;
+  font-size: 4vmin ;
+  display : inline-block ; 
+  padding : 0px;
+  flex-direction : column ;
+  align-items : center ;
+  height : auto ;
+}
+.playtimein{ height : auto; width : auto ; display : inline-block ; vertical-align : middle ; line-height : auto ; }
+
+.volm.mute > .volm0, .volm.mute > .volm33, .volm.mute > .volm66,
+.volm.volm0 > .mute, .volm.volm0 > .volm33, .volm.volm0 > .volm66 , 
+.volm.volm33 > .mute, .volm.volm33 > .volm0, .volm.volm33 > .volm66 , 
+.volm.volm66 > .mute, .volm.volm66 > .volm0, .volm.volm66 > .volm33{ display : none ; } 
+
+.fullscreenc > .svgfullscreenon,
+.fullscreenc.fullscreenon > .svgfullscreen{ display : none ; }
+.fullscreenc.fullscreenon > .svgfullscreenon{ display : block ; }
+
+div.sdhd{
+  margin : 0px; 
+  cursor : pointer ;
+  font-size : 4vmin ; 
+  font-weight : bold ;
+  padding : 0px 1vw ; 
+  text-align:center ;  
+  height : auto ;
+  display : inline-block ;  
+}
+#volume-panel{
+  width : 12vw;
+  position : relative ;
+  cursor : pointer ;
+}
+#volume-slider{
+  width : 100%;
+  height : 10%;
+  position : absolute ;
+  left : 0px ;
+  top: 45%;
+  background-color: rgba(64,64,64,128);
+  overflow:visible ;
+}
+#volume-track{
+  width : 0px;
+  height : 100%;
+  position : absolute ;
+  left : 0px ;
+  top: 0px;
+  background: rgba(255,255,255,255);
+}
+#volume-handle{
+  width : auto;
+  height : 400%;
+  border-radius : 50%;
+  position : absolute ;
+  left : 0px ;
+  top: -150%;
+  z-index:3;
+}
+
+img.logo{
+  position : absolute ;
+  right : 1%;
+  -webkit-transition: bottom 0.5s;
+  transition: bottom 0.5s;
+  margin-bottom:5px;
+  bottom : 1% ;
+  width:auto;
+  height : auto;
+  max-width : 150px;
+  max-height : 50px; 
+  display : block ;
+}
+
+.title{
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5)); /*Standard*/
+  color : white ;
+  position : absolute ;
+  left : 0px;
+  cursor : default ;
+  overflow : hidden ;
+  transition: top 0.5s;
+  height : 5% ;
+  height : 5vh ;
+  top : -5% ;
+  top : -5vh ;
+}
+.titin{
+  font-size : 3.5vmin ;
+  line-size : 1 ;
+  color : white ;
+  position: absolute;
+  padding : 3px; 
+  padding-top : 1px; 
+  white-space : nowrap ;
+  height : 100% ;
+}
+#LPlayerBack{
+  width:100%;
+  height:100%;
+  max-height:100%;
+  margin:0 auto;
+  background:black;
+  color : white ;
+  font-size : 3em ; 
+  text-align : center ;
+  overflow:hidden;
+  padding:0px;
+  top:0px;
+  left:0px;
+  position:absolute;
+}
+#va{
+  display:inline-block;
+  width:1px;
+  height:100%;
+  vertical-align:middle;
+}
+#LPBackTxt{
+  display:inline-block;
+  width:auto;
+  height:auto;
+  margin:0 auto;
+  vertical-align:middle;
+}
+.preSkipContainer{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  bottom: 22px;
+  cursor: default;
+  padding: 15px 0 15px 15px;
+  pointer-events: auto;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  opacity: 0.9;
+  width : auto ;
+}
+.preSkipButton{
+  background: rgba(0,0,0,0.8);
+  min-width: 155px;
+  padding: 6px;
+}
+.preSkipText{
+  color: #e6e6e6;
+  font-size: 11px;
+  padding-right: 0px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  line-height : 21px;
+}
+.skipContainer{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  bottom: 22px;
+  cursor: pointer;
+  padding: 15px 0 15px 15px;
+  pointer-events: auto;
+  position: absolute;
+   right: 0;
+  z-index: 1000;
+  width : auto ;
+}
+.skipAction{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background: rgba(0,0,0,0.8);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 0;
+  box-sizing: content-box;
+  color: #fff;
+  cursor: pointer;
+  direction: ltr;
+  font-size: 18px;
+  min-width: 150px;
+  padding: 10px 7px;
+  text-align: center;
+}
+.skipIcon{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAAAAABjvpF0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAnRSTlMAAHaTzTgAAAACYktHRAD/h4/MvwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEFJREFUGNNjYKARmC+PYP//D2cghJEEEcIogjBhNEGIMIYgSBiL4P14DMH78RjaQUJoghAhFEGYEJIgQghJkB4AAG9cX5X8X+CRAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 25px;
+  margin-left: 2px;
+  vertical-align: middle;
+  width: 20px;
+}
+#prevvid{
+  width : 16px ;
+  height : 15px;
+  display : inline-block ;
+  position : relative ;
+  vertical-align : top ;
+  top : 2px ;
+  padding-top: 1px ;
+  background: rgba(0,0,0,255) url("img/player1.png") no-repeat scroll 0px 0px ;
+}
+#prevvid:hover{
+  background: rgba(128,128,128,255) url("img/player1.png") no-repeat scroll 0px 0px ;
+}
+#nextvid{
+  width : 16px ;
+  height : 15px;
+  display : inline-block ;
+  position : relative ;
+  vertical-align : top ;
+  top : 2px ;
+  padding-top: 1px ;
+  background: rgba(0,0,0,255) url("img/player1.png") no-repeat scroll -16px 0px ;
+}
+#nextvid:hover{
+  background: rgba(128,128,128,255) url("img/player1.png") no-repeat scroll -16px 0px ;
+}
+div.filler{  flex : 1 1 auto ; }
+#rchl{
+  position : absolute ;
+  width : auto ;
+  height : auto ;
+  bottom : 0px ;
+  background-color: black;
+  padding: 5px;
+  border: 1px solid #333333;  
+  display : none ;
+}
+#rchl > div{
+  color : #CCCCCC ;
+  padding : 3px; 
+}
+#rchl > div:hover{
+  color : #FFFFFF ;
+}
+#rch:hover #rchl{
+  display : block ;
+}
+.autoLevel{
+  font-weight : bold ;
+}û©cU      ZL5ZL5>dmöZLq   0    :https://mr1-8a.exs.pl/player70.css?s=1508264508 necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Last-Modified: Tue, 17 Oct 2017 18:21:48 GMT
+ETag: "9bd1e67-27cb-59e64a3c"
+Accept-Ranges: bytes
+Content-Length: 10187
+Content-Type: text/css
+Date: Wed, 08 Nov 2017 18:25:57 GMT
+Server: XO.webservant
+Expires: Wed, 08 Nov 2017 18:26:57 GMT
+Cache-Control: max-age=60
+ original-response-headers Date: Tue, 07 Nov 2017 22:52:15 GMT
+Server: XO.webservant
+Cache-Control: max-age=60
+Expires: Tue, 07 Nov 2017 22:53:15 GMT
+Last-Modified: Tue, 17 Oct 2017 18:21:48 GMT
+ETag: "9bd1e67-27cb-59e64a3c"
+Accept-Ranges: bytes
+Content-Length: 10187
+Keep-Alive: timeout=20, max=49
+Connection: Keep-Alive
+Content-Type: text/css
+ uncompressed-len 0 net-response-time-onstart 46 net-response-time-onstop 46   'Ë

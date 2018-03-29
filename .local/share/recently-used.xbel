@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///tmp/mozilla_rafal0/WebStorm-2017.2.5.tar.gz" added="2017-10-30T12:02:51Z" modified="2017-11-01T15:43:46Z" visited="2017-10-30T12:02:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-01T15:43:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal" added="2017-10-30T12:03:32Z" modified="2017-10-30T12:03:32Z" visited="2017-10-30T12:03:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2017-10-30T12:03:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/WebStorm-172.4343.25/bin/webstorm.svg" added="2017-10-30T12:04:42Z" modified="2017-10-30T12:13:08Z" visited="2017-10-30T12:04:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-10-30T12:13:08Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-10-30T12:08:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/WebStorm-172.4343.25/bin/webstorm.sh" added="2017-10-30T12:07:08Z" modified="2017-10-30T12:20:02Z" visited="2017-10-30T12:07:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-10-30T12:20:00Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-10-30T12:20:02Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/atom-amd64.deb" added="2017-11-01T15:13:06Z" modified="2017-11-01T15:18:13Z" visited="2017-11-01T15:13:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-01T15:13:06Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;gnome-software --local-filename=%f&apos;" modified="2017-11-01T15:18:13Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/atom.x86_64.rpm" added="2017-11-01T15:18:01Z" modified="2017-11-01T15:18:22Z" visited="2017-11-01T15:18:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rpm"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-01T15:18:01Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-11-01T15:18:22Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;file-roller %U&apos;" modified="2017-11-01T15:18:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/WebStorm/bin/webstorm.sh" added="2017-11-01T15:41:40Z" modified="2017-11-01T15:41:42Z" visited="2017-11-01T15:41:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-11-01T15:41:40Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T15:41:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit" added="2017-11-01T15:44:18Z" modified="2017-11-01T15:44:18Z" visited="2017-11-01T15:44:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2017-11-01T15:44:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/git-2.14.1-intel-universal-mavericks.dmg" added="2017-11-01T17:26:02Z" modified="2017-11-01T17:26:02Z" visited="2017-11-01T17:26:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-apple-diskimage"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-01T17:26:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Moje/WebStorm/bin/webstorm.sh" added="2017-11-01T17:28:49Z" modified="2017-11-01T17:52:48Z" visited="2017-11-01T17:28:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T17:52:48Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/WebstormProjects/untitled2/Ryba.js" added="2017-11-01T17:33:02Z" modified="2017-11-01T17:33:02Z" visited="2017-11-01T17:33:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T17:33:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Moje/WebStorm/bin/webstorm.vmoptions" added="2017-11-01T17:36:46Z" modified="2017-11-01T17:53:08Z" visited="2017-11-01T17:36:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T17:53:08Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Moje/WebStorm/bin/webstorm64.vmoptions" added="2017-11-01T17:36:51Z" modified="2017-11-01T17:53:05Z" visited="2017-11-01T17:36:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T17:53:05Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Moje/WebStorm/ja" added="2017-11-01T17:48:39Z" modified="2017-11-01T17:48:39Z" visited="2017-11-01T17:48:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T17:48:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Moje/WebStorm/Rafa%C5%82" added="2017-11-01T17:48:44Z" modified="2017-11-01T17:48:49Z" visited="2017-11-01T17:48:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-01T17:48:49Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/WebStorm-2017.2.5.tar.gz" added="2017-11-01T18:02:43Z" modified="2017-11-01T18:03:11Z" visited="2017-11-01T18:02:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-01T18:02:43Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-11-01T18:03:11Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;file-roller %U&apos;" modified="2017-11-01T18:03:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane" added="2017-11-01T18:02:54Z" modified="2017-11-07T19:11:23Z" visited="2017-11-01T18:02:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2017-11-07T19:11:23Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/moje/Rafa%C5%82.html" added="2017-11-02T11:00:05Z" modified="2017-11-02T11:00:20Z" visited="2017-11-02T11:00:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-02T11:00:05Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-02T11:00:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/moje/Rafal" added="2017-11-02T11:00:09Z" modified="2017-11-06T08:26:39Z" visited="2017-11-02T11:00:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-11-02T11:00:09Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-06T08:26:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Obrazy/Zrzut%20ekranu%20z%202017-11-02%2017-03-55.png" added="2017-11-02T16:04:00Z" modified="2017-11-02T16:04:00Z" visited="2017-11-02T16:04:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-02T16:04:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/2043cefed05beb15862cf54755382878.png" added="2017-11-03T13:26:36Z" modified="2017-11-03T13:26:37Z" visited="2017-11-03T13:26:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-03T13:26:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/css/style.css" added="2017-11-06T08:17:27Z" modified="2017-11-06T08:17:30Z" visited="2017-11-06T08:17:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-11-06T08:17:27Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-06T08:17:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/README.md" added="2017-11-06T08:17:37Z" modified="2017-11-06T08:17:37Z" visited="2017-11-06T08:17:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-06T08:17:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/moje/Rybski.html" added="2017-11-06T08:26:49Z" modified="2017-11-06T08:26:49Z" visited="2017-11-06T08:26:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-06T08:26:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_rafal0/google-chrome-stable_current_amd64.deb" added="2017-11-06T08:30:38Z" modified="2017-11-06T08:30:38Z" visited="2017-11-06T08:30:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-06T08:30:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/02.Formatowanie_tekstu/images/sample.jpg" added="2017-11-06T10:46:45Z" modified="2017-11-06T10:46:45Z" visited="2017-11-06T10:46:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-11-06T10:46:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/11.Kolor_i_tlo_w_CSS/css/style.css" added="2017-11-06T11:57:32Z" modified="2017-11-06T11:57:34Z" visited="2017-11-06T11:57:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-11-06T11:57:32Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-06T11:57:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/12.Stylowanie_list/css/style.css" added="2017-11-06T11:57:48Z" modified="2017-11-06T11:57:48Z" visited="2017-11-06T11:57:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-06T11:57:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/index.html" added="2017-11-06T12:49:30Z" modified="2017-11-08T22:27:09Z" visited="2017-11-06T12:49:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:27:09Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/logo.png" added="2017-11-06T13:00:52Z" modified="2017-11-06T13:00:52Z" visited="2017-11-06T13:00:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-11-06T13:00:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/.local/share/Trash/files/MOJE.html" added="2017-11-06T13:02:47Z" modified="2017-11-06T13:02:47Z" visited="2017-11-06T13:02:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-06T13:02:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/02.Formatowanie_tekstu/README.md" added="2017-11-06T16:06:28Z" modified="2017-11-06T16:06:28Z" visited="2017-11-06T16:06:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-06T16:06:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/04.Linki_i_obrazki/images/frontend-backend.jpg" added="2017-11-07T11:09:20Z" modified="2017-11-07T11:09:20Z" visited="2017-11-07T11:09:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-11-07T11:09:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/prework.rar" added="2017-11-07T17:22:05Z" modified="2017-11-07T19:11:01Z" visited="2017-11-07T17:22:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-11-07T19:11:01Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/prework(1).rar" added="2017-11-07T17:23:10Z" modified="2017-11-08T14:27:37Z" visited="2017-11-07T17:23:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-07T17:23:10Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-11-08T14:27:37Z" count="4"/>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-07T19:11:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/prework(1)(1).rar" added="2017-11-07T19:11:57Z" modified="2017-11-07T19:12:02Z" visited="2017-11-07T19:11:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-07T19:11:57Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-11-07T19:12:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/TR_DETAILS_20171108125309.pdf" added="2017-11-08T11:53:14Z" modified="2017-11-08T15:59:10Z" visited="2017-11-08T11:53:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-08T11:53:14Z" count="1"/>
+          <bookmark:application name="Przeglądarka dokumentów" exec="&apos;evince %u&apos;" modified="2017-11-08T15:59:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/11.Kolor_i_tlo_w_CSS/images/grafiti.jpg" added="2017-11-08T12:40:30Z" modified="2017-11-08T13:11:37Z" visited="2017-11-08T12:40:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-08T12:40:31Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-11-08T13:11:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/11.Kolor_i_tlo_w_CSS/images/222.jpg" added="2017-11-08T13:41:59Z" modified="2017-11-08T13:42:00Z" visited="2017-11-08T13:42:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-08T13:42:00Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/11.Kolor_i_tlo_w_CSS/images/333.jpg" added="2017-11-08T15:17:33Z" modified="2017-11-08T15:17:33Z" visited="2017-11-08T15:17:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-08T15:17:33Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/prework(1)/WAR_FRO_S_24_Prework_HTML_CSS/12.Stylowanie_list/index.html" added="2017-11-08T15:28:57Z" modified="2017-11-08T15:32:20Z" visited="2017-11-08T15:28:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T15:32:20Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/13.Formularze/index.html" added="2017-11-08T16:13:27Z" modified="2017-11-08T22:29:57Z" visited="2017-11-08T16:13:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:29:57Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/prework(1)/WAR_FRO_S_24_Prework_HTML_CSS/13.Stylowanie_tabel/index.html" added="2017-11-08T16:14:07Z" modified="2017-11-08T16:14:07Z" visited="2017-11-08T16:14:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T16:14:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pobrane/prework(1)/WAR_FRO_S_24_Prework_HTML_CSS/14.Formularze/index.html" added="2017-11-08T16:14:16Z" modified="2017-11-08T16:19:48Z" visited="2017-11-08T16:14:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T16:19:48Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/Moj%20pierwszy%20KOd.html" added="2017-11-08T22:27:14Z" modified="2017-11-08T22:27:14Z" visited="2017-11-08T22:27:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:27:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/02.Formatowanie_tekstu/index.html" added="2017-11-08T22:27:47Z" modified="2017-11-08T22:27:47Z" visited="2017-11-08T22:27:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:27:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/03.Linki_i_ramka/index.html" added="2017-11-08T22:27:55Z" modified="2017-11-08T22:27:55Z" visited="2017-11-08T22:27:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:27:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/04.Linki_i_obrazki/index.html" added="2017-11-08T22:28:08Z" modified="2017-11-08T22:28:08Z" visited="2017-11-08T22:28:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:28:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/05.Tabele/index.html" added="2017-11-08T22:28:20Z" modified="2017-11-08T22:28:20Z" visited="2017-11-08T22:28:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:28:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/06.CSS_Kaskadowe_arkusze_stylow/index.html" added="2017-11-08T22:28:30Z" modified="2017-11-08T22:28:30Z" visited="2017-11-08T22:28:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:28:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/07.Box_model/index.html" added="2017-11-08T22:28:44Z" modified="2017-11-08T22:28:44Z" visited="2017-11-08T22:28:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:28:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/08.Elementy_obok_siebie/index.html" added="2017-11-08T22:28:55Z" modified="2017-11-08T22:28:55Z" visited="2017-11-08T22:28:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:28:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/09.Kolory_i_jednostki_w_CSS/index.html" added="2017-11-08T22:29:02Z" modified="2017-11-08T22:29:02Z" visited="2017-11-08T22:29:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:29:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/10.Stylowanie_tekstu/index.html" added="2017-11-08T22:29:23Z" modified="2017-11-08T22:29:23Z" visited="2017-11-08T22:29:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:29:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/11.Kolor_i_tlo_w_CSS/index.html" added="2017-11-08T22:29:33Z" modified="2017-11-08T22:29:33Z" visited="2017-11-08T22:29:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:29:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/12.Stylowanie_list/index.html" added="2017-11-08T22:29:42Z" modified="2017-11-08T22:29:42Z" visited="2017-11-08T22:29:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2017-11-08T22:29:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

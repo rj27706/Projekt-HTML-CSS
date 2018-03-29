@@ -1,0 +1,56 @@
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 56623120 with path /com/canonical/menu/3600010 from :1.65, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.95, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.99, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.103, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.107, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.111, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.115, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.119, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.123, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.127, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.131, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.135, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.139, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720272 with path /com/canonical/menu/3800010 from :1.143, unregistering that one
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed

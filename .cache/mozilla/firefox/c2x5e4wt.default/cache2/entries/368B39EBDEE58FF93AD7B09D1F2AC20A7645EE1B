@@ -1,0 +1,1245 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="no-js" data-ffo-opensans="false" data-ffo-zillaslab="false">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  
+    
+  
+
+  
+  <title>linear-gradient() - CSS | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+    <link rel="home" href="/en-US/">
+    <link rel="copyright" href="#copyright">
+  
+
+  
+    
+    
+
+    
+          <link href="https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.27a756886c80.css" rel="stylesheet" type="text/css" />
+      
+
+    
+  
+
+    
+        <link href="https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.1a5ac0b9e47d.css" rel="stylesheet" type="text/css" />
+    
+
+
+    
+
+  <link href="https://cdn.mdn.mozilla.net/static/build/styles/locale-en-US.7e45c23d7d30.css" rel="stylesheet" type="text/css" />
+    <!-- common social tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta property="og:site_name" content="Mozilla Developer Network">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta name="twitter:site" content="@MozDevNet">
+    <meta name="twitter:creator" content="@MozDevNet">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/en-US/search/xml" title="Mozilla Developer Network">
+  
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.mdn.mozilla.net/static/img/favicon144.e7e21ca263ca.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.mdn.mozilla.net/static/img/favicon114.d526f38b09c5.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.mdn.mozilla.net/static/img/favicon72.cc65d1d762a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.mdn.mozilla.net/static/img/favicon57.de33179910ae.png">
+  <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://cdn.mdn.mozilla.net/static/img/favicon32-local.329e8131018f.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js" charset="utf-8"></script>
+
+  
+  <link rel="dns-prefetch" href="https://interactive-examples.mdn.mozilla.net" pr="0.75" />
+  <link rel="preconnect" href="https://interactive-examples.mdn.mozilla.net" pr="0.75" />
+
+  
+
+  <link rel="alternate" type="application/json" href="/en-US/docs/Web/CSS/linear-gradient$json">
+  <link rel="canonical" href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient" >
+
+  
+    
+      <link rel="alternate" hreflang="de" href="/de/docs/Web/CSS/linear-gradient" title="linear-gradient()">
+    
+      <link rel="alternate" hreflang="es" href="/es/docs/Web/CSS/linear-gradient" title="linear-gradient">
+    
+      <link rel="alternate" hreflang="fr" href="/fr/docs/Web/CSS/linear-gradient" title="linear-gradient">
+    
+      <link rel="alternate" hreflang="ja" href="/ja/docs/Web/CSS/linear-gradient" title="linear-gradient">
+    
+      <link rel="alternate" hreflang="ko" href="/ko/docs/Web/CSS/linear-gradient" title="linear-gradient">
+    
+      <link rel="alternate" hreflang="zh-CN" href="/zh-CN/docs/Web/CSS/linear-gradient" title="linear-gradient">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="linear-gradient()">
+  <meta property="og:url" content="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">
+  <meta name="twitter:url" content="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">
+  <meta name="twitter:title" content="linear-gradient()">
+  
+  <meta property="og:description" content="The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the gradient data type, which is a special kind of image.">
+  <meta name="description" content="The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the gradient data type, which is a special kind of image.">
+  <meta name="twitter:description" content="The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the gradient data type, which is a special kind of image.">
+  
+
+
+  
+
+<script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36116321-5', 'mozilla.org');
+    ga('set', 'anonymizeIp', true);
+
+    
+        // dimension1 == 'Signed-In"
+        ga('set', 'dimension1', 'Yes');
+
+        // dimension2 == "Beta Tester"
+        
+    
+
+    // dimension9 == "Section editing"
+    
+        // dimension12 == 'Page Revision'
+        ga('set', 'dimension12', '1315379');
+        // dimension17 == 'English Slug'
+        ga('set', 'dimension17', 'Web/CSS/linear-gradient');
+
+    (function() {
+        // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+        var win = window;
+        var removeUtms = function(){
+            var location = win.location;
+            if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                win.history.replaceState({}, '', location.pathname);
+            }
+        };
+
+        ga('send', 'pageview', {'hitCallback': removeUtms});
+    })();
+</script>
+
+</head>
+<body data-slug="Web/CSS/linear-gradient" contextmenu="edit-history-menu" data-search-url="" class="document  " data-login-service="github">
+
+  <script type="text/javascript">
+    // make sure global mdn object exists
+    var mdn = window.mdn || {};
+
+    (function(win) {
+        'use strict';
+
+        (function(){
+  var FLAGS = {
+    'compat_api': false,'compat_data': false,'kumaediting': true,'line_length': false,'page_move': false,'redesign_beta': false,'redesign_live': false,'registration_disabled': false,'sample_frame': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true,'newsletter': true,'newsletter_article': true,'foundation_callout': false,'helpful-survey-2': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // Site configuration
+        win.mdn.ckeditor = {};
+        win.mdn.features = {};
+        win.mdn.staticPath = 'https://cdn.mdn.mozilla.net/static/';
+        win.mdn.optimizely = win['optimizely'] || [];
+        win.mdn.wiki = {
+            autosuggestTitleUrl: '/en-US/docs/get-documents'
+        };
+        win.mdn.assets = {
+            css: {
+                'editor-content': ['https://cdn.mdn.mozilla.net/static/build/styles/editor-content.e8a6a8ba6d8e.css','https://cdn.mdn.mozilla.net/static/build/styles/editor-locale-en-US.7e45c23d7d30.css',
+                ],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/styles/wiki-compat-tables.12eaf4a7ab3e.css',]
+            },
+            js: {
+                'syntax-prism': ['https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js',],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/js/wiki-compat-tables.5ed42ff288ec.js',]
+            }
+        };
+
+        win.mdn.notifications = [];
+
+        
+
+        // interactive editor config
+        win.mdn.interactiveEditor = {
+            siteUrl: "https://developer.mozilla.org",
+            editorUrl: "https://interactive-examples.mdn.mozilla.net"
+        };
+
+    })(this);
+</script>
+    
+  <ul id="nav-access">
+    <li><a href="#document-main" id="skip-main">Skip to main content</a></li>
+    <li><a id="skip-language" href="#language">Select language</a></li>
+    <li><a href="#q" id="skip-search">Skip to search</a></li>
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+    <a href="/en-US/" class="logo">MDN Web Docs</a>
+
+    <div id="nav-sec">
+      <ul>
+      
+        <li class="nav-tools"><a href="/en-US/docs/MDN/Doc_status">Tools<i aria-hidden="true" class="icon-caret-down"></i></a>
+          <div class="submenu submenu-cols-2 js-submenu" id="nav-tools-submenu">
+            <div class="submenu-column">
+              <div class="title">Contribute to MDN</div>
+              <ul>
+                <li><a href="/en-US/docs/MDN/Getting_started">Get started</a></li>
+                <li><a href="/en-US/docs/MDN/Doc_status">Review or localize docs</a></li>
+              </ul>
+            </div><div class="submenu-column last">
+              <div class="title">Site Tools</div>
+              <ul>
+                <li><a href="/en-US/dashboards/revisions">Revision dashboard</a></li>
+                <li><a href="/en-US/docs/MDN/Doc_status">Documentation status</a></li>
+              </ul>
+            </div>
+          </div>
+      </li><li class="nav-login"><div class="login">
+    
+        <a class="user-url" href="/en-US/profiles/rj27706"><img src="https://secure.gravatar.com/avatar/9d5c117965e272ad16dc8f5b088e6d5b?s=50&amp;r=pg&amp;d=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Favatar.png" alt="rj27706" width="50" height="50" class="login-photo avatar" /><span class="login-name">rj27706</span> <i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-user-submenu">
+            <div class="submenu-column">
+                <ul>
+                    <li><a href="/en-US/profiles/rj27706">View profile</a></li>
+                    <li><a href="/en-US/profiles/rj27706/edit">Edit profile</a></li>
+                    <li><form class="login-form" action="/en-US/users/signout" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <input name="next" type="hidden" value="/en-US/docs/Web/CSS/linear-gradient">
+                        <button class="logout button link" type="submit">Sign out</button>
+                    </form></li>
+                </ul>
+            </div>
+        </div>
+    
+</div></li>
+      </ul>
+    </div>
+
+    <nav id="main-nav" class="nav-main" role="navigation"><ul><li class="nav-main-item"><a href="/en-US/docs/Web">Technologies<i aria-hidden="true" class="icon-caret-down"></i></a>
+      <div class="submenu js-submenu" id="nav-tech-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/en-US/docs/Web/HTML">HTML</a></li>
+            <li><a href="/en-US/docs/Web/CSS">CSS</a></li>
+            <li><a href="/en-US/docs/Web/JavaScript">JavaScript</a></li>
+            <li><a href="/en-US/docs/Web/Guide/Graphics">Graphics</a></li>
+            <li><a href="/en-US/docs/Web/HTTP">HTTP</a></li>
+            <li><a href="/en-US/docs/Web/API">APIs / DOM</a></li>
+            <li><a href="/en-US/docs/Mozilla/Add-ons/WebExtensions">Browser Extensions</a></li>
+            <li><a href="/en-US/docs/Web/MathML">MathML</a></li>
+          </ul>
+        </div></div><li class="nav-main-item"><a href="/en-US/docs/Learn">References & Guides<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-learn-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/en-US/docs/Learn">Learn web development</a></li>
+            <li><a href="/en-US/docs/Web/Tutorials">Tutorials</a></li>
+            <li><a href="/en-US/docs/Web/Reference">References</a></li>
+            <li><a href="/en-US/docs/Web/Guide">Developer Guides</a></li>
+            <li><a href="/en-US/docs/Web/Accessibility">Accessibility</a></li>
+            <li><a href="/en-US/docs/Games">Game development</a></li>
+            <li><a href="/en-US/docs/Web">...more docs</a></li>
+          </ul>
+        </div>
+      </div>
+      </li><li class="nav-main-item"><a href="/en-US/docs/MDN/Feedback">Feedback<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="https://support.mozilla.org/">Get Firefox help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://stackoverflow.com/">Get web development help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="/en-US/docs/MDN/Community">Join the MDN community</a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">Report a content problem<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.mdn">Report a bug<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="nav-main-search"><form action="/en-US/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">Search</label>
+          <input type="search" id="main-q" name="q" placeholder="Search" data-value="" value="" />
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>
+          <button type="submit" class="offscreen">Search</button>
+        </div>
+      </form></li>
+    </ul></nav>
+  </div></header> 
+
+  <!-- Content will go here -->
+  <main id="content">
+      
+  <!-- heading -->
+  <div id="wiki-document-head" class="document-head">
+    <div class="center">
+      
+        <!-- crumbs -->
+        
+  <nav class="crumbs" role="navigation"><ol xmlns:v="http://rdf.data-vocabulary.org/#" aria-label="breadcrumbs">
+    <li typeof="v:Breadcrumb"><a href="/en-US" rel="v:url" property="v:title">MDN</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/en-US/docs/Web" rel="v:url" property="v:title">Web technology for developers</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/en-US/docs/Web/CSS" rel="v:url" property="v:title">CSS</a></li>
+    
+    <li class="crumb" typeof="v:Breadcrumb" property="v:title">linear-gradient()</li>
+  </ol></nav>
+      
+
+      <!-- action buttons -->
+      <div class="document-actions">
+        
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons">
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Languages</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                
+                
+                  <li><bdi><a rel="internal" href="/de/docs/Web/CSS/linear-gradient" title="German">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/es/docs/Web/CSS/linear-gradient" title="Spanish">Español (es)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/fr/docs/Web/CSS/linear-gradient" title="French">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ja/docs/Web/CSS/linear-gradient" title="Japanese">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ko/docs/Web/CSS/linear-gradient" title="Korean">한국어 (ko)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/zh-CN/docs/Web/CSS/linear-gradient" title="Chinese (Simplified)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+              
+
+              
+                <li><a href="/en-US/docs/Web/CSS/linear-gradient$locales" rel="nofollow, noindex" id="translations-add">Add a translation</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+      
+      <li class="page-buttons-edit"><a href="/en-US/docs/Web/CSS/linear-gradient$edit" class="button neutral" data-optimizely-hook="button-edit-doc" id="edit-button" rel="nofollow, noindex">Edit<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+        <li><button id="watch-menu" class="only-icon" aria-haspopup="true" aria-owns="watch-menu-submenu" aria-expanded="false"><span>Watch</span><i aria-hidden="true" class="icon-eye"></i></button>
+        <div class="submenu js-submenu" id="watch-menu-submenu">
+            <div class="submenu-column">
+                <div class="title">Watch</div>
+                <ul>
+                  <li class="page-watch">
+                    
+                    
+                    
+                    
+                    <form action="/en-US/docs/Web/CSS/linear-gradient$subscribe" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="Updating subscription status" data-subscribe-text="Subscribe to this article" data-unsubscribe-text="Unsubscribe from this article" data-subscribe-message="You are now subscribed to linear-gradient()." data-unsubscribe-message="You have been unsubscribed from linear-gradient().">
+                        Subscribe to this article
+                        </a>
+                    </form>
+                  </li>
+
+                  
+                  <li class="page-watch">
+                    
+                    
+                    <form action="/en-US/docs/Web/CSS/linear-gradient$subscribe_to_tree" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="" data-subscribe-text="Subscribe to this article and all its sub-articles" data-unsubscribe-text="Unsubscribe from this article and all its sub-articles" data-subscribe-message="You are now subscribed to this article and all its sub-articles." data-unsubscribe-message="You have been unsubscribed from this article and all its sub-articles.">
+                        Subscribe to this article and all its sub-articles
+                        </a>
+                    </form>
+                  </li>
+
+                  
+
+                  </ul>
+
+                  
+                  
+            </div>
+        </div>
+        </li>
+        
+
+        <li class="page-buttons-advanced"><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Advanced</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Advanced</div>
+            <ul>
+                <li><a href="/en-US/docs/Web/CSS/linear-gradient$history" rel="nofollow, noindex">History</a></li>
+                
+                  <li><a href="/en-US/docs/new?parent=282" rel="nofollow, noindex">New sub-article</a></li>
+                  <li><a href="/en-US/docs/new?clone=282&amp;parent=1312" rel="nofollow, noindex">Clone this article</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="#" onclick="return window.print();">Print this article</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+      </div>
+
+      <div class="document-title">
+        
+
+        <h1>linear-gradient()</h1>
+      </div>
+    </div>
+  </div>
+
+      <div class="center clear">
+      
+
+    <div class="wiki-main-content" id="document-main"><div class="center">
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-right-present wiki-left-present">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            
+              <!-- TOC, approvals, etc -->
+              <div class="column-strip wiki-column" id="wiki-right">
+              
+              <!-- table of contents -->
+              <div id="toc" class="toc toggleable">
+                <a href="#toc" class="title toggler" data-open-icon="icon-caret-right" data-closed-icon="icon-caret-down">In This Article<i></i></a>
+                <ol class="toggle-container">
+                  <li><a rel="internal" href="#Composition_of_a_linear_gradient">Composition of a linear gradient</a><li><a rel="internal" href="#Syntax">Syntax</a><ol><li><a rel="internal" href="#Values">Values</a><li><a rel="internal" href="#Formal_syntax">Formal syntax</a></ol></li><li><a rel="internal" href="#Examples">Examples</a><ol><li><a rel="internal" href="#Gradient_at_a_45-degree_angle">Gradient at a 45-degree angle</a><li><a rel="internal" href="#Gradient_that_starts_at_60_of_the_gradient_line">Gradient that starts at 60% of the gradient line</a></ol></li><li><a rel="internal" href="#Specifications">Specifications</a><li><a rel="internal" href="#Browser_compatibility">Browser compatibility</a><li><a rel="internal" href="#See_also">See also</a>
+                </ol>
+              </div>
+              
+              </div>
+            
+
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-half wiki-column text-content">
+
+              
+
+              
+                
+              
+              
+
+              
+
+              
+                
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    
+                    <div><section class="Quick_links" id="Quick_Links"><!-- --></section></div>
+
+<p>The <strong><code>linear-gradient()</code></strong> <a href="/en-US/docs/Web/CSS">CSS</a> function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the <a title="The &lt;gradient> CSS data type is a special type of &lt;image> that consists of a progressive transition between two or more colors." href="/en-US/docs/Web/CSS/gradient"><code>&lt;gradient&gt;</code></a> data type, which is a special kind of <a title="The &lt;image> CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a &lt;url>, and dynamically-generated images, generated with &lt;gradient> or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image." href="/en-US/docs/Web/CSS/image"><code>&lt;image&gt;</code></a>.</p>
+
+<pre class="brush:css no-line-numbers">/* A gradient tilted 45 degrees,
+   starting blue and finishing red */
+linear-gradient(45deg, blue, red);
+
+/* A gradient going from the bottom right to the top left corner,
+   starting blue and finishing red */
+linear-gradient(to left top, blue, red);
+
+/* A gradient going from the bottom to top,
+   starting blue, turning green at 40% of its length,
+   and finishing red */
+linear-gradient(0deg, blue, green 40%, red);
+</pre>
+
+<p>As with any gradient, a linear gradient has <a href="https://developer.mozilla.org/en-US/docs/CSS/image#no_intrinsic">no intrinsic dimensions</a>; i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.</p>
+
+<div class="note">
+<p><strong>Note:</strong> To create a linear gradient that repeats so as to fill its container, use the <a title="The repeating-linear-gradient() CSS function creates an image consisting of repeating linear gradients. It is similar to linear-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the &lt;gradient> data type, which is a special kind of &lt;image>." href="/en-US/docs/Web/CSS/repeating-linear-gradient"><code>repeating-linear-gradient()</code></a> function instead.</p>
+</div>
+
+<div class="note">
+<p><strong>Note:</strong> Because <code>&lt;gradient&gt;</code>s belong to the <code>&lt;image&gt;</code> data type, they can only be used where <code>&lt;image&gt;</code>s can be used. For this reason, <code>linear-gradient()</code> won't work on <a title="The background-color CSS property sets the background color of an element, using either a &lt;color> value or the keyword transparent." href="/en-US/docs/Web/CSS/background-color"><code>background-color</code></a> and other properties that use the <a title="The &lt;color> CSS data type represents a color in the sRGB color space. A &lt;color> may also include an alpha-channel transparency value, indicating how the color should composite with its background." href="/en-US/docs/Web/CSS/color_value"><code>&lt;color&gt;</code></a> data type.</p>
+</div>
+
+<h2 id="Composition_of_a_linear_gradient">Composition of a linear gradient</h2>
+
+<p>A linear gradient is defined by an axis—the <em>gradient line</em>—and two or more <em>color-stop points</em>. Each point on the axis is a distinct color; to create a smooth gradient, the <code>linear-gradient()</code> function draws a series of colored lines perpendicular to the gradient line, each one matching the color of the point where it intersects the gradient line.</p>
+
+<p><img src="/files/3537/linear-gradient.png" alt="linear-gradient.png" style="float: left; height: 383px; width: 309px;"></p>
+
+<p>The gradient line is defined by the center of the box containing the gradient image and by an angle. The colors of the gradient are determined by two or more points: the starting point, the ending point, and, in between, optional color-stop points.</p>
+
+<p>The <em>starting point</em> is the location on the gradient line where the first color begins. The <em>ending point</em> is the point where the last color ends. Each of these two points is defined by the intersection of the gradient line with a perpendicular line passing from the box corner which is in the same quadrant. The ending point can be simply understood as the symmetrical point of the starting point. These somewhat complex definitions lead to an interesting effect sometimes called <em>magic corners</em>: the corners nearest to the starting and ending points have the same color as their respective starting or ending points.</p>
+
+<p>By adding more color-stop points on the gradient line, you can create a highly customized transition between the starting and ending colors. A color-stop's position can be explicitly defined by using a <a title="The &lt;length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow." href="/en-US/docs/Web/CSS/length"><code>&lt;length&gt;</code></a> or a <a title="The &lt;percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size." href="/en-US/docs/Web/CSS/percentage"><code>&lt;percentage&gt;</code></a>. If you don't specify the location, it is placed halfway between the one that precedes it and the one that follows it.</p>
+
+<h2 style="" id="Syntax">Syntax</h2>
+
+<h3 id="Values">Values</h3>
+
+<dl>
+ <dt><code>&lt;side-or-corner&gt;</code></dt>
+ <dd>The position of the gradient line's starting point. If specified, it consists of the word <code>to</code> and up to two keywords: one indicates the horizontal side (<code>left</code> or <code>right</code>), and the other the vertical side (<code>top</code> or <code>bottom</code>). The order of the side keywords does not matter. If unspecified, it defaults to <code><span class="css">to</span></code><span class="css"> </span><code><span class="css">bottom</span></code>.</dd>
+ <dd>The values <code>to top</code>, <code>to bottom</code>, <code>to left</code>, and <code>to right</code> are equivalent to the angles <code>0deg</code>, <code>180deg</code>, <code>270deg</code>, and <code>90deg</code> respectively. The other values are translated into an angle.</dd>
+ <dt><a title="The &lt;angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient>s and in some transform functions." href="/en-US/docs/Web/CSS/angle"><code>&lt;angle&gt;</code></a></dt>
+ <dd>The gradient line's angle of direction. A value of <code>0deg</code> is equivalent to <code>to top</code>; increasing values rotate clockwise from there.</dd>
+ <dt><code>&lt;color-stop&gt;</code></dt>
+ <dd>A color-stop's <a title="The &lt;color> CSS data type represents a color in the sRGB color space. A &lt;color> may also include an alpha-channel transparency value, indicating how the color should composite with its background." href="/en-US/docs/Web/CSS/color_value"><code>&lt;color&gt;</code></a> value, followed by an optional stop position (either a <a title="The &lt;percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size." href="/en-US/docs/Web/CSS/percentage"><code>&lt;percentage&gt;</code></a> or a <a title="The &lt;length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow." href="/en-US/docs/Web/CSS/length"><code>&lt;length&gt;</code></a> along the gradient's axis).</dd>
+ <dd>
+ <div class="note">
+ <p><strong>Note:</strong> Rendering of <a href="#Gradient_with_multiple_color_stops">color stops in CSS gradients</a> follows the same rules as color stops in <a href="/en-US/docs/Web/SVG/Tutorial/Gradients">SVG gradients</a>.</p>
+ </div>
+ </dd>
+</dl>
+
+<h3 id="Formal_syntax">Formal syntax</h3>
+
+<pre class="syntaxbox">linear-gradient( 
+  [ <a href="/en-US/CSS/angle">&lt;angle&gt;</a> | to &lt;side-or-corner&gt; ,]? &lt;color-stop&gt; [, &lt;color-stop&gt;]+ )
+  \---------------------------------/ \----------------------------/
+    Definition of the gradient line        List of color stops  
+
+where <code>&lt;side-or-corner&gt; = [left | right] || [top | bottom]</code>
+  and <code>&lt;color-stop&gt;     = &lt;color&gt; [ &lt;percentage&gt; | &lt;length&gt; ]?</code>
+</pre>
+
+<h2 id="Examples">Examples</h2>
+
+<h3 id="Gradient_at_a_45-degree_angle">Gradient at a 45-degree angle</h3>
+
+<div class="hidden">
+<pre class="brush: css">body {
+  width: 100vw;
+  height: 100vh;
+}</pre>
+</div>
+
+<pre class="brush: css">body {
+  background: linear-gradient(45deg, red, blue);
+}
+</pre>
+
+<p><iframe src="https://mdn.mozillademos.org/en-US/docs/Web/CSS/linear-gradient$samples/Gradient_at_a_45-degree_angle?revision=1315379" height="120" width="120" id="frame_Gradient_at_a_45-degree_angle" class="live-sample-frame sample-code-frame" frameborder="0"></iframe></p>
+
+<h3 id="Gradient_that_starts_at_60_of_the_gradient_line">Gradient that starts at 60% of the gradient line</h3>
+
+<div class="hidden">
+<pre class="brush: css">body {
+  width: 100vw;
+  height: 100vh;
+}</pre>
+</div>
+
+<pre class="brush: css">body {
+  background: linear-gradient(135deg, orange, orange 60%, cyan);
+}</pre>
+
+<p><iframe src="https://mdn.mozillademos.org/en-US/docs/Web/CSS/linear-gradient$samples/Gradient_that_starts_at_60_of_the_gradient_line?revision=1315379" height="120" width="120" id="frame_Gradient_that_starts_at_60_of_the_gradient_line" class="live-sample-frame sample-code-frame" frameborder="0"></iframe></p>
+
+<div class="note">
+<p><strong>Note:</strong> Please see <a href="/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients">Using CSS gradients</a> for more examples.</p>
+</div>
+
+<h2 id="Specifications">Specifications</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Specification</th>
+   <th scope="col">Status</th>
+   <th scope="col">Comment</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a hreflang="en" class="external" lang="en" href="https://drafts.csswg.org/css-images-4/#color-stop-syntax">CSS Images Module Level 4<br><small lang="en-US">The definition of 'Gradient Color-Stops' in that specification.</small></a></td>
+   <td><span class="spec-WD">Working Draft</span></td>
+   <td>Adds interpolation hints.</td>
+  </tr>
+  <tr>
+   <td><a hreflang="en" class="external" lang="en" href="https://drafts.csswg.org/css-images-3/#linear-gradients">CSS Images Module Level 3<br><small lang="en-US">The definition of 'linear-gradient()' in that specification.</small></a></td>
+   <td><span class="spec-CR">Candidate Recommendation</span></td>
+   <td>Initial definition.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Browser_compatibility">Browser compatibility</h2>
+
+<div><div class="htab">
+    <a id="AutoCompatibilityTable" name="AutoCompatibilityTable"></a>
+    <ul>
+        <li class="selected"><a>Escritorio</a></li>
+        <li><a>Móvil</a></li>
+    </ul>
+</div></div>
+
+<div id="compat-desktop">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>Feature</th>
+   <th>Firefox (Gecko)</th>
+   <th>Chrome</th>
+   <th>Internet Explorer</th>
+   <th>Opera (Presto)</th>
+   <th>Safari</th>
+  </tr>
+  <tr>
+   <td>Basic support (on <a title="The CSS background shorthand property lets you adjust all of the available background style options at once, including color image, origin and size, repeat method, and other features." href="/en-US/docs/Web/CSS/background"><code>background</code></a> and <a title="The background-image CSS property sets one or more background images on an element." href="/en-US/docs/Web/CSS/background-image"><code>background-image</code></a>)</td>
+   <td><a title="Released on 2010-01-21." href="/en-US/Firefox/Releases/3.6">3.6</a> (1.9.2)<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-moz' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-moz</a></span><sup>[1]</sup><br>
+    <a title="Released on 2012-10-09." href="/en-US/Firefox/Releases/16">16</a> (16)<sup>[2]</sup></td>
+   <td>10.0 (534.16)<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[6]</sup></td>
+   <td>10.0<sup>[4]</sup></td>
+   <td>11.10<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-o' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-o</a></span><sup>[1]</sup></td>
+   <td>5.1<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[6]</sup></td>
+  </tr>
+  <tr>
+   <td>On <a title="The border-radius CSS property allows Web authors to define how rounded border corners are. You can specify a single radius to make circular corners, or two radii, to make elliptical corners." href="/en-US/docs/Web/CSS/border-radius"><code>border-radius</code></a></td>
+   <td><a title="Released on 2014-04-29." href="/en-US/Firefox/Releases/29">29</a> (29)</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+  </tr>
+  <tr>
+   <td>On any other property that accepts <a title="The &lt;image> CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a &lt;url>, and dynamically-generated images, generated with &lt;gradient> or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image." href="/en-US/docs/Web/CSS/image"><code>&lt;image&gt;</code></a></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+  </tr>
+  <tr>
+   <td>Legacy webkit syntax<span title="This API has not been standardized."><i class="icon-warning-sign"> </i></span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>3<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[3]</sup></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td><span style="color: #f00;">No support</span></td>
+   <td>4.0<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[3]</sup></td>
+  </tr>
+  <tr>
+   <td>Legacy 'from' syntax (without <code>to</code>)<span title="This API has not been standardized."><i class="icon-warning-sign"> </i></span></td>
+   <td><a title="Released on 2010-01-21." href="/en-US/Firefox/Releases/3.6">3.6</a> (1.9.2)<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-moz' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-moz</a></span><sup>[5]</sup></td>
+   <td>10.0 (534.16)<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[3]</sup></td>
+   <td>10</td>
+   <td>11.10<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-o' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-o</a></span><sup>[5]</sup></td>
+   <td>5.1<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[3]</sup></td>
+  </tr>
+  <tr>
+   <td>Standard syntax (using the <code>to</code> keyword)</td>
+   <td><a title="Released on 2012-10-09." href="/en-US/Firefox/Releases/16">16</a> (16)</td>
+   <td>26.0 (537.27)</td>
+   <td>10</td>
+   <td>12.10</td>
+   <td>6.1</td>
+  </tr>
+  <tr>
+   <td><a class="external" href="https://drafts.csswg.org/css-images-4/#color-interpolation-hint">Interpolation hints/gradient midpoints</a> (a percent without a color)</td>
+   <td><a title="Released on 2015-02-24." href="/en-US/Firefox/Releases/36">36</a> (36)</td>
+   <td>40</td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td>27</td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+  <tr>
+   <td>Unitless 0 for <code>&lt;angle&gt;</code></td>
+   <td><a title="Released on 2016-04-26." href="/en-US/Firefox/Releases/46">46</a> (46)<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><sup>[7]</sup><br>
+    <a title="Released on 2017-08-08." href="/en-US/Firefox/Releases/55">55</a> (55)<sup>[7]</sup></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td>Edge 12</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<div id="compat-mobile">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>Feature</th>
+   <th>Firefox (Gecko)</th>
+   <th>Chrome</th>
+   <th>Internet Explorer</th>
+   <th>Opera (Presto)</th>
+   <th>Safari</th>
+  </tr>
+  <tr>
+   <td>Basic support (on <a title="The CSS background shorthand property lets you adjust all of the available background style options at once, including color image, origin and size, repeat method, and other features." href="/en-US/docs/Web/CSS/background"><code>background</code></a> and <a title="The background-image CSS property sets one or more background images on an element." href="/en-US/docs/Web/CSS/background-image"><code>background-image</code></a>)</td>
+   <td>1.0 (1.9.2)<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-moz' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-moz</a></span><sup>[1]</sup><br>
+    16.0 (16)[2]</td>
+   <td>16<span class="inlineIndicator prefixBox prefixBoxInline" title="prefix"><a title="The name of this feature is prefixed with '-webkit' as this browser considers it experimental" href="/en-US/docs/Web/Guide/Prefixes">-webkit</a></span><br>
+    26</td>
+   <td>10</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+  </tr>
+  <tr>
+   <td>On <a title="The border-radius CSS property allows Web authors to define how rounded border corners are. You can specify a single radius to make circular corners, or two radii, to make elliptical corners." href="/en-US/docs/Web/CSS/border-radius"><code>border-radius</code></a></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+  <tr>
+   <td>On any other property that accepts <a title="The &lt;image> CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a &lt;url>, and dynamically-generated images, generated with &lt;gradient> or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image." href="/en-US/docs/Web/CSS/image"><code>&lt;image&gt;</code></a></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+  <tr>
+   <td>Legacy webkit syntax<span title="This API has not been standardized."><i class="icon-warning-sign"> </i></span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+  <tr>
+   <td>Legacy 'from' syntax (without <code>to</code>)<span title="This API has not been standardized."><i class="icon-warning-sign"> </i></span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+  <tr>
+   <td>Standard syntax (using the <code>to</code> keyword)</td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+  <tr>
+   <td><a class="external" href="https://drafts.csswg.org/css-images-4/#color-interpolation-hint">Interpolation hints/gradient midpoints</a> (a percent without a color)</td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+   <td><span style="color: rgb(255, 153, 0);" title="Compatibility unknown; please update this.">?</span></td>
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<p>[1] Gecko, Opera &amp; Webkit consider <a title="The &lt;angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient>s and in some transform functions." href="/en-US/docs/Web/CSS/angle"><code>&lt;angle&gt;</code></a> to start to the right, instead of the top. I.e. it considered an angle of <code>0deg</code> as a direction indicator pointing to the right. This is different from the latest specification where an angle of <code>0deg</code> as a direction indicator points to the top. Since Firefox 42, the prefixed version of gradients can be disabled by setting <code>layout.css.prefixes.gradients</code> to <code>false</code>.</p>
+
+<p>[2] Before Gecko 36.0 (Firefox 36.0 / Thunderbird 36.0 / SeaMonkey 2.33), Gecko didn't apply gradients on the pre-multiplied color space, leading to shades of grey unexpectedly appearing when used with transparency.</p>
+
+<p>[3] WebKit since 528 supports the legacy <a class="external" href="http://developer.apple.com/safari/library/documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/Gradients/Gradient.html"><code>-webkit-gradient(linear,…)</code> function</a>. As of WebKit 534.16, it also supports the standard gradient syntax. Unlike in Gecko, in legacy WebKit you cannot specify both a position and an angle in <code>-webkit-linear-gradient()</code>. You can achieve the same effect by offsetting the color stops.</p>
+
+<p>[4] Internet Explorer 5.5 through 9.0 supports proprietary <a class="external" href="http://msdn.microsoft.com/en-us/library/ms532997(VS.85,loband).aspx"><code>filter: progid:DXImageTransform.Microsoft.Gradient()</code> filter</a>.</p>
+
+<p>[5] Firefox 3.6 and Opera 11.10 implemented, prefixed, an early syntax where the starting corner or side was indicated without the <code>to</code> keyword, and effectively considered as a 'from' position. The <code>to</code> syntax has been added in Firefox 10 and Opera 11.60.</p>
+
+<p>In addition to the unprefixed support using the standard syntax, Gecko 44.0 (Firefox 44.0 / Thunderbird 44.0 / SeaMonkey 2.41) added support for a <code>-webkit</code> prefixed version of the function using the legacy 'from' syntax for web compatibility reasons behind the preference <code>layout.css.prefixes.webkit</code>, defaulting to <code>false</code>. Since Gecko 49.0 (Firefox 49.0 / Thunderbird 49.0 / SeaMonkey 2.46) the preference defaults to <code>true</code>.</p>
+
+<p>[6] Opera &amp; Webkit consider <a title="The &lt;angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient>s and in some transform functions." href="/en-US/docs/Web/CSS/angle"><code>&lt;angle&gt;</code></a> to start to the right, instead of the top. I.e. it considered an angle of <code>0deg</code> as a direction indicator pointing to the right. This is different from the latest specification where an angle of <code>0deg</code> as a direction indicator points to the top. Since Firefox 42, the prefixed version of gradients can be disabled by setting <code>layout.css.prefixes.gradients</code> to <code>false</code>. WebKit since 528 supports the legacy <a class="external" href="http://developer.apple.com/safari/library/documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/Gradients/Gradient.html"><code>-webkit-gradient(linear,…)</code> function</a>. As of WebKit 534.16, it also supports the standard gradient syntax. Unlike in Gecko, in legacy WebKit you cannot specify both a position and an angle in <code>-webkit-linear-gradient()</code>. You can achieve the same effect by offsetting the color stops.</p>
+
+<p>[7] To match webkit/blink behavior, unitless 0 for angles are accepted, in <code>-webkit-linear-gradient</code> function since Gecko 46.0 (Firefox 46.0 / Thunderbird 46.0 / SeaMonkey 2.43) (see <a title="FIXED: Firefox's CSS parser rejects &quot;-webkit-linear-gradient(0,pink,teal)&quot;" class="external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1239153">bug 1239153</a>), and in <code>linear-gradient</code> function since Gecko 55.0 (Firefox 55.0 / Thunderbird 55.0 / SeaMonkey 2.52) (see <a title="FIXED: Zero (0) angle value without degree unit is not correctly interpreted in linear-gradient" class="external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1363292">bug 1363292</a>).</p>
+
+<h2 id="See_also">See also</h2>
+
+<ul>
+ <li><a href="/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients">Using CSS gradients</a></li>
+ <li>Other gradient functions: <a title="The repeating-linear-gradient() CSS function creates an image consisting of repeating linear gradients. It is similar to linear-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the &lt;gradient> data type, which is a special kind of &lt;image>." href="/en-US/docs/Web/CSS/repeating-linear-gradient"><code>repeating-linear-gradient()</code></a>, <a title="The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the &lt;gradient> data type, which is a special kind of &lt;image>." href="/en-US/docs/Web/CSS/radial-gradient"><code>radial-gradient()</code></a>, <a title="The repeating-radial-gradient() CSS function creates an image consisting of repeating gradients that radiate from an origin. It is similar to radial-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the &lt;gradient> data type, which is a special kind of &lt;image>." href="/en-US/docs/Web/CSS/repeating-radial-gradient"><code>repeating-radial-gradient()</code></a></li>
+ <li><a title="The &lt;image> CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a &lt;url>, and dynamically-generated images, generated with &lt;gradient> or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image." href="/en-US/docs/Web/CSS/image"><code>&lt;image&gt;</code></a></li>
+</ul>
+                  
+                
+
+              
+                <aside class="helpful-survey hidden" id="helpful-survey">
+                  <p>Was this article helpful?</p>
+
+                  <div class="helpful-survey-content">
+                    <div class="helpful-survey-buttons">
+                      <button type="button" class="helpful-survey-vote helpful-survey-yes">
+                        <span class="offscreen">Yes</span>
+                        <i class="icon-thumbs-o-up" aria-hidden="true"></i>
+                      </button>
+                      <button type="button" class="helpful-survey-vote helpful-survey-no">
+                        <span class="offscreen">No</span>
+                        <i class="icon-thumbs-o-down" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <div class="helpful-survey-thankyou">Thank you!</div>
+                  </div>
+                </aside>
+              
+              </article>
+
+              <!-- contributors -->
+              <div class="wiki-block contributors">
+                <h2 class="offscreen">Document Tags and Contributors</h2>
+                
+                
+  <div class="tag-attach-list contributors-sub">
+    <i aria-hidden="true" class="icon-tags icon-fw"></i>
+    <strong>Tags:</strong>&nbsp;
+    <ul class="tags tags-small">
+      
+        <li><a href="/en-US/docs/tag/CSS" rel="nofollow, noindex">CSS</a></li>
+      
+        <li><a href="/en-US/docs/tag/CSS%20Function" rel="nofollow, noindex">CSS Function</a></li>
+      
+        <li><a href="/en-US/docs/tag/CSS%20Images" rel="nofollow, noindex">CSS Images</a></li>
+      
+        <li><a href="/en-US/docs/tag/Graphics" rel="nofollow, noindex">Graphics</a></li>
+      
+        <li><a href="/en-US/docs/tag/Layout" rel="nofollow, noindex">Layout</a></li>
+      
+        <li><a href="/en-US/docs/tag/NeedsNewCompatTable" rel="nofollow, noindex">NeedsNewCompatTable</a></li>
+      
+        <li><a href="/en-US/docs/tag/Reference" rel="nofollow, noindex">Reference</a></li>
+      
+        <li><a href="/en-US/docs/tag/Web" rel="nofollow, noindex">Web</a></li>
+      
+    </ul>
+  </div>
+
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Contributors to this page:</strong> 
+        <a href="/en-US/profiles/mfluehr">mfluehr</a>, 
+    
+        <a href="/en-US/profiles/OlivierJaquemet">OlivierJaquemet</a>, 
+    
+        <a href="/en-US/profiles/wbamberg">wbamberg</a>, 
+    
+        <a href="/en-US/profiles/fitojb">fitojb</a>, 
+    
+        <a href="/en-US/profiles/Ende93">Ende93</a>, 
+    
+        <a href="/en-US/profiles/yisibl">yisibl</a>, 
+    
+        <a href="/en-US/profiles/haingh">haingh</a>, 
+    
+        <a href="/en-US/profiles/TylerH">TylerH</a>, 
+    
+        <a href="/en-US/profiles/xgqfrms-GitHub">xgqfrms-GitHub</a>, 
+    
+        <a href="/en-US/profiles/Sebastianz">Sebastianz</a>, 
+    
+        <a href="/en-US/profiles/247flashgames">247flashgames</a>, 
+    
+        <a href="/en-US/profiles/matthias-vogt">matthias-vogt</a>, 
+    
+        <a href="/en-US/profiles/sjohnsonaz">sjohnsonaz</a>, 
+    
+        <a href="/en-US/profiles/Simplexible">Simplexible</a>, 
+    
+        <a href="/en-US/profiles/wizAmit">wizAmit</a>, 
+    
+        <a href="/en-US/profiles/slayslot">slayslot</a>, 
+    
+        <a href="/en-US/profiles/Volker-E">Volker-E</a>, 
+    
+        <a href="/en-US/profiles/prayash">prayash</a>, 
+    
+        <a href="/en-US/profiles/MichaelZalla">MichaelZalla</a>, 
+    
+        <a href="/en-US/profiles/teoli">teoli</a>, 
+    
+        <a href="/en-US/profiles/xiaolong">xiaolong</a>, 
+    
+        <a href="/en-US/profiles/Dholbert">Dholbert</a>, 
+    
+        <a href="/en-US/profiles/nacho4d">nacho4d</a>, 
+    
+        <a href="/en-US/profiles/chk1">chk1</a>, 
+    
+        <a href="/en-US/profiles/HTMLValidator">HTMLValidator</a>, 
+    
+        <a href="/en-US/profiles/phistuck">phistuck</a>, 
+    
+        <a href="/en-US/profiles/Tungsten314">Tungsten314</a>, 
+    
+        <a href="/en-US/profiles/estelle">estelle</a>, 
+    
+        <a href="/en-US/profiles/kscarfone">kscarfone</a>, 
+    
+        <a href="/en-US/profiles/MartinRinehart">MartinRinehart</a>, 
+    
+        <a href="/en-US/profiles/Flaki">Flaki</a>, 
+    
+        <a href="/en-US/profiles/xdhmoore">xdhmoore</a>, 
+    
+        <a href="/en-US/profiles/JLittke">JLittke</a>, 
+    
+        <a href="/en-US/profiles/Sheppy">Sheppy</a>, 
+    
+        <a href="/en-US/profiles/patstoms">patstoms</a>, 
+    
+        <a href="/en-US/profiles/m_gol">m_gol</a>, 
+    
+        <a href="/en-US/profiles/PikadudeNo1">PikadudeNo1</a>, 
+    
+        <a href="/en-US/profiles/trevorh">trevorh</a>, 
+    
+        <a href="/en-US/profiles/yardbird@sprynet.com">yardbird@sprynet.com</a>, 
+    
+        <a href="/en-US/profiles/mattbrundage">mattbrundage</a>, 
+    
+        <a href="/en-US/profiles/nobuoka">nobuoka</a>, 
+    
+        <a href="/en-US/profiles/jswisher">jswisher</a>, 
+    
+        <a href="/en-US/profiles/J%C3%BCrgen%20Jeka">Jürgen Jeka</a>, 
+    
+        <a href="/en-US/profiles/FredB">FredB</a>, 
+    
+        <a href="/en-US/profiles/CutenessOverload">CutenessOverload</a>, 
+    
+        <a href="/en-US/profiles/lstorset@opera">lstorset@opera</a>, 
+    
+        <a href="/en-US/profiles/Marcoos">Marcoos</a>, 
+    
+        <a href="/en-US/profiles/Phil_Wheeler">Phil_Wheeler</a>, 
+    
+        <a href="/en-US/profiles/leaverou">leaverou</a>, 
+    
+        <a href="/en-US/profiles/myakura">myakura</a>, 
+    
+        <a href="/en-US/profiles/nimbu">nimbu</a>, 
+    
+        <a href="/en-US/profiles/paul.irish">paul.irish</a>, 
+    
+        <a href="/en-US/profiles/RAMilewski">RAMilewski</a>, 
+    
+        <a href="/en-US/profiles/cers">cers</a>, 
+    
+        <a href="/en-US/profiles/Mvent2">Mvent2</a>, 
+    
+        <a href="/en-US/profiles/Twiloo">Twiloo</a>, 
+    
+        <a href="/en-US/profiles/Blizzard">Blizzard</a>, 
+    
+        <a href="/en-US/profiles/crayzeepete">crayzeepete</a>, 
+    
+        <a href="/en-US/profiles/Level">Level</a>
+    
+                  </div>
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Last updated by:</strong>
+                    <a href="/en-US/profiles/mfluehr">mfluehr</a>,
+                    <time datetime="2017-10-06T12:27:06.028945-07:00">Oct 6, 2017, 12:27:06 PM</time>
+                  </div>
+                
+              </div>
+            </div>
+
+            
+              <!-- quick links and zone subnav strip -->
+              <div id="wiki-left" class="column-strip wiki-column">
+
+                
+
+                
+                  <!-- quick links -->
+                  
+  <div class="quick-links" id="quick-links">
+    <div class="quick-links-head">Related Topics</div>
+    <ol><li><strong><a href="/en-US/docs/Web/CSS">CSS</a></strong></li><li><strong><a href="/en-US/docs/Web/CSS/Reference">CSS Reference</a></strong></li></ol>
+  </div>
+                
+
+                <!-- approvals -->
+                
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+    
+      <div class="newsletter-box">
+      <div class="newsletter">
+    <form id="newsletterForm" class="newsletter-form nodisable" name="newsletter-form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <div class="newsletter-head">
+            <h2 class="newsletter-teaser">Learn the best of web development</h2>
+            <p class="newsletter-description">Get the latest and greatest from MDN delivered straight to your inbox.</p>
+            
+        </div>
+
+        <div class="newsletter-fields">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletterNewslettersInput" name="newsletters" value="app-dev" />
+            <div id="newsletterErrors" class="newsletter-errors"></div>
+
+            <div id="newsletterEmail" class="form-group newsletter-group-email">
+                <label for="newsletterEmailInput" class="form-label offscreen">E-mail</label>
+                <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required placeholder="you@example.com" size="30">
+            </div>
+
+            <div id="newsletterPrivacy" class="form-group form-group-agree newsletter-group-privacy hidden">
+                <input type="checkbox" id="newsletterPrivacyInput" name="privacy" required>
+                <label for="newsletterPrivacyInput">
+                I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.
+                </label>
+            </div>
+            <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">Sign up now</button>
+            </div>
+        </div>
+    </form>
+    <div id="newsletterThanks" class="newsletter-thanks hidden">
+        <h2>Thanks! Please check your inbox to confirm your subscription.</h2>
+        <p>If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us.
+        </p>
+    </div>
+    <button id="newsletterHide" type="button" class="only-icon newsletter-hide hidden"><span>Hide Newsletter Sign-up</span><i aria-hidden="true" class="icon-times"></i></button>
+</div>
+      </div>
+    
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/en-US/docs/Web/CSS/linear-gradient$edit" label="Edit page"></menuitem>
+    <menuitem data-action="/en-US/docs/Web/CSS/linear-gradient$history" label="View page history"></menuitem>
+  </menu>
+
+      </div>
+  </main>
+  <!-- Footer -->
+    <footer id="nav-footer" class="nav-footer">
+      <div class="center">
+          <a href="/en-US/" class="nav-footer-logo">MDN Web Docs</a>
+          <div class="footer-group footer-group-mdn">
+            <h2 class="footer-title">MDN</h2>
+            <ul class="footer-list">
+              <li><a href="/en-US/docs/Web">Web Technologies</a></li>
+              <li><a href="/en-US/docs/Learn">Learn Web Development</a></li>
+              <li><a href="/docs/MDN/About">About MDN</a></li>
+              <li><a href="/en-US/docs/MDN/Feedback">Feedback</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozdevnet" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://github.com/mdn/" class="only-icon"><i aria-hidden="true" class="icon-github"></i> <span>GitHub</span></a></li>
+            </ul>
+          </div>
+
+          <a href="https://mozilla.org" class="nav-footer-mozilla">Mozilla</a>
+          <div class="footer-group footer-group-mozilla">
+            <h2 class="footer-title">Mozilla</h2>
+            <ul class="footer-list">
+              <li><a href="https://www.mozilla.org/about/">About</a></li>
+              <li><a href="https://www.mozilla.org/contact/">Contact Us</a></li>
+              <li><a href="https://donate.mozilla.org/?utm_source=developer.mozilla.org&utm_medium=referral&utm_content=footer">Donate</a></li>
+              <li><a href="https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral">Firefox</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://www.facebook.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-facebook"></i> <span>Facebook</span></a></li>
+              <li class="footer-social"><a href="https://www.instagram.com/mozillagram/" class="only-icon"><i aria-hidden="true" class="icon-instagram"></i> <span>Instagram</span></a></li>
+            </ul>
+          </div>
+
+          
+  
+    <form class="languages go" method="get" action="/en-US/docs/Web">
+      <label for="language">Other languages:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="English (US)" value="/en-US/docs/Web/CSS/linear-gradient" selected>
+          English (US) (en-US)
+        </option>
+        
+          <option title="German" value="/de/docs/Web/CSS/linear-gradient">
+            Deutsch (de)
+          </option>
+          <option title="Spanish" value="/es/docs/Web/CSS/linear-gradient">
+            Español (es)
+          </option>
+          <option title="French" value="/fr/docs/Web/CSS/linear-gradient">
+            Français (fr)
+          </option>
+          <option title="Japanese" value="/ja/docs/Web/CSS/linear-gradient">
+            日本語 (ja)
+          </option>
+          <option title="Korean" value="/ko/docs/Web/CSS/linear-gradient">
+            한국어 (ko)
+          </option>
+          <option title="Chinese (Simplified)" value="/zh-CN/docs/Web/CSS/linear-gradient">
+            中文 (简体) (zh-CN)
+          </option>
+      </select>
+      <noscript><button type="submit">Go</button></noscript>
+    </form>
+  
+
+
+          
+            <ul class="footer-tos">
+              <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Terms</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/">Privacy</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            </ul>
+
+            <div class="contentinfo">
+              <p>&copy; 2005-2017 Mozilla and individual contributors.</p> <p>Content is available under <a href="/en-US/docs/MDN/About#Copyrights_and_licenses">these licenses</a>.</p>
+            </div>
+          
+      </div>
+    </footer> 
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/jsi18n/en-us/javascript.b28203373cc1.js"></script>
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/main.400fbae34d85.js" charset="utf-8"></script>
+    <script>
+      if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+    </script>
+    
+
+  
+
+    
+        <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.479f62dbbd0b.js" charset="utf-8"></script>
+    
+
+
+
+  
+
+  
+
+  
+
+  
+    <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js" charset="utf-8"></script>
+  
+
+
+</body>
+</html>�g�q`�      Z�Z�>de�Z{S   A    :https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAASoMIIEpDCCA4ygAwIBAgIQBHbuoBf/X5nS+LsjpsMNKjANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0xNzEwMjUwMDAwMDBaFw0xODExMjUxMjAwMDBaMCAxHjAcBgNVBAMTFWRldmVsb3Blci5tb3ppbGxhLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKGrWYW9DzmDdBT9gk7sE3JEkKppIldG3PSXvUZRl574Ls+lXXmuDj7hzQrW8c0PWLY6OuVMTqyjwaUY62fJnam4oFkXAFOr9GCCnh9BvKNFj7Be7TtTwV0D8gGcg592SoTeaLLnRwqBVd8ipu2/gRKzsOmW/JaRBb6bdqqgE9g8Fki/caz6AMf3hZaXtZH1YpJ9q43+ZdZWrR1mZZLTjO/T49PIpxBFw+PqnmFeCiUaxFF3zgU/ubQesYfh7sty10kMxRqFwGss4uDXtxU3qsF6PJ2Q5y49zGQzL/EByl0xo3kF9ikfsxId4bApB5pIOneC9UQY7ekhEQNS3+I+J3cCAwEAAaOCAbIwggGuMB8GA1UdIwQYMBaAFFmkZgZSoHuVkjyjlAcnlnRb+T3QMB0GA1UdDgQWBBSlBOzloko02nKAINF3Jv6nNugfSDBmBgNVHREEXzBdghVkZXZlbG9wZXIubW96aWxsYS5vcmeCFG1kbi5tb3ppbGxhZGVtb3Mub3JnghptZG4tZGVtb3Mtb3JpZ2luLm1vei53b3Jrc4IScHJvZC5tZG4ubW96LndvcmtzMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3Auc2NhMWIuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipodHRwOi8vY3J0LnNjYTFiLmFtYXpvbnRydXN0LmNvbS9zY2ExYi5jcnQwDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQsFAAOCAQEALwdvzwp8J7LqiBqxBor2Dy/qF8ThSR9OxuAq/MO7df/9Q2JLzHMalFYCgQkAApgkt3bFaX+D1xrs+CMo17vkmENUjwbtVL+nLnkG27FSCqA5q4Qmm6k3AXAQJHgGEvdJ4nzbBPaRsbZ0wb423/oMf+nmSU6hXuvW9VakK9ttT3fbKdkEGgiiAels1NG8LtlgZH6ljFghISfCG8LZxDbc87UHxWttprOME9pX9qBRw0DKWOuu8+4hjwBpPGurKBF1NOXaOKOJtRyGctaXoCjZs7UHQ1nBK2aCaPw9HKBNgzDPgZl1OWZJP14sZQH1jcbeuclCm7kY2SFhVfrDBJUPa8AvAQMAAAAAAQEAAAAA request-method GET request-Cookie WgC7xl2Na6EvoPfPZt0CTOoZi+A= response-head HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2017 12:03:29 GMT
+ETag: "f2fe6a0bd892ea0d8d965ebc658fae5d51eb24f0"
+Last-Modified: Sat, 04 Nov 2017 10:48:12 GMT
+Server: meinheld/0.6.1
+strict-transport-security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 1315379
+x-xss-protection: 1; mode=block
+ original-response-headers Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2017 12:03:29 GMT
+ETag: "f2fe6a0bd892ea0d8d965ebc658fae5d51eb24f0"
+Last-Modified: Sat, 04 Nov 2017 10:48:12 GMT
+Server: meinheld/0.6.1
+Set-Cookie: csrftoken=FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB; expires=Wed, 07-Nov-2018 12:03:29 GMT; Max-Age=31449600; Path=/; secure
+Set-Cookie: dwf_section_edit=False; expires=Fri, 08-Dec-2017 12:03:29 GMT; Max-Age=2592000; Path=/; secure
+Set-Cookie: dwf_sg_task_completion=False; expires=Fri, 08-Dec-2017 12:03:29 GMT; Max-Age=2592000; Path=/; secure
+strict-transport-security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 1315379
+x-xss-protection: 1; mode=block
+transfer-encoding: chunked
+Connection: keep-alive
+ uncompressed-len 0 predictor::resource-count 23 predictor::https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.27a756886c80.css 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.1a5ac0b9e47d.css 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/styles/locale-en-US.7e45c23d7d30.css 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js 1,2,1510145301,12288 predictor::https://secure.gravatar.com/avatar/9d5c117965e272ad16dc8f5b088e6d5b?s=50&r=pg&d=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Favatar.png 1,2,1510145301,12288 predictor::https://developer.mozilla.org/files/3537/linear-gradient.png 1,2,1510145301,12288 predictor::https://www.google-analytics.com/analytics.js 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/img/web-docs-sprite.22a6a085cf14.svg 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff?v=4.1.0 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Bold.8d7f01331d2b.woff2 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Regular.f9de6143fdfa.woff2 1,2,1510145301,12288 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j65&aip=1&a=704210021&t=pageview&_s=1&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flinear-gradient&dr=https%3A%2F%2Fgithub.com%2F&ul=pl&de=UTF-8&dt=linear-gradient()%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1525x801&je=0&_u=QACAAAABI~&jid=742830442&gjid=811148634&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&_r=1&cd1=Yes&cd12=1315379&cd17=Web%2FCSS%2Flinear-gradient&z=526729532 1,1,1510142608,8192 net-response-time-onstart 1103 net-response-time-onstop 1309 predictor::https://cdn.mdn.mozilla.net/static/jsi18n/en-us/javascript.b28203373cc1.js 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/js/main.400fbae34d85.js 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.479f62dbbd0b.js 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Regular-webfont.3f642fa3ea74.woff2 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Semibold-webfont.b25e8a5a61a4.woff2 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Italic-webfont.47c24d65c5a6.woff2 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Italic.d86eb12e9866.woff2 1,2,1510145301,12288 predictor::https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js 1,2,1510145301,12288 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j65&aip=1&a=701653828&t=pageview&_s=1&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flinear-gradient&dr=https%3A%2F%2Fgithub.com%2F&ul=pl&de=UTF-8&dt=linear-gradient()%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1535x801&je=0&_u=QACAAAABI~&jid=788480967&gjid=1761709596&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&_r=1&cd1=Yes&cd12=1315379&cd17=Web%2FCSS%2Flinear-gradient&z=1438621322 1,1,1510145301,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j65&aip=1&a=701653828&t=event&_s=2&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flinear-gradient&dr=https%3A%2F%2Fgithub.com%2F&ul=pl&de=UTF-8&dt=linear-gradient()%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1535x801&je=0&ec=MozMenu&ea=nav-learn-submenu&el=&ev=0&_u=SACAAAABI~&jid=&gjid=&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&cd1=Yes&cd12=1315379&cd17=Web%2FCSS%2Flinear-gradient&z=417248907 1,1,1510145301,4096  

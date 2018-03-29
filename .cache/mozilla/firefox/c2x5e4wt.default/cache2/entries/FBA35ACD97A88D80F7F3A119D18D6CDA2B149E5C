@@ -1,0 +1,967 @@
+
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr" class="no-js" data-ffo-opensans="false" data-ffo-zillaslab="false">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  
+    
+  
+
+  
+  <title>background-image - CSS | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+    <link rel="home" href="/pl/">
+    <link rel="copyright" href="#copyright">
+  
+
+  
+    
+    
+
+    
+          <link href="https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.27a756886c80.css" rel="stylesheet" type="text/css" />
+      
+
+    
+  
+
+    
+        <link href="https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.1a5ac0b9e47d.css" rel="stylesheet" type="text/css" />
+    
+
+
+    
+
+  <link href="https://cdn.mdn.mozilla.net/static/build/styles/locale-pl.7e45c23d7d30.css" rel="stylesheet" type="text/css" />
+    <!-- common social tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta property="og:site_name" content="Mozilla Developer Network">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta name="twitter:site" content="@MozDevNet">
+    <meta name="twitter:creator" content="@MozDevNet">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/pl/search/xml" title="Mozilla Developer Network">
+  
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.mdn.mozilla.net/static/img/favicon144.e7e21ca263ca.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.mdn.mozilla.net/static/img/favicon114.d526f38b09c5.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.mdn.mozilla.net/static/img/favicon72.cc65d1d762a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.mdn.mozilla.net/static/img/favicon57.de33179910ae.png">
+  <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://cdn.mdn.mozilla.net/static/img/favicon32-local.329e8131018f.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js" charset="utf-8"></script>
+
+  
+  <link rel="dns-prefetch" href="https://interactive-examples.mdn.mozilla.net" pr="0.75" />
+  <link rel="preconnect" href="https://interactive-examples.mdn.mozilla.net" pr="0.75" />
+
+  
+
+  <link rel="alternate" type="application/json" href="/pl/docs/Web/CSS/background-image$json">
+  <link rel="canonical" href="https://developer.mozilla.org/pl/docs/Web/CSS/background-image" >
+
+  
+    
+      <link rel="alternate" hreflang="en-US" href="/en-US/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="de" href="/de/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="es" href="/es/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="fr" href="/fr/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="it" href="/it/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="ja" href="/ja/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="ko" href="/ko/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="pt-BR" href="/pt-BR/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="pt-PT" href="/pt-PT/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="ru" href="/ru/docs/Web/CSS/background-image" title="background-image">
+    
+      <link rel="alternate" hreflang="zh-CN" href="/zh-CN/docs/Web/CSS/background-image" title="background-image">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="background-image">
+  <meta property="og:url" content="https://developer.mozilla.org/pl/docs/Web/CSS/background-image">
+  <meta name="twitter:url" content="https://developer.mozilla.org/pl/docs/Web/CSS/background-image">
+  <meta name="twitter:title" content="background-image">
+  
+  <meta property="og:description" content="Własność background-image ustawia obrazek tła dla elementu.">
+  <meta name="description" content="Własność background-image ustawia obrazek tła dla elementu.">
+  <meta name="twitter:description" content="Własność background-image ustawia obrazek tła dla elementu.">
+  
+
+
+  
+
+<script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36116321-5', 'mozilla.org');
+    ga('set', 'anonymizeIp', true);
+
+    
+        // dimension1 == 'Signed-In"
+        ga('set', 'dimension1', 'Yes');
+
+        // dimension2 == "Beta Tester"
+        
+    
+
+    // dimension9 == "Section editing"
+    
+        // dimension12 == 'Page Revision'
+        ga('set', 'dimension12', '977897');
+        // dimension17 == 'English Slug'
+        ga('set', 'dimension17', 'Web/CSS/background-image');
+
+    (function() {
+        // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+        var win = window;
+        var removeUtms = function(){
+            var location = win.location;
+            if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                win.history.replaceState({}, '', location.pathname);
+            }
+        };
+
+        ga('send', 'pageview', {'hitCallback': removeUtms});
+    })();
+</script>
+
+</head>
+<body data-slug="Web/CSS/background-image" contextmenu="edit-history-menu" data-search-url="" class="document  " data-login-service="github">
+
+  <script type="text/javascript">
+    // make sure global mdn object exists
+    var mdn = window.mdn || {};
+
+    (function(win) {
+        'use strict';
+
+        (function(){
+  var FLAGS = {
+    'compat_api': false,'compat_data': false,'kumaediting': true,'line_length': false,'page_move': false,'redesign_beta': false,'redesign_live': false,'registration_disabled': false,'sample_frame': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true,'newsletter': true,'newsletter_article': true,'foundation_callout': false,'helpful-survey-2': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // Site configuration
+        win.mdn.ckeditor = {};
+        win.mdn.features = {};
+        win.mdn.staticPath = 'https://cdn.mdn.mozilla.net/static/';
+        win.mdn.optimizely = win['optimizely'] || [];
+        win.mdn.wiki = {
+            autosuggestTitleUrl: '/pl/docs/get-documents'
+        };
+        win.mdn.assets = {
+            css: {
+                'editor-content': ['https://cdn.mdn.mozilla.net/static/build/styles/editor-content.e8a6a8ba6d8e.css','https://cdn.mdn.mozilla.net/static/build/styles/editor-locale-pl.7e45c23d7d30.css',
+                ],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/styles/wiki-compat-tables.12eaf4a7ab3e.css',]
+            },
+            js: {
+                'syntax-prism': ['https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js',],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/js/wiki-compat-tables.5ed42ff288ec.js',]
+            }
+        };
+
+        win.mdn.notifications = [];
+
+        
+
+        // interactive editor config
+        win.mdn.interactiveEditor = {
+            siteUrl: "https://developer.mozilla.org",
+            editorUrl: "https://interactive-examples.mdn.mozilla.net"
+        };
+
+    })(this);
+</script>
+    
+  <ul id="nav-access">
+    <li><a href="#document-main" id="skip-main">Przejdź do głównej zawartości</a></li>
+    <li><a id="skip-language" href="#language">Wybierz język</a></li>
+    <li><a href="#q" id="skip-search">Przejdź do wyszukiwania</a></li>
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+    <a href="/pl/" class="logo">Dokumentacja MDN</a>
+
+    <div id="nav-sec">
+      <ul>
+      
+        <li class="nav-tools"><a href="/pl/docs/MDN/Doc_status">Narzędzia<i aria-hidden="true" class="icon-caret-down"></i></a>
+          <div class="submenu submenu-cols-2 js-submenu" id="nav-tools-submenu">
+            <div class="submenu-column">
+              <div class="title">Współtwórz MDN</div>
+              <ul>
+                <li><a href="/pl/docs/MDN/Getting_started">Zaczynamy</a></li>
+                <li><a href="/pl/docs/MDN/Doc_status">Sprawdzaj lub tłumacz dokumenty</a></li>
+              </ul>
+            </div><div class="submenu-column last">
+              <div class="title">Narzędzia witryny</div>
+              <ul>
+                <li><a href="/pl/dashboards/revisions">Panel recenzji</a></li>
+                <li><a href="/pl/docs/MDN/Doc_status">Status dokumentacji</a></li>
+              </ul>
+            </div>
+          </div>
+      </li><li class="nav-login"><div class="login">
+    
+        <a class="user-url" href="/pl/profiles/rj27706"><img src="https://secure.gravatar.com/avatar/9d5c117965e272ad16dc8f5b088e6d5b?s=50&amp;r=pg&amp;d=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Favatar.png" alt="rj27706" width="50" height="50" class="login-photo avatar" /><span class="login-name">rj27706</span> <i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-user-submenu">
+            <div class="submenu-column">
+                <ul>
+                    <li><a href="/pl/profiles/rj27706">Zobacz profil</a></li>
+                    <li><a href="/pl/profiles/rj27706/edit">Edytuj profil</a></li>
+                    <li><form class="login-form" action="/pl/users/signout" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <input name="next" type="hidden" value="/pl/docs/Web/CSS/background-image">
+                        <button class="logout button link" type="submit">Wyloguj</button>
+                    </form></li>
+                </ul>
+            </div>
+        </div>
+    
+</div></li>
+      </ul>
+    </div>
+
+    <nav id="main-nav" class="nav-main" role="navigation"><ul><li class="nav-main-item"><a href="/pl/docs/Web">Technologie<i aria-hidden="true" class="icon-caret-down"></i></a>
+      <div class="submenu js-submenu" id="nav-tech-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/pl/docs/Web/HTML">HTML</a></li>
+            <li><a href="/pl/docs/Web/CSS">CSS</a></li>
+            <li><a href="/pl/docs/Web/JavaScript">JavaScript</a></li>
+            <li><a href="/pl/docs/Web/Guide/Graphics">Grafiki</a></li>
+            <li><a href="/pl/docs/Web/HTTP">HTTP</a></li>
+            <li><a href="/pl/docs/Web/API">API / DOM</a></li>
+            <li><a href="/pl/docs/Mozilla/Add-ons/WebExtensions">Rozszerzenia przeglądarki</a></li>
+            <li><a href="/pl/docs/Web/MathML">MathML</a></li>
+          </ul>
+        </div></div><li class="nav-main-item"><a href="/pl/docs/Learn">Materiały i przewodniki<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-learn-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/pl/docs/Learn">Dowiedz się więcej o tworzeniu stron</a></li>
+            <li><a href="/pl/docs/Web/Tutorials">Instrukcje</a></li>
+            <li><a href="/pl/docs/Web/Reference">Odniesienia</a></li>
+            <li><a href="/pl/docs/Web/Guide">Przewodniki dla programistów</a></li>
+            <li><a href="/pl/docs/Web/Accessibility">Ułatwienia dostępu</a></li>
+            <li><a href="/pl/docs/Games">Tworzenie gier</a></li>
+            <li><a href="/pl/docs/Web">…więcej dokumentacji</a></li>
+          </ul>
+        </div>
+      </div>
+      </li><li class="nav-main-item"><a href="/pl/docs/MDN/Feedback">Opinia<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="https://support.mozilla.org/">Znajdź pomoc dla Firefoksa<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://stackoverflow.com/">Znajdź pomoc dla programistów<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="/pl/docs/MDN/Community">Dołącz do społeczności MDN</a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/pl/docs/Web/CSS/background-image">Zgłoś problem z zawartością<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.mdn">Zgłoś błąd<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="nav-main-search"><form action="/pl/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">Szukaj</label>
+          <input type="search" id="main-q" name="q" placeholder="Szukaj" data-value="" value="" />
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>
+          <button type="submit" class="offscreen">Szukaj</button>
+        </div>
+      </form></li>
+    </ul></nav>
+  </div></header> 
+
+  <!-- Content will go here -->
+  <main id="content">
+      
+  <!-- heading -->
+  <div id="wiki-document-head" class="document-head">
+    <div class="center">
+      
+        <!-- crumbs -->
+        
+  <nav class="crumbs" role="navigation"><ol xmlns:v="http://rdf.data-vocabulary.org/#" aria-label="Nawigacja">
+    <li typeof="v:Breadcrumb"><a href="/pl" rel="v:url" property="v:title">MDN</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/pl/docs/Web" rel="v:url" property="v:title">Technologie Internetowe dla deweloperów</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/pl/docs/Web/CSS" rel="v:url" property="v:title">CSS</a></li>
+    
+    <li class="crumb" typeof="v:Breadcrumb" property="v:title">background-image</li>
+  </ol></nav>
+      
+
+      <!-- action buttons -->
+      <div class="document-actions">
+        
+
+  
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons">
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Języki</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                
+                
+                  <li><bdi><a rel="internal" href="/en-US/docs/Web/CSS/background-image" title="Angielski (US)">English (US) (en-US)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/de/docs/Web/CSS/background-image" title="Niemiecki">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/es/docs/Web/CSS/background-image" title="Hiszpański">Español (es)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/fr/docs/Web/CSS/background-image" title="Francuski">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/it/docs/Web/CSS/background-image" title="Włoski">Italiano (it)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ja/docs/Web/CSS/background-image" title="Japoński">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ko/docs/Web/CSS/background-image" title="Koreański">한국어 (ko)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/pt-BR/docs/Web/CSS/background-image" title="Portugalski (Brazylia)">Português (do Brasil) (pt-BR)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/pt-PT/docs/Web/CSS/background-image" title="Portugalski (Portugalia)">Português (Europeu) (pt-PT)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ru/docs/Web/CSS/background-image" title="Rosyjski">Русский (ru)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/zh-CN/docs/Web/CSS/background-image" title="Chiński (uproszczony)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+      
+      <li class="page-buttons-edit"><a href="/pl/docs/Web/CSS/background-image$edit" class="button neutral" data-optimizely-hook="button-edit-doc" id="edit-button" rel="nofollow, noindex">Edytuj<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+        <li><button id="watch-menu" class="only-icon" aria-haspopup="true" aria-owns="watch-menu-submenu" aria-expanded="false"><span>Obserwuj</span><i aria-hidden="true" class="icon-eye"></i></button>
+        <div class="submenu js-submenu" id="watch-menu-submenu">
+            <div class="submenu-column">
+                <div class="title">Obserwuj</div>
+                <ul>
+                  <li class="page-watch">
+                    
+                    
+                    
+                    
+                    <form action="/pl/docs/Web/CSS/background-image$subscribe" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="Aktualizacja stanu subskrypcji" data-subscribe-text="Subskrybuj ten artykuł" data-unsubscribe-text="Anuluj subskrypcję tego artykułu" data-subscribe-message="Subskrybujesz artykuł background-image." data-unsubscribe-message="Anulowano subskrypcję artykułu background-image.">
+                        Subskrybuj ten artykuł
+                        </a>
+                    </form>
+                  </li>
+
+                  
+                  <li class="page-watch">
+                    
+                    
+                    <form action="/pl/docs/Web/CSS/background-image$subscribe_to_tree" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="" data-subscribe-text="Subskrybuj ten artykuł i wszystkie artykuły z nim związane" data-unsubscribe-text="Anuluj subskrypcję tego artykułu i wszystkich artykułów z nim związanych" data-subscribe-message="Subskrybujesz już ten artykuł i wszystkie powiązane z nim artykuły." data-unsubscribe-message="Anulowano subskrypcję tego artykułu i wszystkich powiązanych z nim artykułów.">
+                        Subskrybuj ten artykuł i wszystkie artykuły z nim związane
+                        </a>
+                    </form>
+                  </li>
+
+                  
+                    <li class="page-watch">
+                    
+                    
+                    
+                      <form action="/en-US/docs/Web/CSS/background-image$subscribe" method="post">
+                          <input type='hidden' name='csrfmiddlewaretoken' value='FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB' />
+                        <a href="#" data-subscribe-status="Aktualizacja stanu subskrypcji" data-subscribe-text="Subskrybuj wersję w języku: Angielski (US)" data-unsubscribe-text="Anuluj subskrypcję wersji w języku: Angielski (US)" data-subscribe-message="Subskrybujesz Angielski (US) wersję tego artykułu." data-unsubscribe-message="Anulowano subskrypcję Angielski (US) wersji tego artykułu.">
+                          Subskrybuj wersję w języku: Angielski (US)
+                        </a>
+                      </form>
+                    </li>
+                  
+
+                  </ul>
+
+                  
+                  
+            </div>
+        </div>
+        </li>
+        
+
+        <li class="page-buttons-advanced"><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Zaawansowane</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Zaawansowane</div>
+            <ul>
+                <li><a href="/pl/docs/Web/CSS/background-image$history" rel="nofollow, noindex">Historia</a></li>
+                
+                  <li><a href="/pl/docs/new?parent=34286" rel="nofollow, noindex">Nowa powiązany artykuł</a></li>
+                  <li><a href="/pl/docs/new?clone=34286&amp;parent=4611" rel="nofollow, noindex">Powiel ten artykuł</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="#" onclick="return window.print();">Wydrukuj ten artykuł</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+      </div>
+
+      <div class="document-title">
+        
+
+        <h1>background-image</h1>
+      </div>
+    </div>
+  </div>
+
+      <div class="center clear">
+      
+
+    <div class="wiki-main-content" id="document-main"><div class="center">
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-right-present wiki-left-present">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            
+              <!-- TOC, approvals, etc -->
+              <div class="column-strip wiki-column" id="wiki-right">
+              
+              <!-- table of contents -->
+              <div id="toc" class="toc toggleable">
+                <a href="#toc" class="title toggler" data-open-icon="icon-caret-right" data-closed-icon="icon-caret-down">W tym artykule<i></i></a>
+                <ol class="toggle-container">
+                  <li><a href="#Podsumowanie" rel="internal">Podsumowanie</a><li><a href="#Sk.C5.82adnia" rel="internal">Składnia</a><ol><li><a href="#Warto.C5.9Bci" rel="internal">Wartości</a></ol></li><li><a href="#Przykłady" rel="internal">Przykłady</a><ol><li><a href="#HTML" rel="internal">HTML</a><li><a href="#CSS" rel="internal">CSS</a><li><a href="#Result" rel="internal">Result</a></ol></li><li><a href="#Uwagi" rel="internal">Uwagi</a><li><a href="#Specyfikacje" rel="internal">Specyfikacje</a><li><a href="#Zgodno.C5.9B.C4.87_z_przegl.C4.85dark.C4.85" rel="internal">Zgodność z przeglądarką</a>
+                </ol>
+              </div>
+              
+              </div>
+            
+
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-half wiki-column text-content">
+
+              
+
+              
+                
+              
+              
+
+              
+
+              
+                
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    
+                    <p></p><section id="Quick_Links" class="Quick_links"><!-- --></section><p></p>
+
+<h2 name="Podsumowanie" id="Podsumowanie">Podsumowanie</h2>
+
+<p>Własność <code>background-image</code> ustawia obrazek tła dla elementu.</p>
+
+<p></p><table class="properties"><tbody><tr><th scope="row"><a href="/pl/docs/Web/CSS/warto%c5%9b%c4%87_pocz%c4%85tkowa">Wartość początkowa</a></th><td><code>none</code></td></tr><tr><th scope="row">Stosowana do</th><td>wszystkich elementów. It also applies to <a href="/pl/docs/Web/CSS/::first-letter" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>::first-letter</code></a> and <a href="/pl/docs/Web/CSS/::first-line" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>::first-line</code></a>.</td></tr><tr><th scope="row"><a href="/pl/docs/Web/CSS/dziedziczenie">Dziedziczona</a></th><td>no</td></tr><tr><th scope="row">Media</th><td>visual</td></tr><tr><th scope="row"><a href="/pl/docs/Web/CSS/warto%c5%9b%c4%87_wyliczona" class="new">Wartość wyliczona</a></th><td>as specified, but with URIs made absolute</td></tr><tr><th scope="row">Animatable</th><td>no</td></tr><tr><th scope="row">Canonical order</th><td>the unique non-ambiguous order defined by the formal grammar</td></tr></tbody></table><p></p>
+
+<h2 name="Sk.C5.82adnia" id="Sk.C5.82adnia">Składnia</h2>
+
+<pre class="eval">background-image: <em>uri</em> | none | inherit
+</pre>
+
+<h3 name="Warto.C5.9Bci" id="Warto.C5.9Bci">Wartości</h3>
+
+<dl>
+ <dt>uri </dt>
+ <dd>Położenie zasobu obrazka używanego jako obrazek tła.</dd>
+ <dt>none </dt>
+ <dd>Używane do wyszczególnienia, że dany element nie powinien mieć obrazka tła.</dd>
+</dl>
+
+<h2 id="Przykłady">Przykłady</h2>
+
+<p>Note that the star image is partially transparent and is layered over the cat image.</p>
+
+<h3 id="HTML">HTML</h3>
+
+<pre class="brush: html">&lt;div&gt;
+    &lt;p class="catsandstars"&gt;
+        This paragraph is full of cats&lt;br /&gt;and stars.
+    &lt;/p&gt;
+    &lt;p&gt;This paragraph is not.&lt;/p&gt;
+    &lt;p class="catsandstars"&gt;
+        Here are more cats for you.&lt;br /&gt;Look at them!
+    &lt;/p&gt;
+    &lt;p&gt;And no more.&lt;/p&gt;
+&lt;/div&gt;</pre>
+
+<h3 id="CSS">CSS</h3>
+
+<pre class="brush: css">pre, p {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-color: transparent;
+}
+
+div {
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+
+p {
+  background-image: none;
+}
+
+.catsandstars {
+  background-image:  url("https://mdn.mozillademos.org/files/11991/startransparent.gif"), 
+                     url("https://mdn.mozillademos.org/files/7693/catfront.png");
+  background-color: transparent;
+}
+</pre>
+
+<h3 id="Result">Result</h3>
+
+<p><iframe frameborder="0" id="frame_Przyk%C5%82ady" class="live-sample-frame sample-code-frame" src="https://mdn.mozillademos.org/pl/docs/Web/CSS/background-image$samples/Przyk%C5%82ady?revision=977897"></iframe></p>
+
+<h2 name="Uwagi" id="Uwagi">Uwagi</h2>
+
+<p>Twórcy powinni się upewnić, że określili <a href="/pl/docs/Web/CSS/background-color" title="background-color ustawia kolor tła dla elementu, poprzez wartość koloru lub słowo kluczowe transparent."><code>background-color</code></a> do użycia w przypadku, jeśli obrazek jest niedostępny. Obrazki tła są wyświetlane nad kolorem tła.</p>
+
+<h2 name="Specyfikacje" id="Specyfikacje">Specyfikacje</h2>
+
+<ul>
+ <li><a href="http://www.w3.org/TR/CSS1#background-image" class="external">CSS 1</a></li>
+ <li><a href="http://www.w3.org/TR/CSS21/colors.html#propdef-background-image" class="external">CSS 2.1</a></li>
+ <li><a href="http://www.w3.org/TR/2005/WD-css3-background-20050216/#the-background-image" class="external">CSS 3</a></li>
+</ul>
+
+<h2 name="Zgodno.C5.9B.C4.87_z_przegl.C4.85dark.C4.85" id="Zgodno.C5.9B.C4.87_z_przegl.C4.85dark.C4.85">Zgodność z przeglądarką</h2>
+
+<table class="standard-table">
+ <tbody>
+  <tr>
+   <th>Przeglądarki</th>
+   <th>Najniższa wersja</th>
+  </tr>
+  <tr>
+   <td>Internet Explorer</td>
+   <td>4</td>
+  </tr>
+  <tr>
+   <td>Firefox</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Netscape</td>
+   <td>4</td>
+  </tr>
+  <tr>
+   <td>Opera</td>
+   <td>3.5</td>
+  </tr>
+ </tbody>
+</table>
+                  
+                
+
+              
+                <aside class="helpful-survey hidden" id="helpful-survey">
+                  <p>Czy ten artykuł był pomocny?</p>
+
+                  <div class="helpful-survey-content">
+                    <div class="helpful-survey-buttons">
+                      <button type="button" class="helpful-survey-vote helpful-survey-yes">
+                        <span class="offscreen">Tak</span>
+                        <i class="icon-thumbs-o-up" aria-hidden="true"></i>
+                      </button>
+                      <button type="button" class="helpful-survey-vote helpful-survey-no">
+                        <span class="offscreen">Nie</span>
+                        <i class="icon-thumbs-o-down" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <div class="helpful-survey-thankyou">Dziękujemy!</div>
+                  </div>
+                </aside>
+              
+              </article>
+
+              <!-- contributors -->
+              <div class="wiki-block contributors">
+                <h2 class="offscreen">Autorzy i etykiety dokumentu</h2>
+                
+                
+  <div class="tag-attach-list contributors-sub">
+    <i aria-hidden="true" class="icon-tags icon-fw"></i>
+    <strong>Etykiety:</strong>&nbsp;
+    <ul class="tags tags-small">
+      
+        <li><a href="/pl/docs/tag/CSS" rel="nofollow, noindex">CSS</a></li>
+      
+        <li><a href="/pl/docs/tag/CSS%20Background" rel="nofollow, noindex">CSS Background</a></li>
+      
+        <li><a href="/pl/docs/tag/CSS%20Property" rel="nofollow, noindex">CSS Property</a></li>
+      
+        <li><a href="/pl/docs/tag/Reference" rel="nofollow, noindex">Reference</a></li>
+      
+    </ul>
+  </div>
+
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Autorzy tej strony:</strong> 
+        <a href="/pl/profiles/teoli">teoli</a>, 
+    
+        <a href="/pl/profiles/SphinxKnight">SphinxKnight</a>, 
+    
+        <a href="/pl/profiles/Witia">Witia</a>, 
+    
+        <a href="/pl/profiles/ethertank">ethertank</a>, 
+    
+        <a href="/pl/profiles/Sennin">Sennin</a>, 
+    
+        <a href="/pl/profiles/Mgjbot">Mgjbot</a>, 
+    
+        <a href="/pl/profiles/Ptak82">Ptak82</a>
+    
+                  </div>
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Ostatnia aktualizacja:</strong>
+                    <a href="/pl/profiles/teoli">teoli</a>,
+                    <time datetime="2015-12-21T03:56:07-08:00">21.12.2015, 03:56:07</time>
+                  </div>
+                
+              </div>
+            </div>
+
+            
+              <!-- quick links and zone subnav strip -->
+              <div id="wiki-left" class="column-strip wiki-column">
+
+                
+
+                
+                  <!-- quick links -->
+                  
+  <div class="quick-links" id="quick-links">
+    <div class="quick-links-head">Related Topics</div>
+    <ol><li><strong><a href="/pl/docs/Web/CSS">CSS</a></strong></li><li><strong><a href="/pl/docs/Web/CSS/Reference">Dokumentacja CSS</a></strong></li><li><strong><a href="/pl/docs/Web/CSS/CSS_Background_and_Borders">CSS Background and Borders</a></strong></li><li data-default-state="open"><a href="#"><strong>Guides</strong></a><ol><li><a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator" title="This tool can be used to generate CSS3 border-image values.">Border-image generator</a> <a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Border-radius_generator" title="This tool can be used to generate CSS3 border-radius effects.">Border-radius generator</a> <a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Border-radius_generator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Scaling_background_images" title="The background-size CSS property makes it possible to adjust the size of background images, instead of the default behavior of tiling the image at its full size.">Scaling background images</a> <a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Scaling_background_images$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds" title="With CSS3, you can apply multiple backgrounds to elements. These are layered atop one another with the first background you provide on top and the last background listed in the back.">Using CSS multiple backgrounds</a> <a href="/pl/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li></ol></li><li data-default-state="open"><a href="#"><strong>Własności</strong></a><ol><li><a href="/pl/docs/Web/CSS/background" title="Własność background jest skrótową deklaracją ustawiania indywidualnych wartości własności tła w pojedynczym miejscu w arkuszu stylów. background może być stosowane do ustawiania wartości dla jednej lub więcej z wymienionych własności: background-attachment, background-color, background-image, background-position, background-repeat."><code>background</code></a></li><li><a href="/pl/docs/Web/CSS/background-attachment" title="Jeśli background-image jest określone, background-attachment decyduje, czy położenie danego obrazka jest stałe względem okna, czy też przewija się wraz z zawierającym go blokiem."><code>background-attachment</code></a></li><li><a href="/pl/docs/Web/CSS/-moz-background-clip" title="The background-clip CSS property specifies whether an element's background, either the color or image, extends underneath its border."><code>-moz-background-clip</code></a></li><li><a href="/pl/docs/Web/CSS/background-color" title="background-color ustawia kolor tła dla elementu, poprzez wartość koloru lub słowo kluczowe transparent."><code>background-color</code></a></li><li><em><code>background-image</code></em></li><li><a href="/pl/docs/Web/CSS/background-origin" title="w aplikacjach opartych na Mozilli -moz-background-origin decyduje, który boks wyznacza układ współrzędnych używanych przez wartości własności background-position."><code>background-origin</code></a></li><li><a href="/pl/docs/Web/CSS/background-position" title="background-position ustawia początkowe położenie obrazka tła, który został zdefiniowany."><code>background-position</code></a></li><li><a href="/pl/docs/Web/CSS/background-repeat" title="background-repeat określa, czy obrazek jest powtarzany (kafelkowany) i w jaki sposób."><code>background-repeat</code></a></li><li><a href="/pl/docs/Web/CSS/background-size" title="The background-size CSS property specifies the size of the background images. The size of the image can be fully constrained or only partially in order to preserve its intrinsic ratio."><code>background-size</code></a> <a href="/pl/docs/Web/CSS/background-size$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border" title="Własność border jest skróconą własnością dla ustawienia indywidualnych wartości własności obramowania w jednym miejscu w arkuszu stylów. border może być używane do ustawienia jednej lub więcej z następujących własności: border-width, border-style, border-color."><code>border</code></a></li><li><a href="/pl/docs/Web/CSS/border-bottom" title="Własność border-bottom jest skróconą własnością, która ustawia wartości dla następujących własności: border-bottom-color, border-bottom-style oraz border-bottom-width. Te własności opisują dolne obramowanie elementu."><code>border-bottom</code></a></li><li><a href="/pl/docs/Web/CSS/border-bottom-color" title="border-bottom-color ustawia kolor dolnego obramowania elementu, poprzez wartość koloru lub słowo kluczowe transparent."><code>border-bottom-color</code></a></li><li><a href="/pl/docs/Web/CSS/border-bottom-left-radius" title="W aplikacjach opartych na Mozilli -moz-border-radius-bottomleft ustawia zaokrąglenie dolnego lewego rogu obramowania."><code>-moz-border-radius-bottomleft</code></a></li><li><a href="/pl/docs/Web/CSS/border-bottom-right-radius" title="W aplikacjach opartych na Mozilli -moz-border-radius-bottomright ustawia zaokrąglenie dolnego prawego rogu obramowania."><code>-moz-border-radius-bottomright</code></a></li><li><a href="/pl/docs/Web/CSS/border-bottom-style" title="border-bottom-style ustawia styl linii dolnego obramowania bloku."><code>border-bottom-style</code></a></li><li><a href="/pl/docs/Web/CSS/border-bottom-width" title="border-bottom-width ustawia szerokość dolnego obramowania bloku."><code>border-bottom-width</code></a></li><li><a href="/pl/docs/Web/CSS/border-color" title="Własność border-color jest skróconą własnością dla ustawienia koloru czterech krawędzi obramowania elementu."><code>border-color</code></a></li><li><a href="/pl/docs/Web/CSS/border-image" title="The border-image CSS property allows drawing an image on the borders of elements. This makes drawing complex looking widgets much simpler than it has been and removes the need for nine boxes in some cases. The border-image is used instead of the border styles given by the border-style properties."><code>border-image</code></a> <a href="/pl/docs/Web/CSS/border-image$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border-image-outset" title="The border-image-outset property describes by what amount the border image area extends beyond the border box."><code>border-image-outset</code></a> <a href="/pl/docs/Web/CSS/border-image-outset$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border-image-repeat" title="The border-image-repeat CSS property defines how the middle part of a border image is handled so that it can match the size of the border. It has a one-value syntax that describes the behavior of all the sides, and a two-value syntax that sets a different value for the horizontal and vertical behavior."><code>border-image-repeat</code></a> <a href="/pl/docs/Web/CSS/border-image-repeat$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border-image-slice" title="The border-image-slice CSS property divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets."><code>border-image-slice</code></a> <a href="/pl/docs/Web/CSS/border-image-slice$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border-image-source" title="The border-image-source CSS property defines the &lt;image> to use instead of the style of the border. If this property is set to none, the style defined by border-style is used instead."><code>border-image-source</code></a> <a href="/pl/docs/Web/CSS/border-image-source$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border-image-width" title="The border-image-width CSS property defines the width of the border image by defining inward offsets from the border edges. If the border-image-width is greater than the border-width, then the border image extends beyond the padding (and/or content) edge."><code>border-image-width</code></a> <a href="/pl/docs/Web/CSS/border-image-width$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!" style="opacity: 0.5;">[Translate]</a></li><li><a href="/pl/docs/Web/CSS/border-left" title="Własność border-left jest skróconą własnością dla ustawienia szerokości stylu i koloru lewej krawędzi elementu. Ta własność może być używana do ustawienia jednej lub kilku wartości: border-left-width, border-left-style, border-left-color. Pominięte wartości są ustawiane do ich wartości początkowych."><code>border-left</code></a></li><li><a href="/pl/docs/Web/CSS/border-left-color" title="border-left-color ustala kolor lewego obramowania elementu, poprzez konkretną wartość lub przez słowo kluczowe transparent."><code>border-left-color</code></a></li><li><a href="/pl/docs/Web/CSS/border-left-style" title="border-left-style ustawia styl linii lewego obramowania bloku."><code>border-left-style</code></a></li><li><a href="/pl/docs/Web/CSS/border-left-width" title=""><code>border-left-width</code></a></li><li><a href="/pl/docs/Web/CSS/border-radius" title="W aplikacjach opartych border-radius może być używany do nadawania obramowaniom zaokrąglonych rogów."><code>border-radius</code></a></li><li><a href="/pl/docs/Web/CSS/border-right" title="Własność border-right jest skróconą własnością dla ustawienia szerokości, stylu i koloru prawej krawędzi elementu. Ta własność może być używana do ustawienia jednej lub kilku wartości: border-right-width, border-right-style, border-right-color. Pominięte wartości są ustawiane do ich wartości początkowych."><code>border-right</code></a></li><li><a href="/pl/docs/Web/CSS/border-right-color" title="border-right-color ustala kolor prawego obramowania elementu."><code>border-right-color</code></a></li><li><a href="/pl/docs/Web/CSS/border-right-style" title="border-right-style ustawia styl linii prawego obramowania bloku."><code>border-right-style</code></a></li><li><a href="/pl/docs/Web/CSS/border-right-width" title="border-right-width ustawia szerokość prawego obramowania bloku."><code>border-right-width</code></a></li><li><a href="/pl/docs/Web/CSS/border-style" title="Własność border-style jest skróconą własnością dla ustawienia stylu linii dla wszystkich czterech stron obramowania elementów."><code>border-style</code></a></li><li><a href="/pl/docs/Web/CSS/border-top" title="Własność border-top jest skróconą własnością dla ustawienia szerokości, stylu i koloru górnej krawędzi elementu. Ta własność może być używana do ustawienia jednej lub kilku wartości: border-top-width, border-top-style, border-top-color. Pominięte wartości są ustawiane do ich wartości początkowych."><code>border-top</code></a></li><li><a href="/pl/docs/Web/CSS/border-top-color" title="border-top-color ustawia kolor górnego obramowania elementu."><code>border-top-color</code></a></li><li><a href="/pl/docs/Web/CSS/border-top-left-radius" title="W aplikacjach opartych na Mozilli -moz-border-radius-topleft ustawia zaokrąglenie górnego lewego rogu obramowania."><code>-moz-border-radius-topleft</code></a></li><li><a href="/pl/docs/Web/CSS/border-top-right-radius" title="W aplikacjach opartych na Mozilli border-top-right-radius ustawia zaokrąglenie górnego prawego rogu obramowania."><code>border-top-right-radius</code></a></li><li><a href="/pl/docs/Web/CSS/border-top-style" title="border-top-style ustawia styl linii górnego obramowania bloku."><code>border-top-style</code></a></li><li><a href="/pl/docs/Web/CSS/border-top-width" title="border-top-width ustawia szerokość górnego obramowania bloku."><code>border-top-width</code></a></li><li><a href="/pl/docs/Web/CSS/border-width" title="border-width ustawia szerokość obramowania bloku."><code>border-width</code></a></li></ol></li></ol>
+  </div>
+                
+
+                <!-- approvals -->
+                
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+    
+      <div class="newsletter-box">
+      <div class="newsletter">
+    <form id="newsletterForm" class="newsletter-form nodisable" name="newsletter-form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <div class="newsletter-head">
+            <h2 class="newsletter-teaser">Poznaj najlepsze metody tworzenia stron</h2>
+            <p class="newsletter-description">Najnowsze i najlepsze materiały z MDN prosto do Twojej skrzynki.</p>
+            
+            <p class="newsletter-lang">Obecnie biuletyn jest dostępny tylko po angielsku.</p>
+            
+        </div>
+
+        <div class="newsletter-fields">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletterNewslettersInput" name="newsletters" value="app-dev" />
+            <div id="newsletterErrors" class="newsletter-errors"></div>
+
+            <div id="newsletterEmail" class="form-group newsletter-group-email">
+                <label for="newsletterEmailInput" class="form-label offscreen">E-mail</label>
+                <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required placeholder="ja@example.com" size="30">
+            </div>
+
+            <div id="newsletterPrivacy" class="form-group form-group-agree newsletter-group-privacy hidden">
+                <input type="checkbox" id="newsletterPrivacyInput" name="privacy" required>
+                <label for="newsletterPrivacyInput">
+                Pozwalam Mozilli wykorzystywać te informacje w sposób opisany w <a href="https://www.mozilla.org/privacy/">zasadach ochrony prywatności</a>.
+                </label>
+            </div>
+            <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">Zapisz się</button>
+            </div>
+        </div>
+    </form>
+    <div id="newsletterThanks" class="newsletter-thanks hidden">
+        <h2>Dziękujemy! W skrzynce znajdziesz wiadomość do potwierdzenia subskrypcji.</h2>
+        <p>Jeśli jeszcze nigdy nie potwierdzono subskrypcji newslettera Mozilli, to możesz musieć to zrobić. Sprawdź, czy w skrzynce pocztowej lub spamie jest wiadomość od nas.
+        </p>
+    </div>
+    <button id="newsletterHide" type="button" class="only-icon newsletter-hide hidden"><span>Ukryj biuletyn</span><i aria-hidden="true" class="icon-times"></i></button>
+</div>
+      </div>
+    
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/pl/docs/Web/CSS/background-image$edit" label="Edytuj stronę"></menuitem>
+    <menuitem data-action="/pl/docs/Web/CSS/background-image$history" label="Historia strony"></menuitem>
+  </menu>
+
+      </div>
+  </main>
+  <!-- Footer -->
+    <footer id="nav-footer" class="nav-footer">
+      <div class="center">
+          <a href="/pl/" class="nav-footer-logo">Dokumentacja MDN</a>
+          <div class="footer-group footer-group-mdn">
+            <h2 class="footer-title">MDN</h2>
+            <ul class="footer-list">
+              <li><a href="/pl/docs/Web">Technologie internetowe</a></li>
+              <li><a href="/pl/docs/Learn">Dowiedz więcej się o tworzeniu stron</a></li>
+              <li><a href="/docs/MDN/About">Informacje o MDN</a></li>
+              <li><a href="/pl/docs/MDN/Feedback">Opinia</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozdevnet" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://github.com/mdn/" class="only-icon"><i aria-hidden="true" class="icon-github"></i> <span>GitHub</span></a></li>
+            </ul>
+          </div>
+
+          <a href="https://mozilla.org" class="nav-footer-mozilla">Mozilla</a>
+          <div class="footer-group footer-group-mozilla">
+            <h2 class="footer-title">Mozilla</h2>
+            <ul class="footer-list">
+              <li><a href="https://www.mozilla.org/about/">Informacje</a></li>
+              <li><a href="https://www.mozilla.org/contact/">Kontakt</a></li>
+              <li><a href="https://donate.mozilla.org/?utm_source=developer.mozilla.org&utm_medium=referral&utm_content=footer">Dotacje</a></li>
+              <li><a href="https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral">Firefox</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://www.facebook.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-facebook"></i> <span>Facebook</span></a></li>
+              <li class="footer-social"><a href="https://www.instagram.com/mozillagram/" class="only-icon"><i aria-hidden="true" class="icon-instagram"></i> <span>Instagram</span></a></li>
+            </ul>
+          </div>
+
+          
+  
+    <form class="languages go" method="get" action="/pl/docs/Web">
+      <label for="language">Wybierz język:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="Polski" value="/pl/docs/Web/CSS/background-image" selected>
+          Polski (pl)
+        </option>
+        
+          <option title="Angielski (US)" value="/en-US/docs/Web/CSS/background-image">
+            English (US) (en-US)
+          </option>
+          <option title="Niemiecki" value="/de/docs/Web/CSS/background-image">
+            Deutsch (de)
+          </option>
+          <option title="Hiszpański" value="/es/docs/Web/CSS/background-image">
+            Español (es)
+          </option>
+          <option title="Francuski" value="/fr/docs/Web/CSS/background-image">
+            Français (fr)
+          </option>
+          <option title="Włoski" value="/it/docs/Web/CSS/background-image">
+            Italiano (it)
+          </option>
+          <option title="Japoński" value="/ja/docs/Web/CSS/background-image">
+            日本語 (ja)
+          </option>
+          <option title="Koreański" value="/ko/docs/Web/CSS/background-image">
+            한국어 (ko)
+          </option>
+          <option title="Portugalski (Brazylia)" value="/pt-BR/docs/Web/CSS/background-image">
+            Português (do Brasil) (pt-BR)
+          </option>
+          <option title="Portugalski (Portugalia)" value="/pt-PT/docs/Web/CSS/background-image">
+            Português (Europeu) (pt-PT)
+          </option>
+          <option title="Rosyjski" value="/ru/docs/Web/CSS/background-image">
+            Русский (ru)
+          </option>
+          <option title="Chiński (uproszczony)" value="/zh-CN/docs/Web/CSS/background-image">
+            中文 (简体) (zh-CN)
+          </option>
+      </select>
+      <noscript><button type="submit">Przejdź</button></noscript>
+    </form>
+  
+
+
+          
+            <ul class="footer-tos">
+              <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Regulaminy</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/">Prywatność</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Ciasteczka</a></li>
+            </ul>
+
+            <div class="contentinfo">
+              <p>&copy; 2005-2017 Mozilla i poszczególni autorzy.</p> <p>Treści są dostępne na zasadach <a href="/en-US/docs/MDN/About#Copyrights_and_licenses">tych licencji</a>.</p>
+            </div>
+          
+      </div>
+    </footer> 
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/jsi18n/pl/javascript.ca754a0c3fa6.js"></script>
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/main.400fbae34d85.js" charset="utf-8"></script>
+    <script>
+      if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+    </script>
+    
+
+  
+
+    
+        <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.479f62dbbd0b.js" charset="utf-8"></script>
+    
+
+
+
+  
+
+  
+
+  
+
+  
+    <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js" charset="utf-8"></script>
+  
+
+
+</body>
+</html>k˜z�      ZKZL>d2ZZ<�   ?    :https://developer.mozilla.org/pl/docs/Web/CSS/background-image necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAASoMIIEpDCCA4ygAwIBAgIQBHbuoBf/X5nS+LsjpsMNKjANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0xNzEwMjUwMDAwMDBaFw0xODExMjUxMjAwMDBaMCAxHjAcBgNVBAMTFWRldmVsb3Blci5tb3ppbGxhLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKGrWYW9DzmDdBT9gk7sE3JEkKppIldG3PSXvUZRl574Ls+lXXmuDj7hzQrW8c0PWLY6OuVMTqyjwaUY62fJnam4oFkXAFOr9GCCnh9BvKNFj7Be7TtTwV0D8gGcg592SoTeaLLnRwqBVd8ipu2/gRKzsOmW/JaRBb6bdqqgE9g8Fki/caz6AMf3hZaXtZH1YpJ9q43+ZdZWrR1mZZLTjO/T49PIpxBFw+PqnmFeCiUaxFF3zgU/ubQesYfh7sty10kMxRqFwGss4uDXtxU3qsF6PJ2Q5y49zGQzL/EByl0xo3kF9ikfsxId4bApB5pIOneC9UQY7ekhEQNS3+I+J3cCAwEAAaOCAbIwggGuMB8GA1UdIwQYMBaAFFmkZgZSoHuVkjyjlAcnlnRb+T3QMB0GA1UdDgQWBBSlBOzloko02nKAINF3Jv6nNugfSDBmBgNVHREEXzBdghVkZXZlbG9wZXIubW96aWxsYS5vcmeCFG1kbi5tb3ppbGxhZGVtb3Mub3JnghptZG4tZGVtb3Mtb3JpZ2luLm1vei53b3Jrc4IScHJvZC5tZG4ubW96LndvcmtzMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3Auc2NhMWIuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipodHRwOi8vY3J0LnNjYTFiLmFtYXpvbnRydXN0LmNvbS9zY2ExYi5jcnQwDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQsFAAOCAQEALwdvzwp8J7LqiBqxBor2Dy/qF8ThSR9OxuAq/MO7df/9Q2JLzHMalFYCgQkAApgkt3bFaX+D1xrs+CMo17vkmENUjwbtVL+nLnkG27FSCqA5q4Qmm6k3AXAQJHgGEvdJ4nzbBPaRsbZ0wb423/oMf+nmSU6hXuvW9VakK9ttT3fbKdkEGgiiAels1NG8LtlgZH6ljFghISfCG8LZxDbc87UHxWttprOME9pX9qBRw0DKWOuu8+4hjwBpPGurKBF1NOXaOKOJtRyGctaXoCjZs7UHQ1nBK2aCaPw9HKBNgzDPgZl1OWZJP14sZQH1jcbeuclCm7kY2SFhVfrDBJUPa8AvAQMAAAAAAQEAAAAA request-method GET request-Cookie WgC7xl2Na6EvoPfPZt0CTOoZi+A= response-head HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2017 13:10:35 GMT
+ETag: "d02f9cce4b2a3548b98ae499e3fee7561d79cf55"
+Last-Modified: Mon, 21 Dec 2015 03:56:13 GMT
+Server: meinheld/0.6.1
+strict-transport-security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 977897
+x-xss-protection: 1; mode=block
+ original-response-headers Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2017 13:10:35 GMT
+ETag: "d02f9cce4b2a3548b98ae499e3fee7561d79cf55"
+Last-Modified: Mon, 21 Dec 2015 03:56:13 GMT
+Server: meinheld/0.6.1
+Set-Cookie: csrftoken=FUcO5zoEEZqhTuV6CjzOaacKzT7jl4SB; expires=Wed, 07-Nov-2018 13:10:36 GMT; Max-Age=31449600; Path=/; secure
+Set-Cookie: dwf_section_edit=False; expires=Fri, 08-Dec-2017 13:10:36 GMT; Max-Age=2592000; Path=/; secure
+Set-Cookie: dwf_sg_task_completion=False; expires=Fri, 08-Dec-2017 13:10:36 GMT; Max-Age=2592000; Path=/; secure
+strict-transport-security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 977897
+x-xss-protection: 1; mode=block
+transfer-encoding: chunked
+Connection: keep-alive
+ uncompressed-len 0 predictor::resource-count 20 predictor::https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.27a756886c80.css 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.1a5ac0b9e47d.css 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/styles/locale-pl.7e45c23d7d30.css 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js 1,1,1510146635,4096 predictor::https://secure.gravatar.com/avatar/9d5c117965e272ad16dc8f5b088e6d5b?s=50&r=pg&d=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Favatar.png 1,1,1510146635,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/img/web-docs-sprite.22a6a085cf14.svg 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff?v=4.1.0 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Bold.8d7f01331d2b.woff2 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Regular.f9de6143fdfa.woff2 1,1,1510146635,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j65&aip=1&a=1494756891&t=pageview&_s=1&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fpl%2Fdocs%2FWeb%2FCSS%2Fbackground-image&dr=https%3A%2F%2Fwww.google.pl%2F&ul=pl&de=UTF-8&dt=background-image%20-%20CSS%20%7C%20MDN&sd=24-bit&sr=1600x900&vp=1525x801&je=0&_u=QACAAAABI~&jid=1657220964&gjid=469399834&cid=1504923288.1509984954&tid=UA-36116321-5&_gid=1846198913.1509984954&_r=1&cd1=Yes&cd12=977897&cd17=Web%2FCSS%2Fbackground-image&z=840788254 1,1,1510146635,4096 net-response-time-onstart 1032 net-response-time-onstop 1228 predictor::https://cdn.mdn.mozilla.net/static/jsi18n/pl/javascript.ca754a0c3fa6.js 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/main.400fbae34d85.js 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.479f62dbbd0b.js 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Regular-webfont.3f642fa3ea74.woff2 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Semibold-webfont.b25e8a5a61a4.woff2 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Italic-webfont.47c24d65c5a6.woff2 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/fonts/locales/ZillaSlab-Italic.d86eb12e9866.woff2 1,1,1510146635,4096 predictor::https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js 1,1,1510146635,4096   �Z

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/.idea/01.Struktura_dokumentu.iml" timestamp="1509972679000" />
+    <file path="/home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/.idea/modules.xml" timestamp="1509972679000" />
+    <file path="/home/rafal/Pulpit/prework/WAR_FER_S_28_Prework-HTML/01.Struktura_dokumentu/.idea/workspace.xml" timestamp="1509983504000" />
+  </project-files>
+</conversion>
+

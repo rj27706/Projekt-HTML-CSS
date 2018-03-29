@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WebStorm
+Icon=/home/rafal/Moje/WebStorm/bin/webstorm.svg
+Exec="/home/rafal/Moje/WebStorm/bin/webstorm.sh" %f
+Comment=The Drive to Develop
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-webstorm
+OnlyShowIn=Old;

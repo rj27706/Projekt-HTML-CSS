@@ -1,0 +1,2 @@
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "Brak interfejsu „com.canonical.dbusmenu” w obiekcie w ścieżce /org/ayatana/bamf/window/62914603"
+QCoreApplication::postEvent: Unexpected null receiver

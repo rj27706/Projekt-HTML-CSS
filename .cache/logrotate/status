@@ -1,0 +1,22 @@
+logrotate state -- version 2
+"/home/rafal/.cache/upstart/*.log" 2017-11-6-9:0:0
+"/home/rafal/.cache/upstart/indicator-session.log" 2017-11-1-16:10:45
+"/home/rafal/.cache/upstart/unity-panel-service-lockscreen.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/ssh-agent.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_compiz.1000.crash.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/gnome-keyring-ssh.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/unity-settings-daemon.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/dbus.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/indicator-printers.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/window-stack-bridge.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/gpg-agent.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/hud.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/indicator-sound.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/update-notifier-release.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/bamfdaemon.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/at-spi2-registryd.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/upstart-event-bridge.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/unity-panel-service.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/unity7.log" 2017-11-8-22:22:34
+"/home/rafal/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_nautilus.1000.crash.log" 2017-11-8-22:0:0
+"/home/rafal/.cache/upstart/indicator-keyboard.log" 2017-11-8-22:22:34
